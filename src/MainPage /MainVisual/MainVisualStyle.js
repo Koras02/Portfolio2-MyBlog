@@ -1,11 +1,17 @@
 import styled from 'styled-components';
 import {Link as LinkR} from 'react-router-dom'
    
+export const MainSideMenu = styled.div`
+   display:inline;;
+   color:red;
+   float:left;
+   display:block;
+`
+
 export const MainvisualWrapper = styled.div`
    height:100px;
    margin:auto;
-   border:1px solid #000;
-   }
+   border-bottom:1px solid #000;
 `;
  
 

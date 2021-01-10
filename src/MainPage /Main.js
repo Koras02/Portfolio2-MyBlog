@@ -2,6 +2,7 @@ import React from 'react'
 import '../index.css';
 import {HomeWrapper,HomeHeaderLeft,HomeHeaderH1,HomeHeaderRight,HomeHeaderInput, HomeHeaderCenter} from './MainStyle';
 import MainVisual from './MainVisual/MainVisual';
+import PageNation from './PageList/PageNation';
  
 
 function Main() {
@@ -18,6 +19,7 @@ function Main() {
        </HomeHeaderRight>
     </HomeWrapper>
     <MainVisual />
+    <PageNation />
     </>
   );
 

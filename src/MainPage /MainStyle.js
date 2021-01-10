@@ -2,13 +2,15 @@ import styled from 'styled-components';
 import {Link as LinkR} from 'react-router-dom';
 
 export const HomeWrapper = styled.div`
-   width:100%;
+   width:97.9%;
+   overflow-y:hidden;
    height:30px;
    display:inline-block;
    background:white;
    border-bottom:1px solid #000;
    text-decoration:none;
    padding:20px;
+ 
 `;
 
 export const HomeHeaderLeft = styled.div`
