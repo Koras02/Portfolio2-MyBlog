@@ -3,26 +3,26 @@ import {Link as LinkR} from 'react-router-dom';
 
 // sideBar 전체 부분 
 export const SideHeader = styled.div`
-   width:15%;
+   width:12%;
    height:1900px;
    float:left;
    color:#000;
    transition:50s;
    background:#fff;
    border:1px solid red;
-   animation-duration: 1s;
+   animation-duration:0.5s;
    animation-name: slidein;
  }
  
  @keyframes slidein {
    from {
-     margin-left:-9%;
-     width:20%
+     margin-left:0%;
+     width:10%
    }
  
    to {
-     margin-left:-8%;
-     width:20%;
+     margin-left:0%;
+     width:12%;
    }
 `
 // --End
@@ -34,7 +34,6 @@ export const SideHeaderLogin = styled(LinkR)`
    padding-top:40px;
    display:block;
    text-decoration:none;
-
    &:hover{
      color:red;
      transition:2s;

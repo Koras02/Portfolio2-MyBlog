@@ -14,7 +14,7 @@ export const MainSideMenu = styled.div`
 `;
 
 export const MainvisualWrapper = styled.div`
-   height:100px;
+   height:95px;
    margin:auto;
    border-bottom:1px solid #000;
 `;

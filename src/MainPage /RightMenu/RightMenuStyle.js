@@ -1,12 +1,14 @@
 import styled from 'styled-components';
 
 export const RightMenuWrapper = styled.div`
-  width:22%;
+  width:20%;
   height:1900px;
   border:1px solid #000;
   float:right;
   position:absolute;
-  right:0%;
+  padding:-20px;
+  right:3%;
+  top:20%;
 `;
 
 export const RightMenuH1 = styled.div`
