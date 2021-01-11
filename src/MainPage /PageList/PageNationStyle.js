@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
 export const PageNationWrap = styled.div`
-  width:70%;
-  height:1000px;
+  width:72%;
   float:left;
   position:sticky;
   left:25%;
@@ -17,7 +16,7 @@ export const PageNationBody = styled.div`
 export const PageNavtionForm = styled.div`
   width: 100%;
   margin: 0px auto;
-  height: 1000px;
+  height: 800px;
   border: 1px solid #000;
   
 `

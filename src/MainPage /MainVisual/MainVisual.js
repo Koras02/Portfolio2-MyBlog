@@ -1,4 +1,5 @@
 import React,{useCallback, useState} from 'react';
+import Footer from '../Footer/Footer';
 import Main from '../Main';
 import PageNation from '../PageList/PageNation';
 import RightMenu from '../RightMenu/RightMenu';
@@ -35,6 +36,7 @@ function MainVisual() {
       </div>
       <PageNation />
       <RightMenu />
+      <Footer />
    </>
     );
   }

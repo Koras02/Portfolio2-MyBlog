@@ -10,7 +10,8 @@ function RightMenu() {
           <RightMenuP>최근글 Form</RightMenuP>
           <RightMenuP>최근글 Form</RightMenuP>
           <RightMenuP>최근글 Form</RightMenuP>
-          <RightMenuP>최근글 Form</RightMenuP>   
+          <RightMenuP>최근글 Form</RightMenuP> 
+          <RightMenuP>최근글 Form</RightMenuP>  
           </RightMenuH1>
        </RightMenuWrapper>
           </>
