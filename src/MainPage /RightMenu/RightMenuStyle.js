@@ -6,8 +6,8 @@ export const RightMenuWrapper = styled.div`
   border:1px solid #000;
   float:right;
   display:inline;
-  position:relative;
-  bottom:980px;
+  position:absolute;
+  right:0%;
 `;
 
 export const RightMenuH1 = styled.div`

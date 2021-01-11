@@ -2,11 +2,16 @@ import styled from 'styled-components';
 import {Link as LinkR} from 'react-router-dom'
    
 export const MainSideMenu = styled.div`
-   display:inline-block;
+   display:block;
    color:red;
    float:left;
- 
-`
+
+   &:hover {
+      color:rgb(189,185,255);
+      color:radial-gradient(circle, rgba(189,185,255,1) 0%, rgba(190,176,255,1) 75%, rgba(0,212,255,1) 100%);
+      trasition:5s;
+    }
+`;
 
 export const MainvisualWrapper = styled.div`
    height:100px;
