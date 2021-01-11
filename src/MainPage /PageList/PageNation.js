@@ -1,13 +1,12 @@
 import React from 'react';
-import {pageNationWrap,pageNationBody,PageNavtionForm} from './PageNationStyle';
-
+import {PageNationWrap,PageNationBody,PageNavtionForm} from './PageNationStyle'
 
 function PageNation() {
      return (
-       <pageNationWrap>
-         <pageNationBody>
+       <PageNationWrap>
+         <PageNationBody>
              <PageNavtionForm>
-                 List1
+                 List2
              </PageNavtionForm>
              <PageNavtionForm>
                  List3
@@ -27,8 +26,8 @@ function PageNation() {
              <PageNavtionForm>
                  List3
             </PageNavtionForm>
-         </pageNationBody>
-       </pageNationWrap>
+         </PageNationBody>
+       </PageNationWrap>
      );
  }
 

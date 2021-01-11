@@ -2,10 +2,10 @@ import styled from 'styled-components';
 import {Link as LinkR} from 'react-router-dom'
    
 export const MainSideMenu = styled.div`
-   display:inline;;
+   display:inline-block;
    color:red;
    float:left;
-   display:block;
+ 
 `
 
 export const MainvisualWrapper = styled.div`
