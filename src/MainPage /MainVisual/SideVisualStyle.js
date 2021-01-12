@@ -3,7 +3,7 @@ import {Link as LinkR} from 'react-router-dom';
 
 // sideBar 전체 부분 
 export const SideHeader = styled.div`
-   width:12%;
+   width:80%;
    height:1900px;
    float:left;
    color:#000;
@@ -12,17 +12,19 @@ export const SideHeader = styled.div`
    border:1px solid red;
    animation-duration:0.5s;
    animation-name: slidein;
+   position:relative;
+   right:12.5%;
  }
  
  @keyframes slidein {
    from {
      margin-left:0%;
-     width:10%
+     width:80%
    }
  
    to {
      margin-left:0%;
-     width:12%;
+     width:75%;
    }
 `
 // --End

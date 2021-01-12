@@ -5,6 +5,9 @@ export const MainSideMenu = styled.div`
    display:block;
    color:red;
    float:left;
+   position:relative;
+   bottom:30%;
+   left:40px;
 
    &:hover {
       color:rgb(189,185,255);

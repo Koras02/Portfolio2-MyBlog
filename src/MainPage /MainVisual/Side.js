@@ -11,7 +11,7 @@ import {
 } from './SideVisualStyle'
  
 
-function Side() {
+export function Side() {
      const [toggle,setToggle] = useState(false);
      const onToggle = useCallback(() => {
        setTimeout(() => {
