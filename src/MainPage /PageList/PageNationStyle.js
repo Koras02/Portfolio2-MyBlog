@@ -1,19 +1,22 @@
 import styled from 'styled-components';
 
-export const pageNationWrap = styled.div`
-  width: 50%;
+export const PageNationWrap = styled.div`
+  width:70%;
   height:1000px;
+  float:left;
+  position:relative;
+  right:-5%;
+  top:10%;
 `;
 
-export const pageNationBody = styled.div`
-  width: 50%;
-  padding:50px;
-  border: 2px solid red;
+export const PageNationBody = styled.div`
+  width: 70%;
+  padding:10px;
 `;
 
 export const PageNavtionForm = styled.div`
-  width: 50%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0px auto;
   height: 1000px;
   border: 1px solid #000;
   

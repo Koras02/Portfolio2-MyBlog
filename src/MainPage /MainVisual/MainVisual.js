@@ -1,5 +1,7 @@
 import React,{useCallback, useState} from 'react';
-import sideMenu from '../SideMenu/sideMenu';
+import Main from '../Main';
+import PageNation from '../PageList/PageNation';
+import RightMenu from '../RightMenu/RightMenu';
 import { MainSideMenu,MainvisualWrapper, MainVisualHeader,MainVisualH1,MainVisualP,MainVisualP2} from './MainVisualStyle';
 import Side from './Side';
  
@@ -7,17 +9,16 @@ import Side from './Side';
 function MainVisual() {
   const [toggle,setToggle] = useState(false);
   const onToggle = useCallback(() => {
-  
-
-      setTimeout(() => {
+        setTimeout(() => {
          setToggle(toggle => !toggle);
       }, 0)
      },[]);
   return (
    <>
+   <Main />
       <MainvisualWrapper>
          <MainVisualHeader>
-             <MainSideMenu onClick={onToggle} smooth={true} duration={500}>메뉴
+             <MainSideMenu onClick={onToggle} duration={500}>메뉴
                </MainSideMenu>
              <MainVisualP to="/hi">Home</MainVisualP>
              <MainVisualP>Discord</MainVisualP>
@@ -32,6 +33,8 @@ function MainVisual() {
          <sideMenu toggle={toggle? 'ON' : 'OFF'}/>
          {toggle && <Side/>}
       </div>
+      <PageNation />
+      <RightMenu />
    </>
     );
   }
