@@ -11,7 +11,7 @@ export function Menu() {
      },[]);
     return (
         <>   
-    <MainSideMenu onClick={onToggle} duration={500}>메뉴
+    <MainSideMenu onClick={onToggle}>메뉴
           <div>
               <sideMenu toggle={toggle? 'ON': 'OFF'}/>
               {toggle && <Side/>}

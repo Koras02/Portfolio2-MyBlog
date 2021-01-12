@@ -1,5 +1,5 @@
 import React,{useCallback,useState} from 'react';
-import SideToggleMenu from './SideLeftMenu/SideToggleMenu';
+import SideToggleMenu from './Side';
 import {
   SideHeader,
   SideHeaderLogin,

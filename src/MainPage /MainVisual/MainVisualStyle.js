@@ -6,8 +6,8 @@ export const MainSideMenu = styled.div`
    color:red;
    float:left;
    position:relative;
-   bottom:30%;
-   left:40px;
+   bottom:120px;
+   left:50px;
 
    &:hover {
       color:rgb(189,185,255);
@@ -17,16 +17,18 @@ export const MainSideMenu = styled.div`
 `;
 
 export const MainvisualWrapper = styled.div`
-   height:95px;
    margin:auto;
-   border-bottom:1px solid #000;
+   
 `;
  
 
 export const MainVisualHeader = styled.div`
-  padding:30px;
+  padding:80px;
   margin:auto;
+  position:relative;
+  bottom:50px;
   display:block;
+  border-bottom:1px solid #000;
   `;
   
   export const MainVisualH1 = styled.div`
@@ -49,6 +51,7 @@ export const MainVisualP = styled(LinkR)`
   margin-left:40px;
   font:bold 24px/24px arial;
   text-decoration:none;
+ 
   color:powderblue;
 
   &:hover{

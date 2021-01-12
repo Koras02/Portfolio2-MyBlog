@@ -22,10 +22,12 @@ export const PageNavtionForm = styled.div`
 `;
 
 export const PageNavtionH1 = styled.div`
-  width:20%;
+  width:24%;
   height: 200px;
   margin-left:40px;
   margin-top:20px;
+  position:relative;
+  top:3%;
   border:1px solid #000;
 `;
 
@@ -35,7 +37,7 @@ export const PageNavtionP = styled.div`
   margin-left:20px;
   padding-top:5px;
   position:relative;
-  bottom:24%;
+  bottom:22%;
   right:2%;
   float:right;
   border:1px solid #000

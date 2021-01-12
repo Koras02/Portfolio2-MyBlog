@@ -7,7 +7,7 @@ import {
     PageNavtionP,
 } from './PageNationStyle'
 
-function PageNation() {
+export function PageNation() {
      return (
        <PageNationWrap>
          <PageNationBody>
@@ -49,10 +49,10 @@ function PageNation() {
               <PageNavtionH1>카테고리 view</PageNavtionH1>
               <PageNavtionP>설명</PageNavtionP>
               <PageNavtionH1>카테고리 view</PageNavtionH1>
-              <PageNavtionP>설명</PageNavtionP>
+              <PageNavtionP>설명</PageNavtionP> 
             </PageNavtionForm>
          </PageNationBody>
-       </PageNationWrap>    
+       </PageNationWrap>
      );
  }
 
