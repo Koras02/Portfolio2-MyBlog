@@ -4,19 +4,18 @@ import {Link as LinkR} from 'react-router-dom';
 export const MenuHeaderWrapper = styled.div`
     width:200px;
     height:300px;
-    padding-bottom:10%;
     position:absolute;
     top:30px;
     left:5%;
-    border:1px solid red;
     color:red;
-    background:red;
+    background:pink;
+    transition: 5s;
 `;
 
 export const MenuHeaderH1Link = styled(LinkR)`
    font:bold 16px/50px arial;
    color:#fff;
-   border:1px solid red;
+   padding:10px;
    &:hover{
        color:#000;
    }

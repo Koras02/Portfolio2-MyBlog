@@ -5,11 +5,10 @@ export const RightMenuWrapper = styled.div`
   height:1900px;
   border:1px solid #000;
   float:right;
-  position:absolute;
   overflow:hidden;
   padding:-20px;
   right:2%;
-  top:200px;
+  top:35%;
 `;
 
 export const RightMenuH1 = styled.div`

@@ -1,44 +1,47 @@
 import styled from 'styled-components';
 
 export const PageNationWrap = styled.div`
-  width:70%;
-  float:left;
-  position:sticky;
-  left:20%;
-  top:20%;
-`;
+  width:50%;
+  padding-left:20%;
+  margin: 100px 10px 10px auto;
 
-export const PageNationBody = styled.div`
-  width: 70%;
-  padding:10px;
+  display:inline-block;
+  position:relative;
+  bottom:100px;
 `;
+ 
 
 export const PageNavtionForm = styled.div`
   width: 100%;
-  margin: 10px auto;
+  margin: 20px auto;
   height: 800px;
-  border: 2px solid #000;
-  padding:0px;
+  padding:20px;
 `;
 
 export const PageNavtionH1 = styled.div`
-  width:24%;
+  width:20%;
   height: 200px;
-  margin-left:40px;
-  margin-top:20px;
-  position:relative;
-  top:3%;
+  margin:20px;
+  display:block;
   border:1px solid #000;
+  position:relative;
+  right:15%;
 `;
 
 export const PageNavtionP = styled.div`
   width: 60%;
   height:200px;
-  margin-left:20px;
-  padding-top:5px;
-  position:relative;
-  bottom:22%;
-  right:2%;
+  border:1px solid #000;
   float:right;
-  border:1px solid #000
+  position:relative;
+  bottom:28%;
+  right:14%;
 `;
+
+export const PageH1 = styled.div`
+  width:80%;
+  font:bold 16px/24px;
+  display:inline-block;
+  padding:20px;
+  border-bottom:2px solid #000;
+`

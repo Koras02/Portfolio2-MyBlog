@@ -1,18 +1,18 @@
 import React from 'react';
 import {
     PageNationWrap,
-    PageNationBody,
     PageNavtionForm,
     PageNavtionH1,
     PageNavtionP,
+    PageH1
 } from './PageNationStyle'
 
 export function PageNation() {
      return (
        <PageNationWrap>
-         <PageNationBody>
              <PageNavtionForm>
-              <PageNavtionH1>카테고리 view</PageNavtionH1>
+               <PageH1>전체글보기</PageH1>
+              <PageNavtionH1>카테고리 view</PageNavtionH1> 
               <PageNavtionP>설명</PageNavtionP>
               <PageNavtionH1>카테고리 view</PageNavtionH1>
               <PageNavtionP>설명</PageNavtionP>
@@ -51,7 +51,6 @@ export function PageNation() {
               <PageNavtionH1>카테고리 view</PageNavtionH1>
               <PageNavtionP>설명</PageNavtionP> 
             </PageNavtionForm>
-         </PageNationBody>
        </PageNationWrap>
      );
  }

@@ -2,12 +2,11 @@ import styled from 'styled-components';
 import {Link as LinkR} from 'react-router-dom'
    
 export const MainSideMenu = styled.div`
-   display:block;
+   display:inline;
    color:red;
    float:left;
    position:relative;
-   bottom:120px;
-   left:50px;
+   right:4%;
 
    &:hover {
       color:rgb(189,185,255);
@@ -18,7 +17,6 @@ export const MainSideMenu = styled.div`
 
 export const MainvisualWrapper = styled.div`
    margin:auto;
-   
 `;
  
 
@@ -48,6 +46,7 @@ export const MainVisualP = styled(LinkR)`
   float:left;
   position:relative;
   left:20%;
+  bottom:20%;
   margin-left:40px;
   font:bold 24px/24px arial;
   text-decoration:none;

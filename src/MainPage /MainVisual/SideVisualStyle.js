@@ -9,9 +9,9 @@ export const SideHeader = styled.div`
    color:#000;
    transition:50s;
    position:absolute;
-   left:-50px;
+   right:-50%;
    background:#fff;
-   display:block;
+ 
    animation-duration:0.5s;
    animation-name: slidein;
  }
@@ -19,12 +19,12 @@ export const SideHeader = styled.div`
  @keyframes slidein {
    from {
      position:absolute; 
-     left:-150px;
+     left:50px;
    }
  
    to {
     position:aboslute; 
-     right:-90px;
+     right:90px;
     
    }
 `

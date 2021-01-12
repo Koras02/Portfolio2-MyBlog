@@ -3,6 +3,7 @@ import Footer from '../Footer/Footer';
 import Main from '../Main';
 import PageNation from '../PageList/PageNation';
 import RightMenu from '../RightMenu/RightMenu';
+import MainPiture from './MainPiture';
 import Home from './MainvisualMenu/Home';
 import { 
   MainvisualWrapper, 
@@ -13,9 +14,9 @@ import {
 } from './MainVisualStyle';
 import Menu from './Visual/Menu';
  
+
  
- 
- 
+// 메인비쥬얼 컴포넌트  
 export function MainVisual() {
   const [mouseover,setToggle] = useState(false);
   const onToggle = useCallback(() => {
@@ -37,11 +38,12 @@ export function MainVisual() {
              <MainVisualP2>Languge</MainVisualP2>
              <MainVisualP2>Home</MainVisualP2>
              <MainVisualP2>About</MainVisualP2>
-         </MainVisualHeader>
         <Menu />
+      </MainVisualHeader>
+      <MainPiture />
+      <RightMenu />  
       </MainvisualWrapper>
       <PageNation />
-      <RightMenu />
       <Footer/>
    </>
     );
