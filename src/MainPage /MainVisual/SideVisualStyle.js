@@ -4,27 +4,26 @@ import {Link as LinkR} from 'react-router-dom';
 // sideBar 전체 부분 
 export const SideHeader = styled.div`
    width:1200%;
-   height:20%;
    float:left;
    color:#000;
    transition:50s;
    position:absolute;
-   right:-50%;
+   left:-80px;
    background:#fff;
  
    animation-duration:0.5s;
-   animation-name: slidein;
+   animation-name: slideOut;
  }
  
- @keyframes slidein {
+ @keyframes slideOut {
    from {
      position:absolute; 
-     right:-20%;
+     top:95%
    }
  
    to {
     position:aboslute; 
-    right:-50%;
+    top:100%;
    }
 `
 // --End
@@ -59,7 +58,7 @@ color:#000;
 // 하단 메뉴 전체부분 
 export const SideMenu = styled.div`
   width:100%;
-  height:1800px;
+  height:600px;
   float:left;
   background: #9cecfb; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #9cecfb, #65c7f7, #0052d4); /* Chrome 10-25, Safari 5.1-6 */

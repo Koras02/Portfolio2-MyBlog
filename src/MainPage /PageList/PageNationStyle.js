@@ -4,8 +4,8 @@ export const PageNationWrap = styled.div`
   width:50%;
   display:block;
   bottom:100px; 
-  border:1px solid #000;
-  padding-left:20%;
+  border 1px solid #000;
+  margin-left:20%;
  
   overflow-x:hidden;
 

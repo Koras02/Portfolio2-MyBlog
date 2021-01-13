@@ -6,7 +6,6 @@ import {
   SideHeaderLogin,
   SideHeaderLoginForm,
   SideMenu,
-
   SideMenuH1,
   SideMenuP
 } from './SideVisualStyle'

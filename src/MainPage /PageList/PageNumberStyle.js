@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 
 export const NumberHeader = styled.div`
-  margin:3% -10% 20% 23%;
+  margin:4% 12% 20% 30%;
+  position:sticky
 `;
 
 export const NumberHeaderH1 = styled.div`

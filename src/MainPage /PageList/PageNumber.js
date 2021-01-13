@@ -25,9 +25,6 @@ function PageNumber() {
             <NumberHeaderP>
                 6
             </NumberHeaderP>
-            <NumberHeaderP>
-                7
-            </NumberHeaderP>
             <NumberHeaderH1>
                 Next
             </NumberHeaderH1>
@@ -36,4 +33,4 @@ function PageNumber() {
  }
 
 
- export default PageNumber
+ export default PageNumber;

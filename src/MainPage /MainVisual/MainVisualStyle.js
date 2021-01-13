@@ -1,6 +1,11 @@
 import styled from 'styled-components';
 import {Link as LinkR} from 'react-router-dom'
-   
+
+export const MainvisualWrapper = styled.div`
+   margin:auto;
+`;
+
+
 export const MainSideMenu = styled.div`
    display:block;
    color:red;
@@ -16,18 +21,16 @@ export const MainSideMenu = styled.div`
     }
 `;
 
-export const MainvisualWrapper = styled.div`
-   margin:auto;
-`;
  
 
 export const MainVisualHeader = styled.div`
   padding:80px;
   margin:auto;
-  position:relative;
-  bottom:50px;
+  padding-top:35px;
+  background:green;
   display:block;
   border-bottom:1px solid #000;
+  border-top:1px solid #000;
   `;
   
   export const MainVisualH1 = styled.div`
@@ -45,12 +48,15 @@ export const MainVisualHeader = styled.div`
 
 export const MainVisualP = styled(LinkR)`
   float:left;
+  height:0px;
   position:relative;
   left:20%;
-  bottom:20%;
+  bottom:0%;
   margin-left:40px;
-  font:bold 24px/24px arial;
+  padding-top:0px;
+  font:bold 24px/30px arial;
   text-decoration:none;
+  border:1px solid #000;
  
   color:powderblue;
 

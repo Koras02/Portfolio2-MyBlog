@@ -12,7 +12,7 @@ import {
 import Menu from './Visual/Menu';
 
 export function MainHeader() {
-    const [mouseover,setToggle] = useState(false);
+    const [mouseup,setToggle] = useState(false);
     const onToggle = useCallback(() => {
       setTimeout(() => {
         setToggle(toggle => !toggle)
@@ -23,8 +23,8 @@ export function MainHeader() {
         <Main />
         <MainvisualWrapper>
            <MainVisualHeader> 
-               <MainVisualP onMouseUp={onToggle}>Home
-                 {mouseover && <Home/>}
+               <MainVisualP onMouseEnter={onToggle}>Home
+                 {mouseup && <Home/>}
                </MainVisualP>
                <MainVisualP>Discord</MainVisualP>
                <MainVisualP>Menu</MainVisualP>

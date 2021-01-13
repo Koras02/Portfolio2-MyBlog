@@ -6,7 +6,6 @@ export const HomeWrapper = styled.div`
    height:30px;
    display:inline-block;
    background:white;
-   border-bottom:1px solid #000;
    text-decoration:none;
    padding:20px;
  
