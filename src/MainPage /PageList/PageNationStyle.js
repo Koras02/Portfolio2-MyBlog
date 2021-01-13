@@ -4,10 +4,11 @@ export const PageNationWrap = styled.div`
   width:50%;
   padding-left:20%;
   margin: 100px 10px 10px auto;
-
   display:inline-block;
   position:relative;
-  bottom:100px;
+  bottom:100px;   
+  overflow-x:hidden;
+
 `;
  
 
@@ -44,4 +45,18 @@ export const PageH1 = styled.div`
   display:inline-block;
   padding:20px;
   border-bottom:2px solid #000;
+`;
+
+export const PageNumber = styled.div`
+  border:1px solid #000;
+  float:left;
+`;
+
+export const PageNumberPrev = styled.div`
+  border:1px solid #000;
+  float:left;
+`;
+
+export const PageNumberNext = styled.div`
+  border:1px solid #000;
 `

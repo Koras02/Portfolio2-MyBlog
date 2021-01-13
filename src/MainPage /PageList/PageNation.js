@@ -4,7 +4,7 @@ import {
     PageNavtionForm,
     PageNavtionH1,
     PageNavtionP,
-    PageH1
+    PageH1,
 } from './PageNationStyle'
 
 export function PageNation() {

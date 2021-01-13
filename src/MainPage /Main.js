@@ -4,6 +4,7 @@ import {HomeWrapper,HomeHeaderLeft,HomeHeaderH1,HomeHeaderRight,HomeHeaderInput}
  
  
 function Main() {
+  
     return (
     <HomeWrapper>
      <HomeHeaderLeft>

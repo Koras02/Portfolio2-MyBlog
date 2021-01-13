@@ -2,8 +2,7 @@ import styled from 'styled-components';
 import {Link as LinkR} from 'react-router-dom';
 
 export const HomeWrapper = styled.div`
-   width:97.9%;
-   overflow-y:hidden;
+   width:97%;
    height:30px;
    display:inline-block;
    background:white;

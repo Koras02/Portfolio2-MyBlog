@@ -21,7 +21,7 @@ export const MainvisualWrapper = styled.div`
 `;
  
 
-export const MainVisualHeader = styled.div`
+export const MainVisualHeader = styled(LinkR)`
   padding:80px;
   margin:auto;
   position:relative;
@@ -30,13 +30,14 @@ export const MainVisualHeader = styled.div`
   border-bottom:1px solid #000;
   `;
   
-  export const MainVisualH1 = styled.div`
+  export const MainVisualH1 = styled(LinkR)`
   color:red;
   text-align:center;
   font:bold 20px/24px arial;
   position:absolute;
   left:45%;
   display:inline-block;
+  text-decoration:none;
 
   @media screen and (max-width:1024px) {
     display:none;

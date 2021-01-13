@@ -2,9 +2,9 @@ import React from 'react';
 import {
     MenuHeaderWrapper,
     MenuHeaderH1Link,
-    MenuHeaderP} from './HomeStyle';
+    MenuHeaderP} from './SubMenuStyle';
 
-function Home() {
+function SubMenu() {
      return (
         <MenuHeaderWrapper>
             <MenuHeaderH1Link to="/description">홈페이지 바로이동</MenuHeaderH1Link>
@@ -17,4 +17,4 @@ function Home() {
  }
 
 
- export default Home;
+ export default SubMenu;
