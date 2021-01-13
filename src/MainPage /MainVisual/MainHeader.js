@@ -32,7 +32,7 @@ export function MainHeader() {
                <MainVisualP2>Languge</MainVisualP2>
                <MainVisualP2>Home</MainVisualP2>
                <MainVisualP2>About</MainVisualP2>
-          <Menu />
+        <Menu />
         </MainVisualHeader>
         <RightMenu />  
         </MainvisualWrapper>

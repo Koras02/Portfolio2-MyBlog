@@ -1,6 +1,5 @@
 import React,{useState,useCallback} from 'react';
 import Main from '../../MainPage /Main';
- 
 import Menu from '../../MainPage /MainVisual/Visual/Menu';
 import SubMenu from '../subMenu/subMenu';
 import { 
@@ -17,8 +16,7 @@ function SubHeader() {
     setTimeout(() => {
       setToggle(toggle => !toggle)
     }, 0);
-  },[]);
-
+  },[])
      return (
       <>
         <Main />
@@ -27,7 +25,7 @@ function SubHeader() {
               <MainVisualP onMouseUp={onToggle}>Home
                  {mouseover && <SubMenu/>}
              </MainVisualP>
-             <MainVisualP  onClick>Discord
+             <MainVisualP>Discord
              </MainVisualP>
              <MainVisualP>Menu</MainVisualP>
              <MainVisualH1 to="/">MyBlog</MainVisualH1>

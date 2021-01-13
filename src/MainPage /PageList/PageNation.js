@@ -5,6 +5,7 @@ import {
     PageNavtionH1,
     PageNavtionP,
     PageH1,
+ 
 } from './PageNationStyle'
 
 export function PageNation() {
@@ -34,22 +35,6 @@ export function PageNation() {
               <PageNavtionP>설명</PageNavtionP>
               <PageNavtionH1>카테고리 view</PageNavtionH1>
               <PageNavtionP>설명</PageNavtionP>
-            </PageNavtionForm>
-             <PageNavtionForm>
-             <PageNavtionH1>카테고리 view</PageNavtionH1>
-              <PageNavtionP>설명</PageNavtionP>
-              <PageNavtionH1>카테고리 view</PageNavtionH1>
-              <PageNavtionP>설명</PageNavtionP>
-              <PageNavtionH1>카테고리 view</PageNavtionH1>
-              <PageNavtionP>설명</PageNavtionP>
-            </PageNavtionForm>
-             <PageNavtionForm>
-             <PageNavtionH1>카테고리 view</PageNavtionH1>
-              <PageNavtionP>설명</PageNavtionP>
-              <PageNavtionH1>카테고리 view</PageNavtionH1>
-              <PageNavtionP>설명</PageNavtionP>
-              <PageNavtionH1>카테고리 view</PageNavtionH1>
-              <PageNavtionP>설명</PageNavtionP> 
             </PageNavtionForm>
        </PageNationWrap>
      );

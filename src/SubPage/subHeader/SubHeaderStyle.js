@@ -64,6 +64,9 @@ export const MainVisualP = styled(LinkR)`
     font:bold 20px/20px arial;
     color:red;
   }
+
+  
+  
 `;
 
 export const MainVisualP2 = styled(LinkR)`
@@ -79,5 +82,7 @@ export const MainVisualP2 = styled(LinkR)`
    color:blue;
    transition: 0.5s ease-in-out;
  }
+
+ 
 `; 
 

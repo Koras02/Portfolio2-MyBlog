@@ -2,11 +2,11 @@ import styled from 'styled-components';
 
 export const PageNationWrap = styled.div`
   width:50%;
+  display:block;
+  bottom:100px; 
+  border:1px solid #000;
   padding-left:20%;
-  margin: 100px 10px 10px auto;
-  display:inline-block;
-  position:relative;
-  bottom:100px;   
+ 
   overflow-x:hidden;
 
 `;
@@ -14,7 +14,7 @@ export const PageNationWrap = styled.div`
 
 export const PageNavtionForm = styled.div`
   width: 100%;
-  margin: 20px auto;
+  margin: 10px -20px auto;
   height: 800px;
   padding:20px;
 `;
@@ -23,10 +23,9 @@ export const PageNavtionH1 = styled.div`
   width:20%;
   height: 200px;
   margin:20px;
-  display:block;
+  float:left;
   border:1px solid #000;
-  position:relative;
-  right:15%;
+  padding-right:20px;
 `;
 
 export const PageNavtionP = styled.div`
@@ -34,9 +33,8 @@ export const PageNavtionP = styled.div`
   height:200px;
   border:1px solid #000;
   float:right;
-  position:relative;
-  bottom:28%;
-  right:14%;
+  padding:-20px 20px;
+  margin:20px 10px 20px 10px;
 `;
 
 export const PageH1 = styled.div`

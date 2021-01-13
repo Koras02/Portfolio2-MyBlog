@@ -3,8 +3,8 @@ import {Link as LinkR} from 'react-router-dom';
 
 // sideBar 전체 부분 
 export const SideHeader = styled.div`
-   width:400px;
-   height:1900px;
+   width:1200%;
+   height:20%;
    float:left;
    color:#000;
    transition:50s;
@@ -19,13 +19,12 @@ export const SideHeader = styled.div`
  @keyframes slidein {
    from {
      position:absolute; 
-     left:50px;
+     right:-20%;
    }
  
    to {
     position:aboslute; 
-     right:90px;
-    
+    right:-50%;
    }
 `
 // --End
@@ -79,6 +78,10 @@ export const SideMenuP = styled.div`
    color:blue;
    padding:25px;
    padding-left:35px;
+
+   &:hover{
+      color:red;
+   }
 `;
 
 // 웹개발 하위메뉴 부분

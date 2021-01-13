@@ -1,11 +1,12 @@
 import React,{useCallback,useState} from 'react';
-import SideToggleMenu from './Side';
+import Home from './MainvisualMenu/Home';
+ 
 import {
   SideHeader,
   SideHeaderLogin,
   SideHeaderLoginForm,
   SideMenu,
-  SideMenuli,
+
   SideMenuH1,
   SideMenuP
 } from './SideVisualStyle'
@@ -31,13 +32,9 @@ export function Side() {
          <SideMenuP>포토폴리오 소개(0)</SideMenuP>
          <SideMenuP>개발 일지(0)</SideMenuP>  
          <SideMenuP>Github(0)</SideMenuP>
-         <SideMenuP onClick={onToggle}>웹 개발</SideMenuP>
-         <div> 
-         <SideMenuli toggle={toggle? 'ON' : 'OFF'}/> 
-         {toggle && <SideToggleMenu/>}
-         <SideMenuli>백 엔드</SideMenuli>
-         <SideMenuli>풀 스택 로드맵</SideMenuli> 
-        </div>
+         <SideMenuP onClick={onToggle}>웹 개발
+            {toggle && <Home/>}
+        </SideMenuP>
        </SideMenu>
        </SideHeader>
      );

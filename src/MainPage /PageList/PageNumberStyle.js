@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 export const NumberHeader = styled.div`
-  margin:-12% 0% 20% 23%;
+  margin:3% -10% 20% 23%;
 `;
 
 export const NumberHeaderH1 = styled.div`

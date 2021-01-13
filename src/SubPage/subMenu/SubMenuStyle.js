@@ -9,17 +9,22 @@ export const MenuHeaderWrapper = styled.div`
     left:5%;
     color:red;
     background:pink;
-    transition: 5s;
+
+   animate-duration:0.5s;
+   animate-name: slidein;
+  
+   &:hover{
+       color:#000;
+   }
+
 `;
 
 export const MenuHeaderH1Link = styled(LinkR)`
    font:bold 16px/50px arial;
    color:#fff;
    padding:10px;
-   &:hover{
-       color:#000;
-   }
-`;
+ }
+   `;
 
 export const MenuHeaderP = styled(LinkR)`
    font:bold 18px/40px arial;
