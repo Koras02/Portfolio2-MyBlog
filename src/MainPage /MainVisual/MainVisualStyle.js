@@ -27,7 +27,7 @@ export const MainVisualHeader = styled.div`
   padding:80px;
   margin:auto;
   padding-top:35px;
-  background:green;
+  background:	#d9f7ff;
   display:block;
   border-bottom:1px solid #000;
   border-top:1px solid #000;

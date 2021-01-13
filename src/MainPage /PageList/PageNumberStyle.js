@@ -24,4 +24,8 @@ export const NumberHeaderP = styled.div`
   margin:0.1%;
   margin-left:0.4%;
   margin-right:1%;
+
+  &:checked {
+    color:red;
+  }
 `

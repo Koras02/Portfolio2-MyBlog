@@ -21,7 +21,7 @@ export function Side() {
      return (
        <SideHeader>
          <SideHeaderLoginForm>
-          <SideHeaderLogin to="/si">로그인</SideHeaderLogin>
+          <SideHeaderLogin to="/Login">로그인</SideHeaderLogin>
           <SideHeaderLogin to="/">회원가입</SideHeaderLogin>
           </SideHeaderLoginForm>
        <SideMenu>
