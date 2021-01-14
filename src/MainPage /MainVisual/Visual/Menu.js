@@ -1,6 +1,6 @@
 import React,{useCallback,useState} from 'react';
 import Side from '../Side';
-import { MainSideMenu} from '../MainVisualStyle';
+import { MainSideMenu} from './MenuStyle';
 
 export function Menu() {
      const [toggle,setToggle] = useState(false);
@@ -13,7 +13,7 @@ export function Menu() {
         <>   
     <MainSideMenu onClick={onToggle}>메뉴
           <div>
-              <sideMenu toggle={toggle? 'ON': 'OFF'}/>
+              <sideMenu toggle={toggle? 'ON': 'OFF'} />
               {toggle && <Side/>}
           </div>
     </MainSideMenu> 

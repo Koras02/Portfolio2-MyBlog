@@ -1,5 +1,6 @@
 import styled from 'styled-components';
-import {Link as LinkR} from 'react-router-dom'
+import {Link as LinkR} from 'react-router-dom';
+import {Link as LinkS} from 'react-scroll';
 
 export const MainvisualWrapper = styled.div`
    margin:auto;
@@ -46,14 +47,35 @@ export const MainVisualHeader = styled.div`
   }
 `;
 
-export const MainVisualP = styled(LinkR)`
+export const MainVisualPLinks = styled(LinkS)`
   float:left;
-  height:0px;
   position:relative;
   left:20%;
-  bottom:0%;
+  bottom:70%;
   margin-left:40px;
-  padding-top:0px;
+  font:bold 24px/30px arial;
+  text-decoration:none;
+  border:1px solid #000;
+ 
+  color:powderblue;
+
+  &:hover{
+    color:blue;
+    transition: 0.5s ease-in-out;
+  }
+
+  @media screen and (max-width:1024px) {
+    font:bold 20px/20px arial;
+    color:red;
+  }
+
+`
+export const MainVisualP = styled.a`
+  float:left;
+  position:relative;
+  left:20%;
+  bottom:70%;
+  margin-left:40px;
   font:bold 24px/30px arial;
   text-decoration:none;
   border:1px solid #000;
@@ -72,10 +94,10 @@ export const MainVisualP = styled(LinkR)`
 `;
 
 export const MainVisualP2 = styled(LinkR)`
- position:relative;
  float:right;
- padding-right:40px;
- right:25%;
+  margin-left:40px;
+  position:relative;
+  right:28%;
  font:bold 24px/24px arial;
  text-decoration:none;
  color:powderblue;

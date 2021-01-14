@@ -31,9 +31,7 @@ if(login) return <SUCCESS />;
 if(error) return <ERROR/>;
 if(!users) return null 
 return (
-    <div>
-        로그인 헤더
-    </div>
+    <SUCCESS />
  )
 }
 

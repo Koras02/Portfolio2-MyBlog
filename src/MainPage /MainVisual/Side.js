@@ -9,7 +9,7 @@ import {
   SideMenuH1,
   SideMenuP
 } from './SideVisualStyle'
- 
+
 
 export function Side() {
      const [toggle,setToggle] = useState(false);
@@ -27,7 +27,7 @@ export function Side() {
        <SideMenu>
          <SideMenuH1 to="/">전체글 보기 (0)</SideMenuH1>
          <SideMenuP to="/">코딩(0)</SideMenuP>
-         <SideMenuP>웹개발(0)</SideMenuP> 
+         <SideMenuP to="/">웹개발(0)</SideMenuP> 
          <SideMenuP>포토폴리오 소개(0)</SideMenuP>
          <SideMenuP>개발 일지(0)</SideMenuP>  
          <SideMenuP>Github(0)</SideMenuP>

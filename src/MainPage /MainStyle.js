@@ -8,7 +8,6 @@ export const HomeWrapper = styled.div`
    background:white;
    text-decoration:none;
    padding:20px;
- 
 `;
 
 export const HomeHeaderLeft = styled.div`

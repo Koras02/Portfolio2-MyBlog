@@ -13,6 +13,10 @@ export const NumberHeaderH1 = styled.div`
   font:bold 18px/24px arial;
   border:1px solid #000;
   border-radius:100% 100%;
+
+  &:hover {
+    background:blue;
+  }
 `;
 
 
@@ -24,8 +28,5 @@ export const NumberHeaderP = styled.div`
   margin:0.1%;
   margin-left:0.4%;
   margin-right:1%;
-
-  &:checked {
-    color:red;
-  }
-`
+ 
+`;

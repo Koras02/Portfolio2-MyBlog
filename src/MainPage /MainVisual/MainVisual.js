@@ -1,7 +1,10 @@
 import React from 'react';
 import Footer from '../Footer/Footer';
+import InfoSection from './InfoSection';
+import { homeObjOne } from './InfoSection/Data';
 // import PageNation from '../PageList/PageNation';
-import PageNumber from '../PageList/PageNumber';
+// import PageNumber from '../PageList/PageNumber';
+import MainBoard from './MainBoard';
 import MainHeader from './MainHeader';
  
 
@@ -11,7 +14,8 @@ export function MainVisual() {
   return (
    <>
       <MainHeader />
-      <PageNumber />
+       <MainBoard />
+       <InfoSection {...homeObjOne} />
       <Footer/>
    </>
     );

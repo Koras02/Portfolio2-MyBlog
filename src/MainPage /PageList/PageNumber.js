@@ -1,44 +1,35 @@
- import React, { useState } from 'react';
+import React, { useState } from 'react';
 import one from './List/1page/one';
 import three from './List/1page/three';
 import two from './List/1page/two';
 import PageNation from './PageNation';
 import {NumberHeader,NumberHeaderH1,NumberHeaderP} from './PageNumberStyle'
 
-
-
-
-function PageNumber() {
+ 
+ 
+function PageNumber({ onIncrease, onDecrease }) {
     const [comp, setComp] = useState(PageNation);
-         
-    const prev = () => {
-        this.setComp({
-            comp: this.state.comp - 1
-        })
-    }
-
-    const next = () => {
-        this.setComp({
-             comp: this.state.comp + 1
-        })
-    }
-
+     
      return (
        <>
-        <main children={comp} />
+        <main children={comp}/>
         <NumberHeader>
-            <NumberHeaderH1 onClick={() => setComp(prev)}>Prev
+            <NumberHeaderH1 onClick={onDecrease}>Prev
             </NumberHeaderH1>
-            <NumberHeaderP onClick={() => setComp(PageNation)}>
+            <NumberHeaderP
+            onClick={() => setComp(PageNation)}>
                 1
             </NumberHeaderP>
-            <NumberHeaderP onClick={() => setComp(one)}>
+            <NumberHeaderP 
+            onClick={() => setComp(one)}>
                 2
             </NumberHeaderP>
-            <NumberHeaderP onClick={() => setComp(two)}>
+            <NumberHeaderP 
+            onClick={() => setComp(two)}>
                 3
             </NumberHeaderP>
-            <NumberHeaderP onClick={() => setComp(three)}>
+            <NumberHeaderP
+            onClick={() => setComp(three)}>
                 4
             </NumberHeaderP>
             <NumberHeaderP>
@@ -47,8 +38,7 @@ function PageNumber() {
             <NumberHeaderP>
                 6
             </NumberHeaderP>
-            <NumberHeaderH1 onClick={() => setComp(next)}>
-                Next
+            <NumberHeaderH1 onClick={onIncrease}>Next
             </NumberHeaderH1>
         </NumberHeader>
         </>
