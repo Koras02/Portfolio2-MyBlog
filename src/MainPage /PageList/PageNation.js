@@ -1,33 +1,58 @@
 import React from 'react';
-import {PageNationWrap,PageNationBody,PageNavtionForm} from './PageNationStyle'
+import {
+    PageNationWrap,
+    PageNationBody,
+    PageNavtionForm,
+    PageNavtionH1,
+    PageNavtionP,
+} from './PageNationStyle'
 
-function PageNation() {
+export function PageNation() {
      return (
        <PageNationWrap>
          <PageNationBody>
              <PageNavtionForm>
-                 List2
+              <PageNavtionH1>카테고리 view</PageNavtionH1>
+              <PageNavtionP>설명</PageNavtionP>
+              <PageNavtionH1>카테고리 view</PageNavtionH1>
+              <PageNavtionP>설명</PageNavtionP>
+              <PageNavtionH1>카테고리 view</PageNavtionH1>
+              <PageNavtionP>설명</PageNavtionP>
              </PageNavtionForm>
              <PageNavtionForm>
-                 List3
+             <PageNavtionH1>카테고리 view</PageNavtionH1>
+              <PageNavtionP>설명</PageNavtionP>
+              <PageNavtionH1>카테고리 view</PageNavtionH1>
+              <PageNavtionP>설명</PageNavtionP>
+              <PageNavtionH1>카테고리 view</PageNavtionH1>
+              <PageNavtionP>설명</PageNavtionP>
             </PageNavtionForm>
              <PageNavtionForm>
-                 List3
+             <PageNavtionH1>카테고리 view</PageNavtionH1>
+              <PageNavtionP>설명</PageNavtionP>
+              <PageNavtionH1>카테고리 view</PageNavtionH1>
+              <PageNavtionP>설명</PageNavtionP>
+              <PageNavtionH1>카테고리 view</PageNavtionH1>
+              <PageNavtionP>설명</PageNavtionP>
             </PageNavtionForm>
              <PageNavtionForm>
-                 List3
+             <PageNavtionH1>카테고리 view</PageNavtionH1>
+              <PageNavtionP>설명</PageNavtionP>
+              <PageNavtionH1>카테고리 view</PageNavtionH1>
+              <PageNavtionP>설명</PageNavtionP>
+              <PageNavtionH1>카테고리 view</PageNavtionH1>
+              <PageNavtionP>설명</PageNavtionP>
             </PageNavtionForm>
              <PageNavtionForm>
-                 List3
-            </PageNavtionForm>
-             <PageNavtionForm>
-                 List3
-            </PageNavtionForm>
-             <PageNavtionForm>
-                 List3
+             <PageNavtionH1>카테고리 view</PageNavtionH1>
+              <PageNavtionP>설명</PageNavtionP>
+              <PageNavtionH1>카테고리 view</PageNavtionH1>
+              <PageNavtionP>설명</PageNavtionP>
+              <PageNavtionH1>카테고리 view</PageNavtionH1>
+              <PageNavtionP>설명</PageNavtionP> 
             </PageNavtionForm>
          </PageNationBody>
-       </PageNationWrap>    
+       </PageNationWrap>
      );
  }
 

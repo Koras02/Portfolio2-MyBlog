@@ -3,26 +3,29 @@ import {Link as LinkR} from 'react-router-dom';
 
 // sideBar 전체 부분 
 export const SideHeader = styled.div`
-   width:15%;
+   width:400px;
    height:1900px;
    float:left;
    color:#000;
    transition:50s;
+   position:absolute;
+   left:-50px;
    background:#fff;
-   border:1px solid red;
-   animation-duration: 1s;
+   display:block;
+   animation-duration:0.5s;
    animation-name: slidein;
  }
  
  @keyframes slidein {
    from {
-     margin-left:-9%;
-     width:20%
+     position:absolute; 
+     left:-150px;
    }
  
    to {
-     margin-left:-8%;
-     width:20%;
+    position:aboslute; 
+     right:-90px;
+    
    }
 `
 // --End
@@ -34,7 +37,6 @@ export const SideHeaderLogin = styled(LinkR)`
    padding-top:40px;
    display:block;
    text-decoration:none;
-
    &:hover{
      color:red;
      transition:2s;
@@ -69,13 +71,14 @@ export const SideMenu = styled.div`
 //전체 글보기 부분 
 export const SideMenuH1 = styled.div`
    color:red;
-   padding:20px;
+   padding:25px;
 `;
 
 // 글보기 이외 메뉴창 
 export const SideMenuP = styled.div`
    color:blue;
-   padding:20px;
+   padding:25px;
+   padding-left:35px;
 `;
 
 // 웹개발 하위메뉴 부분

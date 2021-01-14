@@ -1,5 +1,5 @@
 import React,{useCallback,useState} from 'react';
-import SideToggleMenu from './SideLeftMenu/SideToggleMenu';
+import SideToggleMenu from './Side';
 import {
   SideHeader,
   SideHeaderLogin,
@@ -11,7 +11,7 @@ import {
 } from './SideVisualStyle'
  
 
-function Side() {
+export function Side() {
      const [toggle,setToggle] = useState(false);
      const onToggle = useCallback(() => {
        setTimeout(() => {

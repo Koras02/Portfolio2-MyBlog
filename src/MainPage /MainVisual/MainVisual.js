@@ -1,27 +1,36 @@
-import React,{useCallback, useState} from 'react';
+import React,{useState,useCallback} from 'react';
 import Footer from '../Footer/Footer';
 import Main from '../Main';
 import PageNation from '../PageList/PageNation';
 import RightMenu from '../RightMenu/RightMenu';
-import { MainSideMenu,MainvisualWrapper, MainVisualHeader,MainVisualH1,MainVisualP,MainVisualP2} from './MainVisualStyle';
-import Side from './Side';
+import Home from './MainvisualMenu/Home';
+import { 
+  MainvisualWrapper, 
+  MainVisualHeader,
+  MainVisualH1,
+  MainVisualP,
+  MainVisualP2
+} from './MainVisualStyle';
+import Menu from './Visual/Menu';
  
  
-function MainVisual() {
-  const [toggle,setToggle] = useState(false);
+ 
+ 
+export function MainVisual() {
+  const [mouseover,setToggle] = useState(false);
   const onToggle = useCallback(() => {
-        setTimeout(() => {
-         setToggle(toggle => !toggle);
-      }, 0)
-     },[]);
+    setTimeout(() => {
+      setToggle(toggle => !toggle)
+    }, 0);
+  },[]);
   return (
    <>
    <Main />
       <MainvisualWrapper>
-         <MainVisualHeader>
-             <MainSideMenu onClick={onToggle} duration={500}>메뉴
-               </MainSideMenu>
-             <MainVisualP to="/hi">Home</MainVisualP>
+         <MainVisualHeader> 
+             <MainVisualP onMouseUp={onToggle}>Home
+               {mouseover && <Home/>}
+             </MainVisualP>
              <MainVisualP>Discord</MainVisualP>
              <MainVisualP>Menu</MainVisualP>
              <MainVisualH1>MyBlog</MainVisualH1>
@@ -29,14 +38,11 @@ function MainVisual() {
              <MainVisualP2>Home</MainVisualP2>
              <MainVisualP2>About</MainVisualP2>
          </MainVisualHeader>
+        <Menu />
       </MainvisualWrapper>
-      <div>
-         <sideMenu toggle={toggle? 'ON' : 'OFF'}/>
-         {toggle && <Side/>}
-      </div>
       <PageNation />
       <RightMenu />
-      <Footer />
+      <Footer/>
    </>
     );
   }

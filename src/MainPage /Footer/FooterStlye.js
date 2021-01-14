@@ -8,7 +8,7 @@ export const FooterWrap = styled.div`
   padding-left:2px;
   float:left;
   padding:20px;
-  border:1px solid #000;
+  border-top:1px solid #000;
 `;
 
  

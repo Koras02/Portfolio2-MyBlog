@@ -1,11 +1,8 @@
 import React from 'react'
 import '../index.css';
 import {HomeWrapper,HomeHeaderLeft,HomeHeaderH1,HomeHeaderRight,HomeHeaderInput} from './MainStyle';
-// import MainVisual from './MainVisual/MainVisual';
-// import RightMenu from './MainVisual/RightMenu';
-// import PageNation from './PageList/PageNation';
  
-
+ 
 function Main() {
     return (
     <HomeWrapper>
@@ -17,7 +14,7 @@ function Main() {
          <HomeHeaderInput type="search" value="검색창" htmlFor="">검색</HomeHeaderInput>
          <HomeHeaderInput type="submit" value="검색하기">검색하기</HomeHeaderInput>
         </HomeHeaderRight>
-      </HomeWrapper>
+      </HomeWrapper> 
       )
 }
 
