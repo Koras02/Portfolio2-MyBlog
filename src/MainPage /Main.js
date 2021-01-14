@@ -14,7 +14,7 @@ function Main() {
         <HomeHeaderH1 to="sss">글찾기</HomeHeaderH1>
       </HomeHeaderLeft>
         <HomeHeaderRight> 
-         <HomeHeaderInput type="search" value="검색창" htmlForm>검색</HomeHeaderInput>
+         <HomeHeaderInput type="search" value="검색창" htmlFor="">검색</HomeHeaderInput>
          <HomeHeaderInput type="submit" value="검색하기">검색하기</HomeHeaderInput>
         </HomeHeaderRight>
       </HomeWrapper>
