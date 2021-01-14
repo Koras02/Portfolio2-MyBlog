@@ -1,3 +1,4 @@
+// 페이지 데이터 설정 하는 곳
 import Image from './image/download.jpeg';
 import Image2 from './image/react.png';
 import Image3 from './image/download.jpeg';

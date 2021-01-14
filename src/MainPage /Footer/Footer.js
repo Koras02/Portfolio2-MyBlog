@@ -1,3 +1,4 @@
+// Footer 부분
 import React from 'react';
 import {
   FooterWrap,

@@ -1,12 +1,12 @@
  import React from 'react';
 
-function SideBottom() {
+function Languge() {
      return (
        <div>
-          
+         한국어
        </div>
      );
  }
 
 
- export default SideBottom;
+ export default Languge;

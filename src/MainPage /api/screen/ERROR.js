@@ -1,4 +1,6 @@
- import React from 'react';
+// 에러페이지
+
+import React from 'react';
 
 function ERROR() {
      return (

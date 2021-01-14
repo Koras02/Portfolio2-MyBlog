@@ -6,7 +6,7 @@ export const MenuHeaderWrapper = styled.div`
     height:250px;
     position:absolute;
     top:30px;
-    border:1px solid #000;
+    padding:15px;
     left:5%;
     color:red;
     background: #373B44;  /* fallback for old browsers */
@@ -14,27 +14,33 @@ export const MenuHeaderWrapper = styled.div`
     background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
     transition: 5s;
-`;
-
-export const MenuHeaderH1Link = styled(LinkR)`
-   font:bold 16px/50px arial;
-   color:#fff;
-   text-decoration:none;
-   padding:20px;
-   &:hover{
+    `;
+    
+    export const MenuHeaderH1Link = styled(LinkR)`
+    font:bold 16px/24px arial;
+    color:#fff;
+    text-decoration:none;
+    padding:20px;
+    &:hover{
        color:#000;
    }
-`;
+   `;
 
-export const MenuHeaderP = styled(LinkR)`
-   font:bold 18px/40px arial;
+   export const MenuHeaderP = styled(LinkR)`
+   font:bold 18px/20px arial;
    text-decoration:none;
-   padding:1px 20px;
+   border-bottom:1px solid #000;
    display:block;
+   padding-bottom:10px;
+   
+   padding-top:20px;
+   padding-left:20px;
+   margin-left:2px;
+   
    color:#fff;
-   border-top:2px solid #fff;
 
    &:hover {
        color:red;
    }
-`
+`;
+

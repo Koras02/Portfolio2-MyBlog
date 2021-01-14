@@ -1,3 +1,4 @@
+// 데이터 활성화 부분
 import React from 'react';
 import {InfoContainer,
   InfoWrapper,

@@ -2,6 +2,8 @@ import React,{useCallback,useState} from 'react';
 import Side from '../Side';
 import { MainSideMenu} from './MenuStyle';
 
+// 메인 페이지 메뉴 UI 담당 
+
 export function Menu() {
      const [toggle,setToggle] = useState(false);
      const onToggle = useCallback(() => {

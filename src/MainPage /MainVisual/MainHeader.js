@@ -1,21 +1,34 @@
-import React, {useState,useCallback,useEffect} from 'react';
+// 메인 페이지 헤더부분 담당
+import React, {useState,useEffect, useCallback} from 'react';
 import Main from '../Main';
+import Languge from './Languge/Languge';
 import Home from './MainvisualMenu/Home';
-import {animateScroll as scroll} from 'react-scroll';
 import { 
   MainvisualWrapper, 
   MainVisualHeader,
   MainVisualH1,
   MainVisualP,
   MainVisualP2,
+  MainVisualP1,
   MainVisualPLinks
 } from './MainVisualStyle';
 import Menu from './Visual/Menu';
 
 export function MainHeader() {
-    const [mouseup,setToggle] = useState(false);
+    const [toggle,setToggle] = useState(false);
     const [scrollNav,setScrollNav] = useState(true);
-
+    const [languge,setLanguge] = useState(false);
+   
+      const onLanguge = useCallback(() => {
+        setTimeout(() => {
+          setLanguge(search => !search);
+        }, 0)
+      },[])
+      const onToggle = useCallback(() => {
+        setTimeout(() => {
+          setToggle(toggle => !toggle);
+        }, 0)
+      }, [])
       const changeNav = () => {
         if(window.scrollY >= 80) {
           setScrollNav(false)
@@ -27,21 +40,18 @@ export function MainHeader() {
         window.addEventListener('scroll', changeNav);
       }, []);
 
-    const onToggle = useCallback(() => {
-      setTimeout(() => {
-        setToggle(toggle => !toggle)
-      }, 400);
-    },[]);
+ 
+ 
      return (
          <>
         <Main />
-        <MainvisualWrapper scrollNav={scrollNav} >
+        <MainvisualWrapper scrollNav={scrollNav}>
            <MainVisualHeader> 
-               <MainVisualP onMouseEnter={onToggle} onMouseLeave={onToggle}>Home
-                 {mouseup && <Home />}
-               </MainVisualP>
+               <MainVisualP1 onClickCapture={onToggle}>Home
+                 {toggle && <Home/>}
+               </MainVisualP1>
                <MainVisualP
-               href="https://reactjs.org" 
+               href="https://discord.com/channels/798765103105048657/798765103855173645" 
                target="_blank" 
                arial-label="discord"
                >Discord</MainVisualP>
@@ -50,7 +60,9 @@ export function MainHeader() {
                duration={500}
                >Menu</MainVisualPLinks>
                <MainVisualH1>MyBlog</MainVisualH1>
-               <MainVisualP2>Languge</MainVisualP2>
+               <MainVisualP2 onClick={onLanguge}>Languge
+                 {languge && <Languge/>}
+               </MainVisualP2>
                <MainVisualP2>태그</MainVisualP2>
                <MainVisualP2>About</MainVisualP2>
         <Menu />

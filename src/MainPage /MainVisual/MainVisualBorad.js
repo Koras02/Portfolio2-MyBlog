@@ -3,18 +3,16 @@ import styled from 'styled-components';
 
 export const MainVisualWrapper = styled.div`
   width:100%;
-  height:800px;
-  border: 1px solid #000;
-  background:powdebule;
-  overflow: 70%;
-  display:block;
+  height:600px; 
+  background:pink;
 `;
 
 export const MainVisualHeader = styled.div`
  width:100%;
  height:600px;
  border: 1px solid #000;
- background: yellow;
+ background:pink;
+ opacity:60%;
  color:#000;
  display:block;
 `;
@@ -34,11 +32,44 @@ export const MainVisualP = styled.div`
   height:280px;
   text-align:center;
   display:inline-flex;
-  position:relative;
-  top:20%;
-  margin:20px;
-  left:40px;
-  padding:1%;
- 
+  padding:20px;
+  margin:120px 40px;
+  background: powderblue;
   border:1px solid #000;
+
+  @media screen and (max-width: 1900px) {
+     width:10%;
+     margin-top:10%;
+     padding-left:30%;
+     height:100px;
+     padding:60px;
+     background:red;
+  }
+
+  @media screen and (max-width: 1300px) {
+    width:8%;
+    margin-top:18%;
+    padding-left:30%;
+    height:100px;
+    padding:60px;
+    background:yellow;
+  }
+
+  @media screen and (max-width: 1200px) {
+    width:6%;
+    margin-top:20%;
+    padding-left:10%;
+    height:100px;
+    padding:60px;
+    background:blue;
+  }
+
+  @media screen and (max-width: 1080px) {
+    width:4%;
+    margin-top:20%;
+    padding-left:10%;
+    height:100px;
+    padding:60px;
+    background:blue;
+  }
 `;
