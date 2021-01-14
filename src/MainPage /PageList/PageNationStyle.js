@@ -4,9 +4,9 @@ export const PageNationWrap = styled.div`
   width:70%;
   height:1000px;
   float:left;
-  position:relative;
-  right:-5%;
-  top:10%;
+  position:sticky;
+  left:25%;
+  top:20%;
 `;
 
 export const PageNationBody = styled.div`
