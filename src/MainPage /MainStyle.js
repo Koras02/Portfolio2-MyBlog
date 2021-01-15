@@ -1,13 +1,15 @@
 import styled from 'styled-components';
 import {Link as LinkR} from 'react-router-dom';
 
-export const HomeWrapper = styled.div`
-   width:97%;
-   height:30px;
-   display:inline-block;
-   background:white;
+export const HomeWrapper = styled.nav`
+   background:${({scrollNav}) => (scrollNav ? 'powderblue' : ' #70e1f5;')};
+ 
+   transition:5s;
+   height:20px;
    text-decoration:none;
-   padding:20px;
+   padding:50px;
+   // overflow:hidden;
+   
 `;
 
 export const HomeHeaderLeft = styled.div`
@@ -24,7 +26,7 @@ export const HomeHeaderH1 = styled(LinkR)`
    text-decoration:none;
    padding-left:24px;
    padding:5px;
-   border-right: 2px solid #000;
+   border-right:2px solid ;
  
   
    &:hover{

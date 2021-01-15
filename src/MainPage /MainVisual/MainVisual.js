@@ -12,7 +12,7 @@ export function MainVisual() {
   return (
    <>
       <MainHeader />
-       <MainBoard />
+       <MainBoard />    
        <InfoSection {...homeObjOne} />
       <Footer/>
    </>

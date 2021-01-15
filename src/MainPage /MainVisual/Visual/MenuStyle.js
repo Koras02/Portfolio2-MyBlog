@@ -4,7 +4,7 @@ export const MainSideMenu = styled.div`
    display:block;
    color:red;
    float:left;
-   border:1px solid #000;
+ 
    position:absolute;
    left:20%;
  

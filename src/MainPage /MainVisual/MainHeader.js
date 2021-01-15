@@ -1,5 +1,5 @@
 // 메인 페이지 헤더부분 담당
-import React, {useState,useEffect, useCallback} from 'react';
+import React, {useState, useCallback} from 'react';
 import Main from '../Main';
 import Languge from './Languge/Languge';
 import Home from './MainvisualMenu/Home';
@@ -16,7 +16,6 @@ import Menu from './Visual/Menu';
 
 export function MainHeader() {
     const [toggle,setToggle] = useState(false);
-    const [scrollNav,setScrollNav] = useState(true);
     const [languge,setLanguge] = useState(false);
    
       const onLanguge = useCallback(() => {
@@ -29,27 +28,15 @@ export function MainHeader() {
           setToggle(toggle => !toggle);
         }, 0)
       }, [])
-      const changeNav = () => {
-        if(window.scrollY >= 80) {
-          setScrollNav(false)
-        } else {
-          setScrollNav(true)
-        }
-      };
-      useEffect(() => {
-        window.addEventListener('scroll', changeNav);
-      }, []);
-
- 
  
      return (
          <>
         <Main />
-        <MainvisualWrapper scrollNav={scrollNav}>
+        <MainvisualWrapper>
            <MainVisualHeader> 
                <MainVisualP1 onClickCapture={onToggle}>Home
                  {toggle && <Home/>}
-               </MainVisualP1>
+                  </MainVisualP1>
                <MainVisualP
                href="https://discord.com/channels/798765103105048657/798765103855173645" 
                target="_blank" 

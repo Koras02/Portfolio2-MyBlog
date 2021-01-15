@@ -9,7 +9,8 @@ export const SideHeader = styled.div`
    transition:50s;
    position:absolute;
    left:-80px;
-   background:#fff;
+
+ 
  
    animation-duration:0.5s;
    animation-name: slideOut;
@@ -46,11 +47,10 @@ export const SideHeaderLoginForm = styled.div`
 width:100%; 
 height:100px;
 float:left;
-background: #ef32d9;  /* fallback for old browsers */
-background: #00c3ff;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-color:#000;
+background: #43C6AC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 `;
 // 
@@ -60,9 +60,7 @@ export const SideMenu = styled.div`
   width:100%;
   height:600px;
   float:left;
-  background: #9cecfb; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #9cecfb, #65c7f7, #0052d4); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background:#f8ffde;
   color:red;
 `;
 

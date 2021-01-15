@@ -5,37 +5,41 @@ export const MainVisualWrapper = styled.div`
   width:100%;
   height:600px; 
   background:pink;
+  display:block;
 `;
 
-export const MainVisualHeader = styled.div`
- width:100%;
- height:600px;
- border: 1px solid #000;
- background:pink;
- opacity:60%;
- color:#000;
- display:block;
-`;
 
 export const MainVisualH1 = styled.div`
   font:bold 18px/20px arial;
   text-align:center;
   position:relative;
   top:15%;
-  right:20px;
+  right:100px;
   color:red;
 `;
 
+ 
 
-export const MainVisualP = styled.div`
-  width:18%;
-  height:280px;
+export const MainVisualP1 = styled.div`
+  width:20%; 
+  height:50%;
   text-align:center;
-  display:inline-flex;
-  padding:20px;
-  margin:120px 40px;
-  background: powderblue;
+  margin:170px 40px; 
+  float:left;
+  overflow:hidden;
   border:1px solid #000;
+  float:left;
+  opacity:100%;
+  background:gray;
+
+  &:hover {
+    opacity: 50%;
+    transition: 5s;
+  }
+
+  &:visited {
+    border:10px solid #000;
+  }
 
   @media screen and (max-width: 1900px) {
      width:10%;
@@ -73,3 +77,7 @@ export const MainVisualP = styled.div`
     background:blue;
   }
 `;
+
+ 
+
+

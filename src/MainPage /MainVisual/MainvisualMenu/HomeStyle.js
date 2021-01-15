@@ -8,6 +8,7 @@ export const MenuHeaderWrapper = styled.div`
     top:30px;
     padding:15px;
     left:5%;
+    overflow:hidden;
     color:red;
     background: #373B44;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
@@ -32,6 +33,7 @@ export const MenuHeaderWrapper = styled.div`
    border-bottom:1px solid #000;
    display:block;
    padding-bottom:10px;
+   overflow:hidden;
    
    padding-top:20px;
    padding-left:20px;
