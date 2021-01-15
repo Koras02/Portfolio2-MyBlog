@@ -2,46 +2,67 @@ import styled from 'styled-components';
 import {Link as LinkR} from 'react-router-dom';
 
 export const FormWrapper = styled.div`
-  width:100%;
-  height:948px;
-  background: gray;
-`
-
+   height:100vw;
+   padding:20px;
+   background:gray;
+`;
 export const FormHeaderH1 = styled(LinkR)`
-  float:left;
-  text-align:left;
-  padding:16px;
-  color:#fff;
+    color:#000;
+    font:bold 18px/90px arial;
+    text-decoration:none;
+    padding:2% 0% 0% 12%;
 `;
 
-export const FormHeaderP1 = styled(LinkR)`
-  width:10%;
-  font:bold 14px/16px arial;
-  border:1px solid #fff
-  background:#fff;
-  color:#000;
-`;
-
-export const FormHeaderH2 = styled.div`
-  margin: 0 auto;
-  font:bold 16px/18px arial;
-  display:block;
-  color:#fff;
-`;
-
-export const FormInput = styled.div`
-  width:20%; 
-  display:block; 
-  float:left;
-`;
-
-export const FormInput2 = styled.div`
-   border-radius:2px;
-   display:inline;
-`;
-
-export const FormHeaderP = styled.div`
-   font:bold 12px/14px arial;
-   float:left;
-   color:#fff;
+export const FormHeader = styled.div`
+    width:60%;
+    margin: 50px auto;
+    display:inline;
+    overflow:hidden;
+ 
 `
+
+ 
+export const FormHeaderH2 = styled.div`
+   color:#fff;
+   text-align:center;
+   font:bold 49px/48px arial;
+`;
+
+
+export const FormHeaderPInput = styled.input`
+    width:300px;
+    padding:15px;
+    margin-left:38%;
+    margin-top:2%;
+`;
+
+export const FormHeaderLabel = styled.label`
+  padding-top:5%;
+  padding-left:37%;
+  color:#fff
+  `;
+
+export const FormLabel = styled.label`
+   padding-left:37%;
+   padding-top:5%;
+   color:#fff;
+`;
+
+export const FormButton = styled.button`
+  padding:14px;
+  margin:10px;
+  margin-right:0%;
+  display:inline-block;
+  margin-left:20px;
+  `;
+
+  
+  export const FormButton1 = styled.input`
+  padding:14px;
+  margin:10px;
+  margin-right:0%;
+  display:inline-block;
+  margin-left:20px;
+  `;
+
+ 

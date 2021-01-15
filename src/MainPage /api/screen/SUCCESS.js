@@ -1,29 +1,31 @@
 // 로그인 페이지를 눌렀을때 이동하는 로그인 페이지
-
 import React from 'react';
 import {
-  FormWrapper,
+  FormHeader,
   FormHeaderH1,
-  FormHeaderP1,
+  FormWrapper,
   FormHeaderH2,
-  FormInput,
-  FormInput2,
-  FormHeaderP
+  FormHeaderPInput,
+  FormHeaderLabel,
+  FormLabel,
+  FormButton,
+  FormButton1
 } from './style/SUCCESSStyle';
 
-function SUCCESS() {
+const SUCCESS = () => {
      return (
-        <FormWrapper>
-          <FormHeaderH1 to="/">Tistory</FormHeaderH1>
-          <FormHeaderP1>가입하기</FormHeaderP1>
-          <FormHeaderH2>티스토리에 로그인 하세요</FormHeaderH2>
-          <FormInput type="text" value="ID" required></FormInput>
-          <FormInput type="text" value="Password" required></FormInput>
-          <FormInput type="submit" value="로그인"></FormInput>
-          <FormInput2 type="radio">로그인 상태 유지</FormInput2>
-          <FormHeaderP>아이디/</FormHeaderP>
-          <FormHeaderP>비밀번호 찾기</FormHeaderP>
-        </FormWrapper>
+          <FormWrapper>
+              <FormHeaderH1>TISTORY</FormHeaderH1>
+            <FormHeader>
+              <FormHeaderH2>TIHSTORY</FormHeaderH2>
+             <FormHeaderLabel htmlFor="for">아이디</FormHeaderLabel>
+             <FormHeaderPInput type="id" required/>
+             <FormLabel htmlFor="for">비밀번호</FormLabel>
+             <FormHeaderPInput type="password" required />
+             <FormButton type="submit">로그인</FormButton>
+             <FormButton1 type="radio" required/>
+            </FormHeader>
+          </FormWrapper>
      );
  }
 
