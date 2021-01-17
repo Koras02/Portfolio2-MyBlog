@@ -12,7 +12,7 @@ export function MainBoard() {
      return (
          <MainVisualWrapper>
             <MainVisualH1>MyBlog Welcome</MainVisualH1>
-            <MainVisualP1 >첫번째 posts</MainVisualP1>
+            <MainVisualP1 to="/Profile">첫번째 posts</MainVisualP1>
             <MainVisualP1>두번째 posts</MainVisualP1> 
             <MainVisualP1>세번째 posts</MainVisualP1>
             <MainVisualP1>네번째 posts</MainVisualP1>

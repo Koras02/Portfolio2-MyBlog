@@ -2,67 +2,82 @@ import styled from 'styled-components';
 import {Link as LinkR} from 'react-router-dom';
 
 export const FormWrapper = styled.div`
-   height:100vw;
-   padding:20px;
+   width:100%;
+   height:100vh;
    background:gray;
+   border:1px solid #000;
+   overflow:hidden;
+ 
 `;
 export const FormHeaderH1 = styled(LinkR)`
     color:#000;
-    font:bold 18px/90px arial;
+    font:bold 20px/90px arial;
     text-decoration:none;
-    padding:2% 0% 0% 12%;
-`;
-
-export const FormHeader = styled.div`
-    width:60%;
-    margin: 50px auto;
-    display:inline;
-    overflow:hidden;
- 
-`
-
- 
-export const FormHeaderH2 = styled.div`
-   color:#fff;
-   text-align:center;
-   font:bold 49px/48px arial;
-`;
-
-
-export const FormHeaderPInput = styled.input`
-    width:300px;
-    padding:15px;
-    margin-left:38%;
-    margin-top:2%;
-`;
-
-export const FormHeaderLabel = styled.label`
-  padding-top:5%;
-  padding-left:37%;
-  color:#fff
+    padding:2% 0% 0% 18%;
   `;
 
-export const FormLabel = styled.label`
-   padding-left:37%;
-   padding-top:5%;
-   color:#fff;
+export const FormLoginForm = styled.div`
+    width:30%;
+    min-width:auto;
+    height:50vh;
+    margin:100px auto;
+    border:1px solid #000;
+    background-color:#fff;
+    align-items:center;
+
+    @media screen and (max-width:1024px) {
+      padding:10px;
+    }
+`
+ 
+export const FormHeaderH2 = styled.div`
+    font:bold 18px/24px arial;
+    margin:20px auto;
+    text-align:center;
+    align-items:center;
+`;
+
+
+export const FormHeaderLabel = styled.div`
+    font:bold 20px/28px arial;
+    margin: 24px 0px 50px 27%;
+    float:left;
+`;
+
+export const FormHeaderPInput = styled.input`
+   max-width:auto;
+   min-width:auto;
+  margin:70px 0px 20px -8%;
+   box-sizing:border-box;
+ 
+  
+`; 
+
+export const FormLabel = styled.div`  
+font:bold 20px/28px arial;
+display:inline-block;
+ 
+float:left;
+ 
+`;
+
+export const FormLabel2 = styled.div`  
+max-width:80%;
+min-width:-30%;
+font:bold 20px/28px arial;
+display:inline-block;
+margin: 24px 0px 50px 23%;
+float:left;
+ 
 `;
 
 export const FormButton = styled.button`
-  padding:14px;
-  margin:10px;
-  margin-right:0%;
-  display:inline-block;
-  margin-left:20px;
+   
   `;
 
   
   export const FormButton1 = styled.input`
-  padding:14px;
-  margin:10px;
-  margin-right:0%;
-  display:inline-block;
-  margin-left:20px;
+    
   `;
 
  

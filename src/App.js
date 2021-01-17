@@ -7,6 +7,7 @@ import description from './SubPage/description';
 import Users from './MainPage /api/Users';
 import LOGIN from './MainPage /api/screen/LOGIN';
 import Loading from './LoadingScreen/Loading';
+import Profile from './PostPage/Profile';
 
 function App() {
   const [loading,setLoading] = useState(true);
@@ -26,6 +27,7 @@ function App() {
          <Route path="/description" component={description} />
          <Route path="/Users" component={Users} />
          <Route path="/Login" component={LOGIN} />
+         <Route path="/Profile" component={Profile} />
        </Switch>
     </Router>
     ) : (

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+import {Link as LinkR} from 'react-router-dom'
 
 export const MainVisualWrapper = styled.div`
   width:100%;
@@ -20,8 +20,9 @@ export const MainVisualH1 = styled.div`
 
  
 
-export const MainVisualP1 = styled.div`
+export const MainVisualP1 = styled(LinkR)`
   width:20%; 
+  text-decoration:none;
   height:50%;
   text-align:center;
   margin:170px 40px; 
