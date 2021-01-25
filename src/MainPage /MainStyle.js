@@ -1,73 +1,35 @@
 import styled from 'styled-components';
 import {Link as LinkR} from 'react-router-dom';
 
-export const HomeWrapper = styled.nav`
-   background:${({scrollNav}) => (scrollNav ? 'powderblue' : ' #70e1f5;')};
- 
-   transition:5s;
-   height:20px;
-   text-decoration:none;
-   padding:50px;
-   // overflow:hidden;
-   
+export const HomeWrapper = styled.div`
+  width:100%;
+  height:50px; 
+  background-color:#000;
+  text-decoration:none;
 `;
-
-export const HomeHeaderLeft = styled.div`
-   float:left;
-   display:inline; 
-   opacity:80%;
-`;
-
 export const HomeHeaderH1 = styled(LinkR)`
-   font:bold 18px/24px arial;
-   color:red;
-   float:left;
-   opacity:80%;
-   text-decoration:none;
-   padding-left:24px;
-   padding:5px;
-   border-right:2px solid ;
- 
-  
-   &:hover{
-     color: blue;
-     opactiy: 100%;
-     transition: 0.5s;
-   }
-`;
-
-export const HomeHeaderP = styled.div`
-   font:bold 18px/24px arial;
-   color:red;
-   float:left;
-   opacity:80%;
-
-   &:hover{
-     color:blue;
-     opacity:100%;
-     transtition: 0.5s;
-   }
-`;
-
-export const HomeHeaderCenter = styled.div`  
-   color:red;
-   display:inline;
-   position:absolute;
-   font:bold 38px/24px arial;
+   position:relative;
+   top:50%;
    left:50%;
+   margin-right:200px;
+   margin-left:-500px;
+   text-decoration:none;
+   color:#fff;font:bold 18px/24px arial;
 `;
- 
 
-export const HomeHeaderRight = styled.div`
-   float:right;
-   opacity: 80%;
-`
-
-export const HomeHeaderInput = styled.div`
-   font:bold 18px/24px arial;
-   text-align:left;
-   float:left;
-   padding-right:50px;
-   display:block;
-   opacity: 80%;
-`;
+ export const HomeHeaderP = styled(LinkR)`
+   position:relative;left:50%;
+   top:20px;
+   text-decoration:none;
+   margin-top:20px;
+   margin-right:100px;
+   margin-left:-20px;
+   color:#fff;
+  
+   &:hover {
+      color:red;
+   }
+   &:nth-child(2) {
+      color:red;
+   }
+ `;

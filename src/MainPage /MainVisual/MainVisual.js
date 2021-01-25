@@ -3,6 +3,7 @@ import Footer from '../Footer/Footer';
 import InfoSection from './InfoSection';
 import { homeObjOne } from './InfoSection/Data';
 import MainBoard from './MainBoard';
+import MainDes from './MainDes/MainDes';
 import MainHeader from './MainHeader';
  
 
@@ -12,7 +13,7 @@ export function MainVisual() {
   return (
    <>
       <MainHeader />
-       <MainBoard />    
+      <MainDes />
        <InfoSection {...homeObjOne} />
       <Footer/>
    </>
