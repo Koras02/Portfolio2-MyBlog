@@ -3,9 +3,9 @@ import {Link as LinkR} from 'react-router-dom'
 
 export const MainDescriptionWrapper = styled.div`
   width:100%;
-  height:600px;
-  display:block;
+  height:800px;
   background:#000;
+  overflow:hidden;
 `;
 
 export const MainDescriptionH1 = styled.div`
@@ -13,17 +13,18 @@ export const MainDescriptionH1 = styled.div`
   text-align:center;
   color:#fff;
   position:relative;
-  top:20%;
+  top:30%;
   right:200px;
 `;
 
 export const MainDescriptionH2 = styled.div`
-  font:bold 40px/32px arial;
+  font:bold 40px/45px arial;
   text-align:center;
   color:red;
   position:relative;
-  top:15%;
-  left:-10px;
+  top:25%;
+  left:-10px;  
+  overflow:hidden;
 `
 
 export const MainDescriptionP = styled.div`
@@ -31,16 +32,18 @@ export const MainDescriptionP = styled.div`
   color:#fff;
   text-align:center;
   position:relative;
-  top:25%;
+  top:30%;
   right:200px;
+  overflow:hidden;
 `
 
 export const MainVisualWrapper = styled.div`
   margin:auto;
   position:relative;
-  top:30%;
+  top:35%;
   left:-250px;
   text-align:center;
+  overflow:hidden;
  
 `
 
@@ -51,10 +54,11 @@ export const MainVisualSNS = styled(LinkR)`
   background:#fff;
   margin:10px;
   position:relative;
-  left:40px;
+  left:20px;
   border-radius:20%;
   text-decoration:none;
   color:blue;
+  overflow:hidden;
 
   &:hover {
       background:#fc0;

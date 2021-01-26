@@ -1,8 +1,8 @@
 import React from 'react';
-import Footer from '../Footer/Footer';
-import InfoSection from './InfoSection';
-import { homeObjOne } from './InfoSection/Data';
-import MainBoard from './MainBoard';
+import Profile from '../ProfilePage/Profile';
+import { homeObjeOne } from './DataPage/Data';
+// import Footer from '../Footer/Footer';
+// import MainBoard from './MainBoard';
 import MainDes from './MainDes/MainDes';
 import MainHeader from './MainHeader';
  
@@ -14,8 +14,7 @@ export function MainVisual() {
    <>
       <MainHeader />
       <MainDes />
-       <InfoSection {...homeObjOne} />
-      <Footer/>
+      <Profile {...homeObjeOne} />
    </>
     );
   }

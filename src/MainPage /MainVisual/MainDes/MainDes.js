@@ -17,7 +17,7 @@ function MainDes() {
             <MainDescriptionH2>Jung Ho</MainDescriptionH2>
             <MainDescriptionP>FrontEnd Developer</MainDescriptionP>
             <MainVisualWrapper>
-            <MainVisualSNS>
+            <MainVisualSNS to="/s">
                <ImInstagram />
             </MainVisualSNS>
             <MainVisualSNS>
