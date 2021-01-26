@@ -1,10 +1,21 @@
 import styled from 'styled-components';
+import Image from './Iu1.jpg';
+import Image2 from './iu2.jpg';
+import Image3 from './iu3.jpg';
 
 export const LoadingWrapper = styled.div`
   width:100%;
   height:100vh;
-  background:#000;
   overflow:hidden;
+  background-image:url(${Image2});
+  background-size:100%;
+  animation: all 4s infinite;
+
+  @keyframes all {
+    0% {background-image:url(${Image3});
+    0.5% {background-image:url(${Image})}
+ 
+  }
 `;
 
 export const LoadingH1Wrapper = styled.div`
@@ -17,6 +28,7 @@ export const LoadingH1Wrapper = styled.div`
   border-radius:90%;
   margin:auto;
   background:#fff;
+
 `
 
 export const LoadingHeader = styled.div`

@@ -2,6 +2,7 @@ import React from 'react';
 import Profile from '../ProfilePage/Profile';
 import { homeObjThree, homeObjTwo } from './DataPage/Data';
 import Developer from './Developer/Developer';
+import Footer from './Footer/Footer';
 import Language from './Language/Language';
 // import Footer from '../Footer/Footer';
 // import MainBoard from './MainBoard';
@@ -18,7 +19,8 @@ export function MainVisual() {
       <MainDes />
       <Profile {...homeObjTwo} />
       <Language {...homeObjThree} />
-      <Developer />     
+      <Developer />    
+      <Footer /> 
    </>
     );
   }

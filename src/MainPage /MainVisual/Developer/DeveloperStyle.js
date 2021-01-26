@@ -2,6 +2,9 @@ import styled from 'styled-components';
 import HTC from '../DataPage/img/HTC.png'
 import React from '../DataPage/img/react.png';
 import Vue from '../DataPage/img/Vue.png';
+import HTML from './images/HTML.png';
+import CSS from './images/CSS.png';
+import JS from './images/JS.png';
 
 export const DeveloperWrapper = styled.div`
   width:100%;
@@ -55,23 +58,43 @@ export const DeveloperPrecent = styled.div`
    background:#fff;
 
    &:nth-child(4) {
-     background-image:url(${HTC});
-     background-size:97%;
-     :hover{
-       background:red;
-       background-image:url(${React});
-       background-size:98%;
-       transition:5s;
+    //  background-image:url(${HTC});
+     background-size:100%;
+     background-repeat:no-repeat;
+     animation: auto 6s infinite;
+
+
+     @keyframes auto {
+       0% {
+         background-image:url(${HTML});
+       }
+       50% {
+        background-image:url(${CSS});
+       }
+       100% {
+        background-image:url(${JS});
+       }
+     }
      }
    }
   
    &:nth-child(3) {
-     background-image:url(${React});
-     background-size:98%;
-     :hover{
-      background-image:url(${Vue});
-      transition:5s;
-    }
+    //  background-image:url(${HTC});
+     background-size:100%;
+     background-repeat:no-repeat;
+     animation: anto 6s infinite;
+
+
+     @keyframes anto {
+       0% {
+         background-image:url(${React});
+       }
+       100% {
+        background-image:url(${Vue});
+       }
+     }
+     }
+   }
    }
  
  
