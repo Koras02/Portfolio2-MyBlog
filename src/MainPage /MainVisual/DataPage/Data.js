@@ -35,3 +35,11 @@ export const homeObjThree = {
    Img4: Vue,
 }
 
+
+export const homeObjFour = {
+   id:'Developer',
+   headLine:'Developer Period',
+   description:'My Developer Period Is..',
+   present1:'35%',
+   persent2:'65%',
+}
