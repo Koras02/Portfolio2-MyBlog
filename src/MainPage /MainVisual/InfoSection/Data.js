@@ -20,6 +20,5 @@ export const homeObjOne = {
     primary:true,
     size:"0px",
     darkText:false,
-   
 };
-
+ 

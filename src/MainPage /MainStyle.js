@@ -5,13 +5,14 @@ import {Link as LinkR} from 'react-router-dom';
 export const HomeWrapper = styled.div`
   width:100%;
   height:100px; 
-  background: ${({scrollNav}) => (scrollNav ? '#000': '#000' )};
+  background: ${({scrollNav}) => (scrollNav ? '#000': 'red' )};
   text-decoration:none;
   position:fixed;
-  top:${({scrollNav}) => (scrollNav ? '0%': '-20%')};
+  top:${({scrollNav}) => (scrollNav ? '0%': '-200%')};
   margin:0px;
+  transition:${({scrollNav}) => scrollNav ? '2s' : '4s'};
   border:1px solid #fff;
-  transition:0.5s;
+  overflow:hidden;
 `;
 export const HomeHeaderH1 = styled(LinkR)`
    position:relative;

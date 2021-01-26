@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const ProfileWrapper = styled.div`
     width:100%;
-    height:200vh;
+    height:600px;
     background:#000;
     border-top:1px solid red;
     overflow:hidden;

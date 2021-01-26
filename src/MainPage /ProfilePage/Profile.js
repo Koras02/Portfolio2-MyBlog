@@ -7,7 +7,7 @@ import {
     Img,
 } from './PrfileStyle';
 
-const homeObjeOne = ({
+const homeObjeTwo = ({
  Img1,
  Img2,
  Img3, 
@@ -34,4 +34,4 @@ const homeObjeOne = ({
  
 
 
- export default homeObjeOne;
+ export default homeObjeTwo;
