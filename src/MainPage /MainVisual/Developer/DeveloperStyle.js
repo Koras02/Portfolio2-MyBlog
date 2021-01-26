@@ -8,7 +8,7 @@ import JS from './images/JS.png';
 
 export const DeveloperWrapper = styled.div`
   width:100%;
-  height:400px;
+  height:600px;
   background:#000;
   border-top:1px solid #fff;
 `;
