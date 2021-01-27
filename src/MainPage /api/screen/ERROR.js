@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-function ERROR() {
+export function ERROR() {
      return (
        <div>
          접속이 불안

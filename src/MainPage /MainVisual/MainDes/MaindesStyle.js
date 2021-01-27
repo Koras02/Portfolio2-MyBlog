@@ -97,12 +97,13 @@ export const MainVisualSNS = styled(LinkR)`
   }
 `;
 
-export const MainBtnWrap = styled.div`
+export const MainBtnWrap = styled(LinkR)`
    display:flex;
    justify-content:flex-start;
    color:red;
    margin-left:-300px;
    position:relative;
+   text-decoration:none;
    left:50%;
    top:300px;
 
@@ -111,6 +112,6 @@ export const MainBtnWrap = styled.div`
   }
 `;
 
-export const buttonLable = styled.img`
+export const buttonLable = styled(LinkR)`
   color:red;
 `

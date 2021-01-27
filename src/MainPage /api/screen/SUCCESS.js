@@ -14,7 +14,7 @@ import {
   // FromLoginForm
 } from './style/SUCCESSStyle';
 
-const SUCCESS = () => {
+export const SUCCESS = () => {
      return (
           <FormWrapper>
               <FormHeaderH1>TISTORY</FormHeaderH1>

@@ -34,9 +34,11 @@ const homeObjFive = ({
                 <ImFacebook/>
             </MainVisualSNS>
             </MainVisualWrapper>
-            <MainBtnWrap>
-                <Button to="home"
-                >{buttonLable}Go Home</Button>
+            <MainBtnWrap to="/">
+                <Button 
+                to="/Profile"
+                smooth={true}
+                >{buttonLable}Go MyProfiles</Button>
             </MainBtnWrap>
         </MainDescriptionWrapper>
      );

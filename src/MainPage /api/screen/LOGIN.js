@@ -2,9 +2,10 @@ import React, {useState, useEffect} from 'react';
 import axios from 'axios';
 import ERROR from './ERROR';
 import SUCCESS from './SUCCESS';
+import Profile from './Profile';
 
 
-function LOGIN() {
+export function LOGIN() {
     const [users, setUsers] = useState(null);
     const [login, setLogin] = useState(null);
     const [error,setError] = useState(null);
@@ -27,11 +28,13 @@ function LOGIN() {
     fetchUsers();
 }, [setLogin]);
 
-if(login) return <SUCCESS />;
+if(login) return <Profile />;
 if(error) return <ERROR/>;
 if(!users) return null 
 return (
-    <SUCCESS />
+    <div>
+        ·Î±×ÀÎ
+    </div>
  )
 }
 

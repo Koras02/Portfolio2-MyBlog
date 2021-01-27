@@ -25,7 +25,6 @@ export const HomeHeaderH1 = styled(LinkR)`
    text-decoration:none;
    color:#fff;font:bold 18px/24px arial;
    overflow:hidden;
-
    @media screen and (max-width:860px) {
       margin-left:-300px;
       color:red;
@@ -51,18 +50,15 @@ export const HomeHeaderH1 = styled(LinkR)`
    color:#fff;
    overflow:hidden;
    font:bold 18px/20px arial;
-
    &:hover {
       color:red;
    }
    &:nth-child(2) {
       color:red;
    }
-
    @media screen and (max-width:860px) {
       margin-right:40px;
    }
-
    @media screen and (max-width:640px) {
       margin-right:70px;
       margin-left:-60px;
@@ -105,7 +101,6 @@ export const HomeHeaderH1 = styled(LinkR)`
       color:powderblue;
       transition: all 0.2s ease-in-out;
    }
-
    &:hover {
       transition: all 0.2s ease-in-out;
       background:#fff;

@@ -1,5 +1,3 @@
-// 로그인 실패 성공시 3가지 액션을 생성해주는 API 부분입니다.
-
 import React, { useState, useEffect } from 'react'; 
 import axios from 'axios';
 import ERROR from './screen/ERROR';
