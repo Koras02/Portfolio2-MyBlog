@@ -44,7 +44,7 @@ display:inline-flex;
 overflow:hidden;
 max-height:220px;
 float:left;
-background:#fff;
+background:#000;
 margin:-30px;
 margin-left:-480px;
 margin-right:200px;

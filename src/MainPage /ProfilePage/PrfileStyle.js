@@ -6,7 +6,6 @@ export const ProfileWrapper = styled.div`
     height:600px;
     background:#000;
     border-top:0.5px solid #fcfcfc;
-
     overflow:hidden;
 
     @media screen and (max-width:760px) {
@@ -40,7 +39,7 @@ export const Img = styled.img`
 display:inline-flex;
 max-height:200px;
 float:left;
-background:#fff;
+background:#000;
 margin:-30px;
 margin-left:-450px;
 margin-right:540px;
