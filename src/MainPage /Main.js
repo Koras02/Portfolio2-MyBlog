@@ -1,21 +1,92 @@
-import React from 'react'
+import React, { useCallback, useEffect, useState } from 'react'
 import '../index.css';
-import {HomeWrapper,HomeHeaderLeft,HomeHeaderH1,HomeHeaderRight,HomeHeaderInput} from './MainStyle';
+import {
+  HomeWrapper,
+  HomeHeaderH1,
+  HomeHeaderP
+ } from './MainStyle';
+ import {animateScroll as scroll} from 'react-scroll';
+import Mouse from './MainVisual/MouseMenu/Mouse';
  
- 
-function Main() {
-    return (
-    <HomeWrapper>
-     <HomeHeaderLeft>
-     <HomeHeaderH1 to="/sdsd">빠른메뉴</HomeHeaderH1>
-        <HomeHeaderH1 to="sss">글찾기</HomeHeaderH1>
-      </HomeHeaderLeft>
-        <HomeHeaderRight> 
-         <HomeHeaderInput type="search" value="검색창" htmlFor="">검색</HomeHeaderInput>
-         <HomeHeaderInput type="submit" value="검색하기">검색하기</HomeHeaderInput>
-        </HomeHeaderRight>
-      </HomeWrapper> 
-      )
-}
 
-export default Main
+
+export const Main = ({toggle}) => {
+    const [mouseentter,setMouseEnter] = useState(false);
+    const [scrollNav,setScrollNav] = useState(true)
+      
+       const changeNav = () => {
+         if(window.scrollY > 100) {
+           setScrollNav(false)
+         } else {
+           setScrollNav(true)
+         }
+       };
+
+       useEffect(() => {
+         window.addEventListener('scroll', changeNav);
+       }, []);
+
+       const toggleHome = () => {
+         scroll.scrollToTop();
+       }
+       
+       const onMouseEnter = useCallback(() => {
+         setTimeout(() => {
+          setMouseEnter(mouseentter => !mouseentter)
+       }, 0);
+      },[]);  
+    return (
+      <>
+      <HomeWrapper scrollNav={scrollNav} id="header"> 
+      <HomeHeaderH1 onClick={toggleHome}>MyBlog</HomeHeaderH1>
+      <HomeHeaderP 
+      to="Home" 
+      smooth={true} 
+      duration={900} 
+      onMouseEnter={onMouseEnter}
+      >
+      Home
+      </HomeHeaderP>
+      <HomeHeaderP 
+      to="Profile" 
+      smooth={true} 
+      duration={2000} 
+      spy={true} 
+      exact="true" 
+      offset={-200}
+      >
+      Profile
+      </HomeHeaderP>
+      <HomeHeaderP 
+      to="Language" 
+      smooth={true} 
+      duration={3000} 
+      spy={true} 
+      exact="true" 
+      offset={-200}
+      >
+      Languge
+      </HomeHeaderP>
+      <HomeHeaderP to="Developer" 
+      smooth={true} 
+      duration={3000} 
+      spy={true} 
+      exact="true" 
+      offset={-200}
+      >Delveoper
+      </HomeHeaderP>
+      <HomeHeaderP
+      to="footer"
+      smooth={true}
+      duration={3000}
+      spy={true}
+      exact="true"
+      offset={-200}
+      >Footer</HomeHeaderP>
+      {mouseentter && <Mouse />}
+      </HomeWrapper> 
+      </>
+     );
+  };
+
+export default Main;
