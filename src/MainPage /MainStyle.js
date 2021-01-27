@@ -13,6 +13,8 @@ export const HomeWrapper = styled.div`
   transition:${({scrollNav}) => scrollNav ? '2s' : '3s'};
   border-bottom:1px solid #fcfcfc;
   overflow-:hidden;
+  
+  }
 `;
 export const HomeHeaderH1 = styled(LinkR)`
    position:relative;
@@ -29,8 +31,9 @@ export const HomeHeaderH1 = styled(LinkR)`
       color:red;
    }
    @media screen and (max-width:640px) {
-      margin-left:-240px;
-      font:bold 18px/18px arial;
+      margin-left:-220px;
+      color:#fff;
+      font:bold 14px/18px arial;
    }
    @media screen and (max-width:480px) {
       margin-left:-200px;
@@ -61,13 +64,50 @@ export const HomeHeaderH1 = styled(LinkR)`
    }
 
    @media screen and (max-width:640px) {
-      margin-right:110px;
-      margin-left:-80px;
+      margin-right:70px;
+      margin-left:-60px;
       font:bold 14px/16px arial;
+      &:nth-child(4) {
+         display:noen
+      }
    }
    @media screen and (max-width:480px) {
       margin-right:110px;
-      margin-left:-80px;
-      font:bold 12px/16px arial;
+      margin-left:-90px;
+      font:bold 10px/16px arial;
    }
  `;
+
+ export const HomeHeaderButton = styled.div`
+   display:none;
+   transition: all 0.2s ease-in-out;
+   @media screen and (max-width:640px) {
+      display:block;
+      color:red;
+      position:absolute;
+      left:50%;
+      margin-left:180px;
+      font:15px/14px arial;
+      top:55px;
+      cursor:pointer;
+      color:powderblue;
+      transition: all 0.2s ease-in-out;
+   }
+   @media screen and (max-width:480px) {
+      display:block;
+      color:red;
+      position:absolute;
+      left:50%;
+      margin-left:140px;
+      font:10px/14px arial;
+      top:55px;
+      cursor:pointer;
+      color:powderblue;
+      transition: all 0.2s ease-in-out;
+   }
+
+   &:hover {
+      transition: all 0.2s ease-in-out;
+      background:#fff;
+   }
+ `

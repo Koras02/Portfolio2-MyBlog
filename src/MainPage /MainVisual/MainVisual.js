@@ -1,6 +1,6 @@
 import React from 'react';
 import Profile from '../ProfilePage/Profile';
-import { homeObjThree, homeObjTwo } from './DataPage/Data';
+import { homeObjFive, homeObjThree, homeObjTwo } from './DataPage/Data';
 import Developer from './Developer/Developer';
 import Footer from './Footer/Footer';
 import Language from './Language/Language';
@@ -16,7 +16,7 @@ export function MainVisual() {
   return (
    <>
       <MainHeader />
-      <MainDes />
+      <MainDes {...homeObjFive}/>
       <Profile {...homeObjTwo} />
       <Language {...homeObjThree} />
       <Developer />    

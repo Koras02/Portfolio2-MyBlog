@@ -6,16 +6,23 @@
      MainDescriptionP,
      MainDescriptionH2,
      MainVisualSNS,
-     MainVisualWrapper
+     MainVisualWrapper,
+     MainBtnWrap
 } from './MaindesStyle';
+import { Button } from './ButtonElement'
 import { ImFacebook,ImInstagram,ImTwitter } from "react-icons/im";
 
-function MainDes() {
+const homeObjFive = ({ 
+   topLine,
+   headLine,
+   description,
+   buttonLable
+}) => {
      return (
         <MainDescriptionWrapper>
-            <MainDescriptionH1>Hello Im</MainDescriptionH1>
-            <MainDescriptionH2>Jung Ho</MainDescriptionH2>
-            <MainDescriptionP>FrontEnd Developer</MainDescriptionP>
+            <MainDescriptionH1>{topLine}</MainDescriptionH1>
+            <MainDescriptionH2>{headLine}</MainDescriptionH2>
+            <MainDescriptionP>{description}</MainDescriptionP>
             <MainVisualWrapper>
             <MainVisualSNS to="/s">
                <ImInstagram />
@@ -27,9 +34,13 @@ function MainDes() {
                 <ImFacebook/>
             </MainVisualSNS>
             </MainVisualWrapper>
+            <MainBtnWrap>
+                <Button to="home"
+                >{buttonLable}Go Home</Button>
+            </MainBtnWrap>
         </MainDescriptionWrapper>
      );
  }
 
 
- export default MainDes;
+ export default homeObjFive;

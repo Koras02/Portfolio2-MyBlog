@@ -3,14 +3,15 @@ import '../index.css';
 import {
   HomeWrapper,
   HomeHeaderH1,
-  HomeHeaderP
+  HomeHeaderP,
+  HomeHeaderButton
  } from './MainStyle';
  import {animateScroll as scroll} from 'react-scroll';
 import Mouse from './MainVisual/MouseMenu/Mouse';
  
 
 
-export const Main = ({toggle}) => {
+export const Main = ({toggle, isOpen}) => {
     const [mouseentter,setMouseEnter] = useState(false);
     const [scrollNav,setScrollNav] = useState(true)
       
@@ -37,7 +38,7 @@ export const Main = ({toggle}) => {
       },[]);  
     return (
       <>
-      <HomeWrapper scrollNav={scrollNav} id="header"> 
+      <HomeWrapper scrollNav={scrollNav} id="header" isOpen={isOpen} onClick={toggle}> 
       <HomeHeaderH1 onClick={toggleHome}>MyBlog</HomeHeaderH1>
       <HomeHeaderP 
       to="Home" 
@@ -84,6 +85,9 @@ export const Main = ({toggle}) => {
       offset={-200}
       >Footer</HomeHeaderP>
       {mouseentter && <Mouse />}
+      <HomeHeaderButton to="">
+        Sign Up
+      </HomeHeaderButton>
       </HomeWrapper> 
       </>
      );

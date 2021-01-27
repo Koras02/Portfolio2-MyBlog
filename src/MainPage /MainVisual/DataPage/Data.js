@@ -43,3 +43,18 @@ export const homeObjFour = {
    present1:'35%',
    persent2:'65%',
 }
+
+export const homeObjFive = {
+   id:'signup',
+   lightBg: true,
+   lightText: false,
+   lightTextDesc: false,
+   topLine:'Hellow Im ',
+   headLine: 'Jung Ho',
+   description: 
+   'FrontEnd Developer',
+   buttonLabel: 'Start Now',
+   dark:true,
+   primary:false,
+   darkText:false,
+}
