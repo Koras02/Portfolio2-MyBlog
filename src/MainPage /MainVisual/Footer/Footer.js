@@ -8,12 +8,16 @@ import {
     FooterLinkTitle, 
     FooterLinkWrapper, 
  } from './FooterStyle';
+ import {animateScroll as scroll} from 'react-scroll';
 
 function Footer() {
+    const toggleHome = () => {
+        scroll.scrollToTop();
+    }
      return (
         <FooterContainer id="footer">
             <FooterLinkWrapper>
-            <FooterH1>JungHo's Blog</FooterH1>
+            <FooterH1 to="/" onClick={toggleHome}>JungHo's Blog</FooterH1>
                 <FooterLinkItems>
                     <FooterLinkTitle to="">사이트 바로가기</FooterLinkTitle>
                     <FooterLink to="/">홈페이지</FooterLink>

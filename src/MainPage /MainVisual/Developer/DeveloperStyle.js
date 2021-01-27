@@ -11,6 +11,7 @@ export const DeveloperWrapper = styled.div`
   height:600px;
   background:#000;
   border-top:1px solid #fff;
+  overflow:hidden;
 `;
 
 export const DeveloperH1 = styled.div`
@@ -42,6 +43,11 @@ export const DeveloperP1 = styled.div`
    left:50%;
    margin-left:-300px;
    margin-right:700px;
+
+   @media screen and (max-width:1024px) {
+        margin-left:-200px;
+        margin-right:400px;
+   }
 `;
 
 export const DeveloperPrecent = styled.div`
@@ -56,6 +62,12 @@ export const DeveloperPrecent = styled.div`
    border:1px solid #fff;
    border-radius:100%;
    background:#fff;
+
+
+   @media screen and (max-width:1024px) {
+    margin-left:-520px;
+    margin-right:12px;
+}
 
    &:nth-child(4) {
     //  background-image:url(${HTC});

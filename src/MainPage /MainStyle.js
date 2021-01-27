@@ -12,7 +12,7 @@ export const HomeWrapper = styled.div`
   margin:0px;
   transition:${({scrollNav}) => scrollNav ? '2s' : '3s'};
   border:1px solid #fff;
-  overflow:hidden;
+  overflow-:hidden;
 `;
 export const HomeHeaderH1 = styled(LinkR)`
    position:relative;

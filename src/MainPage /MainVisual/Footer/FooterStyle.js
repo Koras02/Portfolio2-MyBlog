@@ -3,11 +3,16 @@ import {Link} from 'react-router-dom'
 
 export const FooterContainer = styled.div`
     width:100%;
-    height:400px;
+    height:500px;
     text-decoration:none;
     border:1px solid #000;
     text-align:center;
     background:#000;
+    overflow:hidden   // 높이값 삭제
+            
+    @media screen and (max-width:480px) {
+         margin-top:20px;
+    }
 `
  
 export const FooterLinkWrapper = styled.div`   
@@ -15,6 +20,8 @@ export const FooterLinkWrapper = styled.div`
     margin:auto;
     border:1px solid #000;
     background:#000;
+    overflow:hidden   // 높이값 삭제
+ 
 `;
 
 
@@ -24,28 +31,53 @@ export const FooterH1 = styled(Link)`
     margin-lfet:100px;
     color:#fff;
     display:block;
+
+    
 `
 
 export const FooterLinkItems = styled.div`
    display:inline-block;
    text-align:center;
-   margin:40px;
-`;
+   margin:30px;
 
-export const FooterLinkTitle = styled.div`
-    text-decoration:none;
-    color:#fff;
-    margin-right:-100px;
-    font:bold 18px/24px arial;
-`;
+   @media screen and (max-width:960px) {
+      margin-right:14px;
+      margin-left:-0px;
+   }
+   @media screen and (max-width:760px) {
+    margin-right:60px;
+    margin-left:-20px;
+    margin-bottom:-20px;
 
-export const FooterLink = styled(Link)`
-    text-decoration:none;
-    color:#fff;
-    margin-top:20px;
-    margin-left:100px;
-    display:block;
-    font:bold 16px/35px arial;
+   }
+   `;
+   
+   export const FooterLinkTitle = styled.div`
+   text-decoration:none;
+   color:#fff;
+   margin-right:-100px;
+   font:bold 18px/24px arial;
+   
+   @media screen and (max-width:1600px) {
+      #fff;
+   }
+   `;
+   
+   export const FooterLink = styled(Link)`
+   text-decoration:none;
+   color:#fff;
+   margin-top:20px;
+   margin-left:100px;
+   display:block;
+   font:bold 16px/35px arial;
+   oveflow:hidden;
+   
+
+ 
+   @media screen and (max-width:1200px) {
+    color:red;
+   }
+
 `;
 export const FooterLink1 = styled.a`
     text-decoration:none;
@@ -54,6 +86,10 @@ export const FooterLink1 = styled.a`
     margin-left:100px;
     display:block;
     font:bold 16px/35px arial;
+    
+    @media screen and (max-width:1600px) {
+        color:#fff;
+       }
 `;
  
  

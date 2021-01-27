@@ -37,7 +37,7 @@ export const Main = ({toggle}) => {
       },[]);  
     return (
       <>
-      <HomeWrapper scrollNav={scrollNav}> 
+      <HomeWrapper scrollNav={scrollNav} id="header"> 
       <HomeHeaderH1 onClick={toggleHome}>MyBlog</HomeHeaderH1>
       <HomeHeaderP 
       to="Home" 
@@ -63,7 +63,8 @@ export const Main = ({toggle}) => {
       duration={3000} 
       spy={true} 
       exact="true" 
-      offset={-200}>
+      offset={-200}
+      >
       Languge
       </HomeHeaderP>
       <HomeHeaderP to="Developer" 
@@ -71,11 +72,17 @@ export const Main = ({toggle}) => {
       duration={3000} 
       spy={true} 
       exact="true" 
-      offset={300}
+      offset={-200}
       >Delveoper
       </HomeHeaderP>
-      <HomeHeaderP>Home</HomeHeaderP>
-      <HomeHeaderP>Home</HomeHeaderP>
+      <HomeHeaderP
+      to="footer"
+      smooth={true}
+      duration={3000}
+      spy={true}
+      exact="true"
+      offset={-200}
+      >Footer</HomeHeaderP>
       {mouseentter && <Mouse />}
       </HomeWrapper> 
       </>

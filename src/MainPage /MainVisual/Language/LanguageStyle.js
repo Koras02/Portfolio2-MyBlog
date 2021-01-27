@@ -41,10 +41,35 @@ max-height:220px;
 float:left;
 background:#fff;
 margin:-30px;
-margin-left:-500px;
-margin-right:600px;
+margin-left:-480px;
+margin-right:200px;
 position:relative;
 left:50%;
 top:100px;
 border:1px solid #fff;
+
+ 
+@media screen and (min-width:960px) {
+  marign-left:100px;
+  margin-right:550px;
+  border:1px solid yellow;
+}
+@media screen and (max-width:960px) {
+  margin-left:-410px;
+  margin-right:430px;
+  border:1px solid green;
+  max-height:200px;
+}
+@media screen and (max-width:860px) {
+  margin-left:-350px;
+  margin-right:390px;
+  border:1px solid yellow;
+  max-height:150px;
+}
+@media screen and (max-width:640px) {
+  margin-left:-250px;
+  margin-right:280px;
+  border:1px solid pink;
+  max-height:100px;
+}
 `
