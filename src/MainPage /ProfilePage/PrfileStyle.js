@@ -5,8 +5,13 @@ export const ProfileWrapper = styled.div`
     width:100%;
     height:600px;
     background:#000;
-    border-top:1px solid red;
+    border-top:0.5px solid #fcfcfc;
+
     overflow:hidden;
+
+    @media screen and (max-width:760px) {
+       
+    }
 `;
 
 export const ProfileWrapperH1 = styled.div`
@@ -38,10 +43,22 @@ float:left;
 background:#fff;
 margin:-30px;
 margin-left:-450px;
-margin-right:550px;
+margin-right:540px;
 position:relative;
 left:50%;
 top:100px;
+
+@media screen and (max-width:960px) {
+  max-height:180px;
+  margin-left:-360px;
+  margin-right:400px;
+}
+
+@media screen and (max-width:760px) {
+  max-height:160px;
+  margin-left:-300px;
+  margin-right:320px;
+}
 `
  
 

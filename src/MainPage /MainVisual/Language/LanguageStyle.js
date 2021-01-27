@@ -2,10 +2,15 @@ import styled from 'styled-components';
 
 export const LanguageWrapper = styled.div`
   width:100%;
-  height:700px;
+  height:600px;
   background:#000;
   overflow:hidden;
   border-top:1px solid #fff;
+
+
+  @media screen and (max-width:760px) {
+    max-height:400px;
+  }
 `;
 
 export const LanguageHeaderH1 = styled.div`
@@ -51,7 +56,7 @@ border:1px solid #fff;
  
 @media screen and (min-width:960px) {
   marign-left:100px;
-  margin-right:550px;
+  margin-right:500px;
   border:1px solid yellow;
 }
 @media screen and (max-width:960px) {
@@ -61,15 +66,22 @@ border:1px solid #fff;
   max-height:200px;
 }
 @media screen and (max-width:860px) {
-  margin-left:-350px;
-  margin-right:390px;
+  margin-left:-320px;
+  margin-right:340px;
   border:1px solid yellow;
   max-height:150px;
 }
 @media screen and (max-width:640px) {
-  margin-left:-250px;
-  margin-right:280px;
+  margin-left:-210px;
+  margin-right:220px;
   border:1px solid pink;
   max-height:100px;
+}
+
+@media screen and (max-width:480px) {
+  margin-left:-150px;
+  margin-right:160px;
+  border:1px solid pink;
+  max-height:60px;
 }
 `
