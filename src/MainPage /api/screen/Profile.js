@@ -1,6 +1,7 @@
 import React from 'react';
 import { homeObjSevent } from './Data/About';
 import ProfileBody from './Profile/ProfileBody';
+import ProfileFuture from './Profile/ProfileFuture';
 import Profileheader from './Profile/Profileheader';
 import ProfileStory from './Profile/ProfileStory';
 import {
@@ -14,6 +15,7 @@ export function homeObjSix() {
           <Profileheader />
           <ProfileBody />
           <ProfileStory {...homeObjSevent}/>
+          <ProfileFuture />
         </ProfileWrapper>
      );
  }

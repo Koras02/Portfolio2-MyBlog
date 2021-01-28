@@ -4,22 +4,25 @@ export const ProfileStoryWrapper = styled.div`
   width:100%;
   height:1000px;
   background:#000;
-  border-top:1px solid #fff;
   overflow:hidden;
+  margin-top:200px;
+  border-top:1px solid #fff;
 `;
 
 export const ProfileStoryHeader = styled.div`
    padding:4%;
-   margin:auto;
-   border:1px solid #fff;
+   margin:0px auto;
+   border-bottom:1px solid #fff;
+ 
 `;
 
 export const ProfileStoryHeaderH1 = styled.div`
-   margin-left:150px;
+   margin-left:-100px;
    font:bold 18px/24px arial;
    color:#fff;
    text-align:center;
-   margin-right:1000px;
+   margin-right:800px;
+   
 `;
 
 export const ProfileStoryHeaderP = styled.div`

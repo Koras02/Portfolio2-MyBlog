@@ -6,11 +6,11 @@ export const ProfileFormWrapper = styled.div`
    width:100%;
    oveflow:hidden;
    height:1000px;
-   margin-top:400px;
+   margin-top:${({scrollNav}) => (scrollNav ? '-200px': '300px')};
     overflow:hidden;
    background:#000;
    position:relative;
-   bottom:${({scrollNav}) => (scrollNav ? '-200px': '0px')};
+   bottom:${({scrollNav}) => (scrollNav ? '-100px': '0px')};
 `;
 export const ProfileWrapper = styled.div`
   width:100%;
@@ -62,6 +62,7 @@ export const ProfileHeaderP = styled(LinkS)`
   padding-right:20px;
   margin-top:-0px;  
   overflow:hidden;
+  cursor:pointer;
   
 
   &:hover {
@@ -70,8 +71,11 @@ export const ProfileHeaderP = styled(LinkS)`
       color:#000;
   }
 
-  &:active {
-    color:red;
+  &.active {
+     border-bottom:10px solid red;
+     background:#fff;
+     color:#000;
+     transition:2s;
   }
 
   &:nth-child(6) {

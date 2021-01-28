@@ -4,6 +4,7 @@
      ProfileHeaderH1,
      ProfileHeaderP} from '../style/ProflieStyle';
 import {animateScroll as scroll} from 'react-scroll';
+import { IconContext } from 'react-icons';
 
 export const Profileheader = ({ toggle, isOpen }) => {
     const [scrollNav,setScrollNav] = useState(true);
@@ -26,28 +27,37 @@ export const Profileheader = ({ toggle, isOpen }) => {
       }
      return (
        <>
+       <IconContext.Provider value={{ color: 'red'}}>
         <ProfileHeader scrollNav={scrollNav} id="header" isOpen={isOpen} onClick={toggle}>
         <ProfileHeaderH1 
         onClick={toggleHome}
         smooth={true} 
-        duration={900} 
+        duration={500} 
+        spy={true}
+        exact='true'
         >My Blog Profile Page</ProfileHeaderH1>
         <ProfileHeaderP
         >Next</ProfileHeaderP>
-        <ProfileHeaderP>Future</ProfileHeaderP>
+        <ProfileHeaderP 
+        to="future"
+        spy={true}
+        >Future</ProfileHeaderP>
         <ProfileHeaderP to="story"
         smooth={true} 
         duration={1000} 
-        offset={-400}
+        offset={-300}
+        spy={true}
         >Story</ProfileHeaderP>
         <ProfileHeaderP 
         to="Profile"
         smooth={true}
         duration={1000}
         offset={-100}
+        spy={true}
         >About</ProfileHeaderP>
         <ProfileHeaderP to="header">Home</ProfileHeaderP>
       </ProfileHeader>
+       </IconContext.Provider>
       </>
      );
  }
