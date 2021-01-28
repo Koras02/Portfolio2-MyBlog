@@ -2,10 +2,10 @@ import styled from 'styled-components';
 
 export const ProfileStoryWrapper = styled.div`
   width:100%;
-  height:1000px;
+  height:600px;
   background:#000;
   overflow:hidden;
-  margin-top:200px;
+  margin-top:100px;
   border-top:1px solid #fff;
 `;
 

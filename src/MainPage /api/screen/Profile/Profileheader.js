@@ -40,6 +40,9 @@ export const Profileheader = ({ toggle, isOpen }) => {
         >Next</ProfileHeaderP>
         <ProfileHeaderP 
         to="future"
+        smooth={true}
+        duration={1000}
+        offset={-200}
         spy={true}
         >Future</ProfileHeaderP>
         <ProfileHeaderP to="story"
@@ -52,7 +55,7 @@ export const Profileheader = ({ toggle, isOpen }) => {
         to="Profile"
         smooth={true}
         duration={1000}
-        offset={-100}
+        offset={-200}
         spy={true}
         >About</ProfileHeaderP>
         <ProfileHeaderP to="header">Home</ProfileHeaderP>
