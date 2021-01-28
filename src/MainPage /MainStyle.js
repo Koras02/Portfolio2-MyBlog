@@ -10,7 +10,7 @@ export const HomeWrapper = styled.div`
   position:fixed;
   top:${({scrollNav}) => (scrollNav ? '0%': '-200%')};
   margin:0px;
-  transition:${({scrollNav}) => scrollNav ? '2s' : '3s'};
+  transition:${({scrollNav}) => (scrollNav ? '2s' : '3s')};
   border-bottom:1px solid #fcfcfc;
   overflow-:hidden;
   

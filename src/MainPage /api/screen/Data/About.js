@@ -1,4 +1,5 @@
-
+import img from './Img/HTML.png';
+import img2 from './Img/React.png'
 
 export const homeObjSix = {
    id: 'About',
@@ -12,3 +13,10 @@ export const homeObjSix = {
    CARREARLEVEL: 'Junior Level',
 };
 
+
+
+export const homeObjSevent = { 
+   id:'ProfileStory',
+   img:img,
+   img2:img2,
+}
