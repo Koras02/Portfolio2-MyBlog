@@ -10,14 +10,16 @@ import {
  } from './ProfileFooterStyle';
  import {animateScroll as scroll} from 'react-scroll';
 
-export function Footer() {
+export function ProfileFooter() {
     const toggleHome = () => {
         scroll.scrollToTop();
     }
      return (
         <FooterContainer id="footer">
             <FooterLinkWrapper>
-            <FooterH1 to="/" onClick={toggleHome}>JungHo's Blog</FooterH1>
+            <FooterH1 to="/" 
+            onClick={toggleHome}
+            >JungHo's Blogs</FooterH1>
                 <FooterLinkItems>
                     <FooterLinkTitle to="">사이트 바로가기</FooterLinkTitle>
                     <FooterLink to="/">홈페이지</FooterLink>
@@ -50,4 +52,4 @@ export function Footer() {
  }
 
 
- export default Footer;
+ export default ProfileFooter;

@@ -15,7 +15,7 @@ export const ProfileFutures = styled.div`
 `;
 
 export const ProfileFutureH1 = styled.div`
-  font:bold 24px/30px arial;
+  font:bold 20px/30px arial;
   color:#fff;
   padding-bottom:20px;
   text-align:center;
@@ -28,7 +28,7 @@ export const ProfileFutureH1 = styled.div`
 export const ProfileFutureP = styled.div`
    float:left;
    text-align:center;
-   font:bold 18px/24px arial;
+   font:bold 20px/24px arial;
    color:#fff;
    position:relative;
    left:50%;

@@ -48,7 +48,7 @@ export const ProfileHeaderH1 = styled(LinkR)`
 
 export const ProfileHeaderP = styled(LinkS)`
   float:right;
-  font:bold 18px/18px arial;
+  font:bold 20px/24px arial;
   color:#fff;
   display:inline;
   margin-right:110px;
@@ -170,6 +170,7 @@ export const ProfileFormRight = styled.div`
    margin-right:-800px;
    margin-top:700px;
    position:relative;
+ 
    right:50%;
    border:1px solid #fff;
    bottom:75%;
@@ -201,7 +202,7 @@ export const ProfileFormRight = styled.div`
 export const ProfileFormRightH1 = styled.div`
   color:#fff;
   padding:20px;
-  font:bold 18px/28px arial;
+  font:bold 24px/28px arial;
   border-bottom:1px solid #fff;
   overflow:hidden;
 
@@ -218,7 +219,7 @@ export const ProfileFormRightPLeft = styled.div`
   margin-top:100px;
   margin-bottom:-100px;
   color:#fff;
-  font:bold 18px/24px arial;
+  font:bold 20px/24px arial;
   overflow:hidden;
 
   @media screen and (max-width:1400px) {
@@ -245,7 +246,7 @@ export const ProfileFormRightPRight = styled.div`
   margin-top:100px;
   margin-bottom:-100px;
   color:#fff;
-  font:bold 18px/24px arial;
+  font:bold 20px/24px arial;
   overflow:hidden;
 
 
