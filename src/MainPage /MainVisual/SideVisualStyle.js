@@ -3,29 +3,28 @@ import {Link as LinkR} from 'react-router-dom';
 
 // sideBar 전체 부분 
 export const SideHeader = styled.div`
-   width:400px;
-   height:1900px;
+   width:1200%;
    float:left;
    color:#000;
    transition:50s;
    position:absolute;
-   left:-50px;
-   background:#fff;
-   display:block;
+   left:-80px;
+
+ 
+ 
    animation-duration:0.5s;
-   animation-name: slidein;
+   animation-name: slideOut;
  }
  
- @keyframes slidein {
+ @keyframes slideOut {
    from {
      position:absolute; 
-     left:-150px;
+     top:95%
    }
  
    to {
     position:aboslute; 
-     right:-90px;
-    
+    top:100%;
    }
 `
 // --End
@@ -48,11 +47,10 @@ export const SideHeaderLoginForm = styled.div`
 width:100%; 
 height:100px;
 float:left;
-background: #ef32d9;  /* fallback for old browsers */
-background: #00c3ff;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-color:#000;
+background: #43C6AC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 `;
 // 
@@ -60,11 +58,9 @@ color:#000;
 // 하단 메뉴 전체부분 
 export const SideMenu = styled.div`
   width:100%;
-  height:1800px;
+  height:600px;
   float:left;
-  background: #9cecfb; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #9cecfb, #65c7f7, #0052d4); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background:#f8ffde;
   color:red;
 `;
 
@@ -79,6 +75,10 @@ export const SideMenuP = styled.div`
    color:blue;
    padding:25px;
    padding-left:35px;
+
+   &:hover{
+      color:red;
+   }
 `;
 
 // 웹개발 하위메뉴 부분
