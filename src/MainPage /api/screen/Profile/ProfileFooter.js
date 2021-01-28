@@ -1,4 +1,4 @@
- import React from 'react';
+import React from 'react';
 import { 
     FooterContainer, 
     FooterLink, 
@@ -7,7 +7,7 @@ import {
     FooterLinkItems, 
     FooterLinkTitle, 
     FooterLinkWrapper, 
- } from './FooterStyle';
+ } from './ProfileFooterStyle';
  import {animateScroll as scroll} from 'react-scroll';
 
 export function Footer() {

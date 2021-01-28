@@ -21,7 +21,7 @@ export const ProfileFutureH1 = styled.div`
   text-align:center;
   margin-top:20px;
   margin-bottom:10px;
-  border-bottom:1px solid #fff;
+ 
 `
 
 
@@ -35,14 +35,13 @@ export const ProfileFutureP = styled.div`
    margin-left:-700px;
    margin-right:800px;
    margin-top:200px;
-   border:1px solid #fff;
    padding:100px
  
 `
 
 export const ImgWrap = styled.div`
   width:100%;
-  border:1px solid red;
+ 
 `
 
 export const Img = styled.img`
@@ -52,9 +51,35 @@ export const Img = styled.img`
    max-width:600px;
    position:relative;left:50%;
    top:40px;
-   margin-right:700px;
-   margin-left:-500px;
+   margin-right:500px;
+   margin-left:-400px;
    overflow:hidden;
+
+   @media screen and (max-width:1200px) {
+      margin-right:550px;
+      max-height:260px;
+   }   
+   @media screen and (max-width:1024px) {
+      margin-right:560px;
+      max-height:240px;
+   
+   }
+   @media screen and (max-width:960px) {
+      margin-right:480px;
+      margin-left:-340px;
+      max-height:200px;
+   }
+
+   @media screen and (max-width:860px) {
+      margin-right:400px;
+      margin-left:-300px;
+      max-height:180px;
+   }
+   @media screen and (max-width:680px) {
+      margin-right:400px;
+      margin-left:-300px;
+      max-height:160px;
+   }
 `;
 
 export const Description = styled.div`
@@ -65,9 +90,30 @@ export const Description = styled.div`
    top:20px;
    text-align:center;
    margi-top:80px;
-   margin-left:-400px;
-   margin-right:800px;
+   margin-left:-300px;
+   margin-right:600px;
    font:bold 20px/24px arial;
 
+   @media screen and (max-width:1200px) {
+      margin-right:680px;
+   }
+
+   @media screen and (max-width:1100px) {
+      margin-right:600px;
+   }
+   @media screen and (max-width:960px) {
+      margin-right:540px;
+   }
+   @media screen and (max-width:860px) {
+      font:bold 16px/18px arial;
+      margin-right:450px;
+      margin-lefT:-250px;
+   }
+
+   @media screen and (max-width:680px) {
+      font:bold 14px/18px arial;
+      margin-right:450px;
+      margin-lefT:-250px;
+   }
  
 `

@@ -22,6 +22,12 @@ export const ProfileStoryHeaderH1 = styled.div`
    color:#fff;
    text-align:center;
    margin-right:800px;
+
+   @media screen and (max-width:1024px) {
+      color:red;
+      font:bold 16px/18px arial;
+      margin-left:50px;
+   }
    
 `;
 
@@ -33,6 +39,18 @@ export const ProfileStoryHeaderP = styled.div`
    position:relative;left:50%;
    overflow:hidden;
    margin-left:-500px;
+
+   @media screen and (max-width:1024px) {
+      color:red;
+      font:bold 14px/18px arial;
+      margin-left:-440px;
+   }
+
+   @media screen and (max-width:960px) {
+      color:blue;
+      font:bold 14px/18px arial;
+      margin-left:-400px;
+   }
 `;
 
 export const Img1 = styled.img`
@@ -42,6 +60,13 @@ export const Img1 = styled.img`
    position:relative;left:50%;
    bottom:200px;
    overflow:hidden;
+
+   @media screen and (max-width:960px) {
+      margin-left:-120px;
+      margin-top:20px;
+      margin-right:-80px;
+      max-width:180px;
+   }
 `
 
 export const Img2 = styled.img`
@@ -51,5 +76,11 @@ export const Img2 = styled.img`
    position:relative;left:50%;
    bottom:200px;
    overflow:hidden;
+
+   @media screen and (max-width:960px) {
+      margin-left:100px;
+      max-width:250px;
+      margin-top:20px;
+   }
 
 `
