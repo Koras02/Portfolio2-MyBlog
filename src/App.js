@@ -4,7 +4,6 @@ import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 import MainVisual from './MainPage /MainVisual/MainVisual';
 import Users from './MainPage /api/Users';
 import Loading from './LoadingScreen/Loading';
- 
 import Profile from './MainPage /api/screen/Profile';
  
  
