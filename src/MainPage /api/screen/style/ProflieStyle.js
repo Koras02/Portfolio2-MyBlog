@@ -99,6 +99,62 @@ export const ProfileHeaderP = styled(LinkS)`
   }
 `;
 
+export const ProfileHeaderP1 = styled(LinkR)`
+  float:right;
+  font:bold 20px/24px arial;
+  color:#fff;
+  display:inline;
+  margin-right:110px;
+  border-left:1px solid #fff;
+  border-right:1px solid #fff;
+  padding-top:30px;
+  padding-bottom:50px;
+  padding-left:20px;
+  padding-right:20px;
+  margin-top:-0px;  
+  overflow:hidden;
+  cursor:pointer;
+  text-decoration:none;
+  
+
+  &:hover {
+      transition:2s;
+      background-color:#fff;
+      color:#000;
+  }
+
+  &.active {
+     border-bottom:10px solid red;
+     background:#fff;
+     color:#000;
+     transition:2s;
+  }
+
+  &:nth-child(6) {
+    background:red;
+  }
+
+
+
+  @media screen and (max-width:1400px) {
+     margin:10px 60px 0px 40px;
+  }
+
+  @media screen and (max-width:1200px) {
+    margin: 10px 40px 0px 10px;
+  }
+
+  @media screen and (max-width:1024px) {
+    margin 10px 20px 0px 5px;
+  }
+
+  @medai screen and (min-width:960px) {
+    margin 5px 10px 0px 0px;
+  }
+`;
+
+
+
 
 export const ProfileFormLeft = styled.div`
    margin:40px auto;

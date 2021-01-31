@@ -2,7 +2,10 @@
  import {
      ProfileHeader,
      ProfileHeaderH1,
-     ProfileHeaderP} from '../style/ProflieStyle';
+     ProfileHeaderP,
+     ProfileHeaderP1
+    
+    } from '../style/ProflieStyle';
 import {animateScroll as scroll} from 'react-scroll';
 import { IconContext } from 'react-icons';
 
@@ -58,8 +61,7 @@ export const Profileheader = ({ toggle, isOpen }) => {
         offset={-200}
         spy={true}
         >About</ProfileHeaderP>
-        <ProfileHeaderP to="header"
-        onClick={toggleHome}>Home</ProfileHeaderP>
+        <ProfileHeaderP1 to="header">Home</ProfileHeaderP1>
       </ProfileHeader>
        </IconContext.Provider>
       </>
