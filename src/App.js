@@ -22,7 +22,7 @@ function App() {
     {loading === false ? (
     <Router>
        <Switch>
-         <Route path="/" component={MainVisual} exact/>
+         <Route path="/Portfolio2-MyBlog" component={MainVisual} exact/>
          <Route path="/Users" component={Users} />
          <Route path="/Profile" component={Profile} />
        </Switch>

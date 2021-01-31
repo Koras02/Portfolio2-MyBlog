@@ -58,7 +58,8 @@ export const Profileheader = ({ toggle, isOpen }) => {
         offset={-200}
         spy={true}
         >About</ProfileHeaderP>
-        <ProfileHeaderP to="header">Home</ProfileHeaderP>
+        <ProfileHeaderP to="header"
+        onClick={toggleHome}>Home</ProfileHeaderP>
       </ProfileHeader>
        </IconContext.Provider>
       </>
