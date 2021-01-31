@@ -61,7 +61,7 @@ export const Profileheader = ({ toggle, isOpen }) => {
         offset={-200}
         spy={true}
         >About</ProfileHeaderP>
-        <ProfileHeaderP1 to="header">Home</ProfileHeaderP1>
+        <ProfileHeaderP1 to="/Portfolio2-MyBlog" spy={true}>Home</ProfileHeaderP1>
       </ProfileHeader>
        </IconContext.Provider>
       </>
