@@ -39,9 +39,9 @@ export const Main = ({toggle, isOpen}) => {
     return (
       <>
       <HomeWrapper scrollNav={scrollNav} id="header" isOpen={isOpen} onClick={toggle}> 
-      <HomeHeaderH1 to="/">MyBlog</HomeHeaderH1>
+      <HomeHeaderH1 onClick={toggleHome}>MyBlog</HomeHeaderH1>
       <HomeHeaderP 
-      to="Home" 
+      to="/"
       smooth={true} 
       duration={900} 
       onMouseEnter={onMouseEnter}
