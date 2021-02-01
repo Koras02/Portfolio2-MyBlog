@@ -10,7 +10,6 @@ export const DeveloperWrapper = styled.div`
   width:100%;
   height:600px;
   background:#000;
-  border-top:1px solid #fff;
   overflow:hidden;
 `;
 
@@ -20,12 +19,13 @@ export const DeveloperH1 = styled.div`
   display:block;
   font:bold 18px/24px arial;
   margin-top:10px;
+  overflow:hidden;
 `;
 
 export const DeveloperGraph = styled.div`
   margin:auto;
-  border:1px solid #fff;
   color:red;
+  
 `
 
 export const DeveloperP = styled.div`

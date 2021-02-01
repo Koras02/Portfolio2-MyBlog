@@ -4,7 +4,7 @@ import {Link as LinkS} from 'react-scroll';
 
 export const FooterContainer = styled.div`
     width:100%;
-    height:500px;
+    height:400px;
     text-decoration:none;
     border:1px solid #000;
     text-align:center;
@@ -56,7 +56,7 @@ export const FooterLinkItems = styled.div`
    export const FooterLinkTitle = styled.div`
    text-decoration:none;
    color:#fff;
-   margin-right:-100px;
+   margin-right:-130px;
    font:bold 18px/24px arial;
    
    @media screen and (max-width:1600px) {
@@ -68,7 +68,7 @@ export const FooterLinkItems = styled.div`
    text-decoration:none;
    color:#fff;
    margin-top:20px;
-   margin-left:100px;
+   margin-left:130px;
    display:block;
    font:bold 16px/35px arial;
    oveflow:hidden;
@@ -84,7 +84,7 @@ export const FooterLink1 = styled.a`
     text-decoration:none;
     color:#fff;
     margin-top:20px;
-    margin-left:100px;
+    margin-left:130px;
     display:block;
     font:bold 16px/35px arial;
     

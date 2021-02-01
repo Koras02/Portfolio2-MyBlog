@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import '../index.css';
 import {
   HomeWrapper,
@@ -7,12 +7,9 @@ import {
   HomeHeaderButton
  } from './MainStyle';
  import {animateScroll as scroll} from 'react-scroll';
-import Mouse from './MainVisual/MouseMenu/Mouse';
  
 
-
 export const Main = ({toggle, isOpen}) => {
-    const [mouseentter,setMouseEnter] = useState(false);
     const [scrollNav,setScrollNav] = useState(true)
       
        const changeNav = () => {
@@ -30,12 +27,7 @@ export const Main = ({toggle, isOpen}) => {
        const toggleHome = () => {
          scroll.scrollToTop();
        }
-       
-       const onMouseEnter = useCallback(() => {
-         setTimeout(() => {
-          setMouseEnter(mouseentter => !mouseentter)
-       }, 0);
-      },[]);  
+     
     return (
       <>
       <HomeWrapper scrollNav={scrollNav} id="header" isOpen={isOpen} onClick={toggle}> 
@@ -44,7 +36,7 @@ export const Main = ({toggle, isOpen}) => {
       to="/"
       smooth={true} 
       duration={900} 
-      onMouseEnter={onMouseEnter}
+ 
       >
       Home
       </HomeHeaderP>
@@ -84,7 +76,6 @@ export const Main = ({toggle, isOpen}) => {
       exact="true"
       offset={-200}
       >Footer</HomeHeaderP>
-      {mouseentter && <Mouse />}
       <HomeHeaderButton to="">
         Sign Up
       </HomeHeaderButton>
