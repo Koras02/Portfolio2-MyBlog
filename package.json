@@ -1,6 +1,6 @@
 {
   "name": "protfolio2-blog",
-  "homepage":"https://koras02.github.io/Portfolio2-MyBlog/",
+  "homepage": "https://koras02.github.io/Portfolio2-MyBlog/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +8,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.21.1",
+    "node-sass": "4.14.1",
     "react": "^17.0.1",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^17.0.1",
