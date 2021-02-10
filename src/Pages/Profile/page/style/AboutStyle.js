@@ -8,23 +8,26 @@ export const AboutWrapper = styled.div`
   display:flex;
  
   @media screen and (max-width:1400px) {
-    width:1440px;
+    max-width:1440px;
     height:764px;
   }
 
   @media screen and (max-width:860px) {
-    height:1025.5px;
+    // height:1025.5px;
   }
   
+  @media screen and (max-width: 760px) {
+    height:1197.5px;
+  }
 
 `
 
 export const AboutContainer = styled.div`
   width:1320px;
   height:601.5px;
-  border:1px solid #000;
+ 
   position:relative;
-  margin:auto;
+  margin:10px auto;
   background:#fff;
   
   @media screen and (max-width:1400px) {
@@ -38,15 +41,19 @@ export const AboutContainer = styled.div`
 
   @media screen and (max-width:1000px) {
     max-width:720px;
+
   }
 
-  @media screen and (max-width:750px) {
+  @media screen and (max-width:760px) {
     max-width:540px;
+    height:1100px;
+    border:1px solid red;
   }
- 
- 
+  
+  
   @media screen and (max-width:540px) {
     max-width:543px;
+    height:100px;
   }
 `;
 
@@ -74,7 +81,7 @@ export const Box = styled.div`
 `;
 
 export const ColLeft = styled.div`
-    max-width:610px;
+    width:610px;
     height:473.5px;
     float:left;
     border:1px solid #000;
@@ -86,6 +93,10 @@ export const ColLeft = styled.div`
    
     @media screen and (max-width:1000px) {
       max-width:312px;
+    }
+
+    @media screen and (max-width:760px) {
+      min-width:510px;
     }
 `
 
@@ -110,31 +121,44 @@ export const Profile1 = styled.div`
 `
 
 export const ImgForm = styled.div`
-   width:255px;
+   width:250px;
    height:182px;
    padding:0px 12px 0px 12px;
   //  border:1px solid #000;
    display:inline-flex;float:left;
+
+
+   @media screen and (max-width:1024px) {
+    width:150px;
+    float:left
+ }
 `;
 
 export const ProfileDescription = styled.div`
-   border:1px solid red;
-   max-width:600px;
+   
+   width:500px;
+   display:block;
+ 
 
-   @media screen and (max-width:1400px) {
-      max-width:440px;
+   @media screen and (max-width:1024px) {
+      width:182px;
+      margin-left:-0px;
+      float:left;
    }
-
-   @media screen and (max-width:1200px) {
-      max-width:250px;
-   }
+   @media screen and (max-width:960px) {
+    width:182px;
+    margin-left:-20px;
+    float:left;
+ }
    `;
    
    export const ProfileH1 = styled.div`
    font:bold 16px/18px arial;
    margin-bottom:24px;
-   
-   }
+ 
+   @media screen and (max-width:1024px) {
+    font:bold 14px/16px arial;
+ }
    
 `;
 
@@ -180,8 +204,11 @@ export const Graph = styled.div`
    height:11.99px;
    border:1px solid #000;
    background:;
- 
    opacity:85%;
+
+   @media screen and (max-width:1024px) {
+     max-width:300px;
+   }
 `;
  
 
