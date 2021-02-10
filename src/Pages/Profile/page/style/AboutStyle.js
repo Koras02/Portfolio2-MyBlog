@@ -12,6 +12,10 @@ export const AboutWrapper = styled.div`
     height:764px;
   }
 
+  @media screen and (max-width:860px) {
+    height:1025.5px;
+  }
+  
 
 `
 
@@ -39,6 +43,7 @@ export const AboutContainer = styled.div`
   @media screen and (max-width:750px) {
     max-width:540px;
   }
+ 
  
   @media screen and (max-width:540px) {
     max-width:543px;
@@ -69,17 +74,31 @@ export const Box = styled.div`
 `;
 
 export const ColLeft = styled.div`
-    max-width:612px;
+    max-width:610px;
     height:473.5px;
     float:left;
     border:1px solid #000;
-    padding:0px 12px 0px 12px;
+    padding:0px 10px 0px 12px;
+
+    @media screen and (max-width:1400px) {
+      max-width:560px;
+    }
+   
+    @media screen and (max-width:1000px) {
+      max-width:312px;
+    }
 `
 
 export const RowProfile = styled.div`
    max-width:612px;
    height:182px;
   //  border:1px solid #000;
+  @media screen and (max-width:1400px) {
+    max-width:560px;
+  }
+  @media screen and (max-width:1000px) {
+    max-width:312px;
+  }
 `
 
 export const Profile1 = styled.div`
@@ -95,20 +114,27 @@ export const ImgForm = styled.div`
    height:182px;
    padding:0px 12px 0px 12px;
   //  border:1px solid #000;
-   display:inline-flex;
+   display:inline-flex;float:left;
 `;
 
 export const ProfileDescription = styled.div`
-  //  border:1px solid #000;
-   float:right;
-   min-width:320px;
-   height:182px;
+   border:1px solid red;
+   max-width:600px;
 
-`;
+   @media screen and (max-width:1400px) {
+      max-width:440px;
+   }
 
-export const ProfileH1 = styled.div`
+   @media screen and (max-width:1200px) {
+      max-width:250px;
+   }
+   `;
+   
+   export const ProfileH1 = styled.div`
    font:bold 16px/18px arial;
    margin-bottom:24px;
+   
+   }
    
 `;
 
@@ -122,6 +148,12 @@ export const Img = styled.img`
   height:150px;
   border-radius:4%;
   box-shadow:1px 1px 1px 1px;
+
+  @media screen and (max-width: 1000px) {
+    width:106px;
+    height:106px;
+    float:left;
+  }
 `;
 
 export const Skill = styled.div`

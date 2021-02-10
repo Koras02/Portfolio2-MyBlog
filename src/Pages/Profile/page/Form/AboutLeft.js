@@ -1,5 +1,16 @@
  import React from 'react';
-import { ColLeft, Graph, Img, ImgForm, Profile1, ProfileDescription, ProfileH1, RowProfile, Skill, SkillH1, SkillP } from '../style/AboutStyle';
+import { 
+  ColLeft, 
+  Graph,
+  Img, 
+  ImgForm, 
+  Profile1, 
+  ProfileDescription, 
+  ProfileH1, 
+  RowProfile, 
+  Skill, 
+  SkillH1, 
+  SkillP } from '../style/AboutStyle';
 import Image from '../../Images/Profile2.png'
 
 
