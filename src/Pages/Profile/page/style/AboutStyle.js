@@ -1,122 +1,187 @@
 import styled from 'styled-components';
 
 export const AboutWrapper = styled.div`
-  width:100%;
-  height:649.5px;
+  max-width:100%;
+  height:700px;
   background: #e3e3e3;
-  padding-top:64px;
+  padding-top:60px;
+  display:flex;
+ 
+  @media screen and (max-width:1400px) {
+    width:1440px;
+    height:764px;
+  }
+
+  @media screen and (max-width:860px) {
+    height:1025.5px;
+  }
+  
+
 `
 
 export const AboutContainer = styled.div`
-//   max-width:67.5%;
-  max-width:1320px;
+  width:1320px;
   height:601.5px;
-  border:1px solid 000;
+  border:1px solid #000;
   position:relative;
   margin:auto;
   background:#fff;
+  
+  @media screen and (max-width:1400px) {
+    max-width:1140px;
+    height:700px;
+  }
+
+  @media screen and (max-width:1200px) {
+    max-width:960px;
+  }
+
+  @media screen and (max-width:1000px) {
+    max-width:720px;
+  }
+
+  @media screen and (max-width:750px) {
+    max-width:540px;
+  }
+ 
+ 
+  @media screen and (max-width:540px) {
+    max-width:543px;
+  }
+`;
+
+export const AboutCollpase = styled.div`
+    max-width:1320px;
+    height:649.5px;
+    margin:auto;
+ 
 `
 
-export const ProfileLow = styled.div`
-//    max-width:67.5%;
-   max-width:1224px;
-   margin-left:-12px;
-   margin-right:-12px;
-   height:474px;
-   position:relative;
+export const Box = styled.div`
+    max-width:1296px;
+    height:649.5px;
+    margin:auto;
+    padding-top:64px;
+`
+
+
+
+ export const AboutRow = styled.div`
+   max-width:1304px;
+   height:473.5px;
+   border:1px solid #000;
    margin:auto;
-   top:69px;
-   border:2px solid #000;
+`;
+
+export const ColLeft = styled.div`
+    max-width:610px;
+    height:473.5px;
+    float:left;
+    border:1px solid #000;
+    padding:0px 10px 0px 12px;
+
+    @media screen and (max-width:1400px) {
+      max-width:560px;
+    }
+   
+    @media screen and (max-width:1000px) {
+      max-width:312px;
+    }
 `
 
-export const ProfileImageForm = styled.div`
+export const RowProfile = styled.div`
+   max-width:612px;
+   height:182px;
+  //  border:1px solid #000;
+  @media screen and (max-width:1400px) {
+    max-width:560px;
+  }
+  @media screen and (max-width:1000px) {
+    max-width:312px;
+  }
+`
+
+export const Profile1 = styled.div`
   width:612px;
   height:182px;
-  border:1px solid #000;
+  float:left;
+  // padding:0px 12px 0px 12px;
+  // border:1px solid #000;
+`
+
+export const ImgForm = styled.div`
+   width:255px;
+   height:182px;
+   padding:0px 12px 0px 12px;
+  //  border:1px solid #000;
+   display:inline-flex;float:left;
 `;
-
-export const ProfileImage = styled.image`
-   width:231px;
-   height:150px;
-   float:left;
-   margin-bottom:32px;
-`
-
-export const Img = styled.image`
-   width:150px;
-   height:150px;
-   border:1px solid #000;
-   float:left;
-   margin-left:10px;
-`
 
 export const ProfileDescription = styled.div`
-   width:357px;
-   height:182px;
-   float:right;
-   border:1px solid #000;
+   border:1px solid red;
+   max-width:600px;
+
+   @media screen and (max-width:1400px) {
+      max-width:440px;
+   }
+
+   @media screen and (max-width:1200px) {
+      max-width:250px;
+   }
+   `;
+   
+   export const ProfileH1 = styled.div`
+   font:bold 16px/18px arial;
+   margin-bottom:24px;
+   
+   }
+   
 `;
 
-export const ProfileH1 = styled.div`
-   display:block;
-   margin-bottom:16px;
-   font:bold 16px/18px arail;
+export const ImageList = styled.div`
+  // border:1px solid #000;
 `
 
 
-export const SkillForm = styled.div`
-   width:588px;
-   height:272.31px;
+export const Img = styled.img`
+  width:150px;
+  height:150px;
+  border-radius:4%;
+  box-shadow:1px 1px 1px 1px;
+
+  @media screen and (max-width: 1000px) {
+    width:106px;
+    height:106px;
+    float:left;
+  }
 `;
 
-
+export const Skill = styled.div`
+   width:588px;
+   height:272.31px;
+  //  border:1px solid #000;
+   float:left;
+`;
 
 export const SkillH1 = styled.div`
-display:block;
-margin-top:16px;
-margin-bottom:26px;
-font:bold 20px/26px raial;
+  display:block;
+  margin-bottom:10px;
+  font:bold 18px/24px arial;
 `
 
 export const SkillP = styled.div`
-font:12px/14px arial;
-margin-top:11px;
-display:block;
-`
-export const Processbar = styled.div`
-  width:588px;
-  height:11.19px;
-  margin-top:8px;
-  border:1px solid #000;
-  background:#fff;
+   display:block;
+   font-size:13px;
+   margin-top:1%;
 `
 
-export const Color = styled.div`
-  background:red;
-  width:100%;
-  height:11.19px;
-
+export const Graph = styled.div`
+   max-width:558px;
+   height:11.99px;
+   border:1px solid #000;
+   background:;
  
-`
-
-export const Color1 = styled.div`
-  background:red;
-  width:70%;
-  height:11.19px;
-
+   opacity:85%;
+`;
  
-`
-export const Color2 = styled.div`
-  background:red;
-  width:70%;
-  height:11.19px;
 
- 
-`
-export const Color3 = styled.div`
-  background:red;
-  height:11.19px;
-  width:60%;
-
- 
-`

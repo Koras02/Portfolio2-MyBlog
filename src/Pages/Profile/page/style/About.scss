@@ -3,6 +3,26 @@ span {
 }
 
 .progressbar {
-    width:85%;
+    width:100%;
+    height:11.99px;
     background:red;
+}
+.progressbar2 {
+    width:85%;
+    height:11.99px;
+    background:red;
+}
+.progressbar3 {
+    width:80%;
+    height:11.99px;
+    background:red;
+}
+.progressbar4 {
+    width:80%;
+    height:11.99px;
+    background:red;
+}
+
+p {
+  display:inline-flex;
 }
