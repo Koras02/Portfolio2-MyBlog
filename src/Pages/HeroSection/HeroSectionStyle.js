@@ -2,15 +2,13 @@ import styled from 'styled-components';
 
 
 export const HeroContainer = styled.div`
-  width:100%;
+  min-width:100%;
   height:836px;
   background:#000;
   display:flex;
   justify-content:center;
   align-items:center;
   z-index:0;
-  
-  
   position:relative;
   border-bottom:1px solid #fff; 
  
