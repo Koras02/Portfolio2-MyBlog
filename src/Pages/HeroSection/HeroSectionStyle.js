@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const HeroContainer = styled.div`
   min-width:100%;
-  height:836px;
+  height:1000px;
   background:#000;
   display:flex;
   justify-content:center;
