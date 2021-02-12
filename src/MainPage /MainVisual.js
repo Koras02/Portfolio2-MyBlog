@@ -72,7 +72,7 @@ export const MainVisual = ({ isOpen, toggle }) => {
                 to="Services"
                 spy={true}
                 smooth={true}
-                offset={-228}
+                offset={-80}
                 >
                 SERVISCS
                 </MainVisualHeaderP>

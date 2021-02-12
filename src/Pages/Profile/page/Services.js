@@ -10,7 +10,7 @@ import { ServicesContainer,
 
 function Services() {
      return (
-       <ServicesWrapper>
+       <ServicesWrapper id="Services">
            <ServicesContainer>
                <ServicesRow>
                    <ServicesH1>SERVICES</ServicesH1>
