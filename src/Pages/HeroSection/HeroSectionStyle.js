@@ -1,17 +1,41 @@
 import styled from 'styled-components';
-
-
-export const HeroContainer = styled.div`
-  min-width:100%;
-  height:836px;
-  background:#000;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  z-index:0;
-  position:relative;
-  border-bottom:1px solid #fff; 
+import Image from './Images/1672440.jpg'
  
+
+ export const HeroImage = styled.div`
+ width:100%;
+ height:100vh;
+ z-index:-999;
+ background:url(${Image}) no-repeat;
+ background-size:cover;
+ background-position:center center;
+ position:fixed;
+ border:1px solid #fff;  
+ opacity:100%;
+
+ ::befor {
+   box-sizeing
+ }
+ ::after {
+   box-sizing:border-box;
+ }
+ `;
+ 
+ 
+ 
+ 
+ export const HeroContainer = styled.div`
+ max-width:100%;
+ height:1000px;
+ display:flex;
+ z-index:-999;
+ opacity:100%;
+ opacity:100%;
+ justify-content:center;
+  align-items:center;
+  border-bottom:1px solid red;
+   
+
 `;
 
 export const HeroBg = styled.div`
@@ -20,11 +44,10 @@ export const HeroBg = styled.div`
   right:0;
   bottom:0;
   left:0;
-  width:100%;
- 
- 
-  
+  width:100%; 
   overflow:hidden;
+  z-index:-990;
+  
 `
 
 export const BackgroundBg = styled.img`
@@ -32,17 +55,14 @@ export const BackgroundBg = styled.img`
   height:836px;
   -o-object-fit:cover;
   object-fit:cover;
-  position:fixed;
-  background: #000;
-  z-index:2;
- 
+  position:fixed;z-index:-990;
+  
 `
 
 export const HeroContent = styled.div`
-  z-index:2;
   max-width:1200px;
   position:relative;
-  border:1px solid #fff;
+  z-index:-990;
   display:flex;
   flex-direction:column;
   align-items:center;
@@ -50,8 +70,10 @@ export const HeroContent = styled.div`
 
 export const HeroH1 = styled.h1`
   color:#fff;
-  font-size: 90px;
+  font-size: 70px;
   text-align:center;
+  z-index:3;
+ 
 
   @media screen and (max-width: 768px) {
       font-size: 40px;
@@ -72,6 +94,7 @@ export const HeroP = styled.p`
   font-size:24px;
   text-align:center;
   max-width:600px;
+  z-index:2;
  
   @media screen and (max-width: 768px){
     font-size:40px;
