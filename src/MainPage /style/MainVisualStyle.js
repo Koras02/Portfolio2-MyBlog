@@ -7,7 +7,7 @@ import {FaTimes} from 'react-icons/fa'
 export const MainbarContainer = styled.aside`
    background:#000;
    position:fixed;
-   z-index:999;
+   z-index:1;
    width: 100%;
    height:100%;
    display:grid;
@@ -40,7 +40,7 @@ export const MainVisualHeaderWrapper = styled.div`
   width:100%;
   height:84px;
   background:${({scrollNav}) => (scrollNav ? '#000': '#000')};
-  opacity:${({scrollNav}) => (scrollNav ? '80%': '100%')};
+  opacity:${({scrollNav}) => (scrollNav ? '85%': '80%')};
   position:${({scrollNav}) => (scrollNav ? 'fixed': 'fixed')};
   top:${({scrollNav}) => (scrollNav ? '0%': '0%')};
   transition:0.5s;

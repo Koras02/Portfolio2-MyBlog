@@ -11,7 +11,7 @@ import {
   Skill, 
   SkillH1, 
   SkillP } from '../style/AboutStyle';
-import Image from '../../Images/Profile2.png'
+import Image from './Images/Person.jpg'
 
 
 function AboutLeft() {

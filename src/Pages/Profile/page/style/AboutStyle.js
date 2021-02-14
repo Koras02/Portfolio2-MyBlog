@@ -5,7 +5,7 @@ export const AboutWrapper = styled.div`
   height:850px;
   background: #e3e3e3;
   padding-top:60px;
-  display:flex;
+ 
  
   @media screen and (max-width:1400px) {
     max-width:1440px;
@@ -29,7 +29,8 @@ export const AboutContainer = styled.div`
   position:relative;
   margin:10px auto;
   background:#fff;
-  
+   
+
   @media screen and (max-width:1400px) {
     max-width:1140px;
     height:700px;

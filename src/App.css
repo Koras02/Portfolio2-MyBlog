@@ -1,8 +1,8 @@
 .App {
   text-align: center;
   text-decoration:none;
- 
-  background:#000;
+  z-index:1;
+  /* background:#000; */
 }
 
 .App-logo {
