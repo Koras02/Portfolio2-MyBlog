@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 import Image1 from '../Form/Images/Mount.jpg'
+import Image2 from '../Form/Images/Profile3.jpg'
+import Image3 from '../Form/Images/Beard.jpg'
 
 export const ProfileFormWrapper = styled.div`
   width:100%;
@@ -23,11 +25,11 @@ opacity:80%;
 `;
 
 export const ProfileContainer = styled.div`
-  max-width:1320px;
+  width:1320px;
   height:351px;
   margin:auto;
   padding:0px 12px 0px 12px;
-  border:1px solid #000;
+ 
   position:relative;
   top:150px;
 `;
@@ -40,42 +42,72 @@ export const ProfileSwipper = styled.div`
    transition-property: transform;
    box-sizing: content-box;
    border:1px solid #000;
+   outline:none;
 `
 
-export const ProfileSwipper1 = styled.div`
-  width:1296px;
+export const ProfileForm1 = styled.div`
+  max-width:1296px;
   height:100%;
-  border:1px solid #000;
   display:block;
-  animation-name: slide;
-
-  @keyframes slide {
-    0% {margin-left:0;} /* 0 ~ 10  : 정지 */
-    10% {margin-left:0;} /* 10 ~ 25 : 변이 */
-    25% {margin-left:-100%;} /* 25 ~ 35 : 정지 */
-    35% {margin-left:-100%;} /* 35 ~ 50 : 변이 */
-    50% {margin-left:-200%;}
-    60% {margin-left:-200%;}
-    75% {margin-left:-300%;}
-    85% {margin-left:-300%;}
-    100% {margin-left:0;}
-
-}
-
-  &:active {
-      position:relative;
-      left:${props => props.default ? '50px': '50px'};
-      transition:${props => props.default ? '5s': '10s'};
-  }
+  overflow:hidden;
+  position:relative;
+  outline:none;
+  overflow:none;
+    
 `
 
-export const ProfileSwipper2 = styled.div`
-width:1296px;
-height:100%;
-border:1px solid #000;
-display:none;
+export const ProfileForm2 = styled.div`
+  width:1296px;
+  height:307px;
+  overflow:hidden;
+  position:relative;
  
-&:active {
+`;
 
-}
+export const ProfileForm3 = styled.div`
+   width:1290px;
+   height:307px;
+ 
+`
+ export const ProfileFormTab = styled.div`
+    width:1296px;
+    height:199px;
+    margin-top:16px;
+ 
+ `;
+
+ export const ProfileImg1 = styled.div`
+    width:150px;
+    height:150px;
+    margin:auto;
+    display:block;
+ 
+    border-radius:100%;
+    background:url(${Image2}) no-repeat;
+    background-size:cover;
+ 
+ `;
+
+ export const ProfileImg2 = styled.div`
+ width:150px;
+ height:150px;
+ margin:auto;
+ display:block;
+ border:1px solid #000;
+ border-radius:100%;
+ background:url(${Image3}) no-repeat;
+ background-size:cover;
+
+`
+
+export const ProfileImg3 = styled.div`
+width:150px;
+height:150px;
+margin:auto;
+display:block;
+border:1px solid #000;
+border-radius:100%;
+background:url(${Image2}) no-repeat;
+background-size:cover;
+
 `
