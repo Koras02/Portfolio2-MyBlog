@@ -6,9 +6,21 @@ import Image from '../Images/Person.jpg'
 export const CounterConatinerWrapper = styled.div`
   width:100%;
   height:432.8px;
-  border:1px solid #000;
+ 
   z-index:1;
   background-repeat:no-repeat;
+
+  @media screen and (max-width:1400px) {
+     max-width:1400px;
+     
+  }
+  @media screen and (max-width:1024px) {
+   max-width:1024px;
+  }
+
+  @media screen and (max-width:1024px) {
+   background-attachment: scroll;
+   }
   `;
   
   
@@ -20,15 +32,29 @@ export const CounterConatinerWrapper = styled.div`
   background-size:cover;
   background-position:center center;
   background-attachment: fixed;
-  opacity:100%;
+  opacity:100%
+  
+  @media screen and (max-width: 1600px) {
+   background:url(${Image}) no-repeat;
+   background-size:cover;
+   background-position:center center;
+   background-attachment: scroll;
+   opacity:100%
+   }
+
+  @media screen and (max-width: 1024px) {
+   background:url(${Image}) no-repeat;
+   background-size:cover;
+   background-position:center center;
+   background-attachment: scroll;
+   opacity:100%
+   }
 `;
 
   
 export const CounterBg = styled.div`
 max-width:100%;
 height:432px;
-border:1px solid red;
-
 `
 
   
@@ -42,26 +68,56 @@ opacity:70%;
 export const CounterPosition = styled.div`
    max-width:1320px;
    height:176.8px;
-   border:1px solid #000;
+ 
    margin:auto;
    position:relative;
    top:100px;
+
+   @media screen and (max-width:1400px) {
+      max-width:1140px;
+      height:176.8px;
+   }
+
+   @media screen and (max-width:1200px) {
+      max-width:960px;
+      height:176.8px;
+   }
+   @media screen and (max-width:980px) {
+      max-width:720px;
+      height:176.8px;
+   }
 `;
 
 export const CounterIcon = styled.div`
   width:300px;
   height:176.8px;
-  border:1px solid #000;
   display:inline-flex;
   padding:0px 0px 0px 0px;
   margin:0px 12px 0px 8px;
-`;
+  @media screen and (max-width:1400px) {
+        max-width:285px;
+        margin:0px 0px 0px 0px;
+   }
+   @media screen and (max-width:1200px) {
+      max-width:240px;
+      margin:0px -10px 0px 0px;
+      padding:0px 2px 0px 0px;
+   }
 
-export const CounterBox = styled.div`
-   width:300px;
-   height:148px;
+   @media screen and (max-width:980px) {
+      max-width:180px;
+      margin:0px -12px 0px -0px;
+      padding:0px 2px 0px 0px;
+      position:relative;
+      left:-50px;
+   }
+  `;
+  
+  export const CounterBox = styled.div`
+  width:300px;
+  height:148px;
    margin-bottom:28px;
-   border:1px solid red;
+ 
 `;
 
 export const CounterIco = styled.div`
@@ -69,7 +125,7 @@ export const CounterIco = styled.div`
    hegiht:60px;
    display:block;
    margin-bottom:16px;
-   border:1px solid #000;
+ 
 `;
 
 export const IcoBox = styled.div`
@@ -91,7 +147,7 @@ export const CheckBox = styled.div`
 export const CounterNumber = styled.div`
 width:300px;
 height:72px;
-border:1px solid #000;
+ 
 margin-top:10px;
 `;
 
