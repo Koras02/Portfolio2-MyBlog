@@ -2,10 +2,10 @@ import styled from 'styled-components';
 
 export const AboutWrapper = styled.div`
   max-width:100%;
-  height:700px;
+  height:850px;
   background: #e3e3e3;
   padding-top:60px;
-  display:flex;
+ 
  
   @media screen and (max-width:1400px) {
     max-width:1440px;
@@ -29,7 +29,8 @@ export const AboutContainer = styled.div`
   position:relative;
   margin:10px auto;
   background:#fff;
-  
+   
+
   @media screen and (max-width:1400px) {
     max-width:1140px;
     height:700px;
@@ -76,7 +77,7 @@ export const Box = styled.div`
  export const AboutRow = styled.div`
    max-width:1304px;
    height:473.5px;
-   border:1px solid #000;
+   
    margin:auto;
 `;
 
@@ -84,7 +85,7 @@ export const ColLeft = styled.div`
     width:610px;
     height:473.5px;
     float:left;
-    border:1px solid #000;
+ 
     padding:0px 10px 0px 12px;
 
     @media screen and (max-width:1400px) {

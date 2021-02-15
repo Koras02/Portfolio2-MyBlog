@@ -65,16 +65,22 @@ export const MainVisual = ({ isOpen, toggle }) => {
                 to="About"
                 spy={true}
                 smooth={true}
-                offset={-100}
+                offset={-85}
                 >ABOUT
                 </MainVisualHeaderP>
                 <MainVisualHeaderP
+                to="Services"
+                spy={true}
                 smooth={true}
-                offset={-100}
+                offset={-80}
                 >
                 SERVISCS
                 </MainVisualHeaderP>
-                <MainVisualHeaderP>
+                <MainVisualHeaderP
+                to="Work"
+                spy={true}
+                smooth={true}
+                offset={-80}>
                  WORK
                  </MainVisualHeaderP>
                 <MainVisualHeaderP>BLOG</MainVisualHeaderP>

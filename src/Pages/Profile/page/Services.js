@@ -1,5 +1,5 @@
  import React from 'react';
-import ServicesBox from './Form/Services/ServicesBox';
+import ServicesForm from './Form/Services/ServicesForm';
 import { ServicesContainer, 
     ServicesH1, 
     ServicesP,
@@ -10,13 +10,13 @@ import { ServicesContainer,
 
 function Services() {
      return (
-       <ServicesWrapper>
+       <ServicesWrapper id="Services">
            <ServicesContainer>
                <ServicesRow>
                    <ServicesH1>SERVICES</ServicesH1>
                    <ServicesP>Lorem ipsum,dolor sitamet consectetur adpisicing elit.</ServicesP>
                    <Line></Line>
-                   <ServicesBox />
+                   <ServicesForm/>
                </ServicesRow>
            </ServicesContainer>
        </ServicesWrapper>
