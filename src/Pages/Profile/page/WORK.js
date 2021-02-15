@@ -18,16 +18,19 @@
     WorkColMore,
     WorkColMoreSpan,
     WorkColMoreDate,
-    WorkCol
-} from './style/WorkStyle'
+    WorkCol,
+    WorkFormIcon
+} from './style/WorkStyle';
+import './style/WorkBackground.scss'
+import {GrAdd} from "react-icons/gr"
 
 function WORK() {
      return (
-       <WorkFormWrpaper>
+       <WorkFormWrpaper id="Work">
            <WorkFormHeader>
                <WorkFormRow>
                  <WorkFormTitle>
-                  <WorkFormRowCol>
+                  <WorkFormRowCol >
                   <WorkFormH1>
                       PORTFOLIO
                    </WorkFormH1>
@@ -39,10 +42,11 @@ function WORK() {
                  </WorkFormRowCol>
                 </WorkFormTitle>
                </WorkFormRow>
+                {/* Form numver 1 */}
                <WorkFormRow2>
                  <WorkFormCol>
                    <WorkBox>
-                     <WorkImg>
+                     <WorkImg className="Image1">
                      </WorkImg>
                      <WorkContent>
                      <WorkRow>
@@ -59,19 +63,24 @@ function WORK() {
                        </WorkColMoreDate>
                     </WorkColMore> 
                     </WorkCol>    
+                    <WorkFormIcon>
+                      <GrAdd className="GrAdd" size="20px" />    
+                    </WorkFormIcon> 
                      </WorkRow>
                      </WorkContent>
                    </WorkBox>
                  </WorkFormCol>
+                 {/* Form number 1 end */}
+                 {/* Form number 2 start */}
                  <WorkFormCol>
                    <WorkBox>
-                     <WorkImg>
+                     <WorkImg className="Image2">
                      </WorkImg>
                      <WorkContent>
                      <WorkRow>
-                <WorkCol>
+                   <WorkCol>
                      <WorkColoTitle>
-                              Lorem impsum dolor
+                           Loreda Cundo Nere
                     </WorkColoTitle>
                     <WorkColMore>
                        <WorkColMoreSpan>
@@ -81,20 +90,24 @@ function WORK() {
                            / 18 sep.2018
                        </WorkColMoreDate>
                     </WorkColMore> 
-                    </WorkCol>     
+                    </WorkCol>  
+                    <WorkFormIcon>
+                      <GrAdd className="GrAdd" size="20px" />    
+                    </WorkFormIcon>  
                      </WorkRow>
                      </WorkContent>
                    </WorkBox>
                  </WorkFormCol>
+                 {/* Form number2 end &  Form number 3 start  */}
                  <WorkFormCol>
                  <WorkBox>
-                     <WorkImg>
+                     <WorkImg className="Image3">
                      </WorkImg>
                      <WorkContent>
                      <WorkRow>
                 <WorkCol>
                      <WorkColoTitle>
-                              Lorem impsum dolor
+                              Mavrito Lana Dere
                     </WorkColoTitle>
                     <WorkColMore>
                        <WorkColMoreSpan>
@@ -105,20 +118,23 @@ function WORK() {
                        </WorkColMoreDate>
                     </WorkColMore> 
                     </WorkCol>     
+                    <WorkFormIcon>
+                      <GrAdd className="GrAdd" size="20px" />    
+                    </WorkFormIcon> 
                      </WorkRow>
                      </WorkContent>
                    </WorkBox>
                  </WorkFormCol>
-               
+               {/* Form number 3 end & number 4 start */}
                  <WorkFormCol>
                    <WorkBox>
-                     <WorkImg>
+                     <WorkImg className="Image4">
                      </WorkImg>
                      <WorkContent>
                      <WorkRow>
                     <WorkCol>
                      <WorkColoTitle>
-                              Lorem impsum dolor
+                              Bindo Laro Cado
                     </WorkColoTitle>
                     <WorkColMore>
                        <WorkColMoreSpan>
@@ -128,20 +144,24 @@ function WORK() {
                            / 18 sep.2018
                        </WorkColMoreDate>
                     </WorkColMore> 
-                    </WorkCol>    
+                    </WorkCol> 
+                    <WorkFormIcon>
+                      <GrAdd className="GrAdd" size="20px" />    
+                    </WorkFormIcon>    
                      </WorkRow>
                      </WorkContent>
                    </WorkBox>
                  </WorkFormCol>
+                 {/* Form number 4 end & number 5 start  */}
                  <WorkFormCol>
                    <WorkBox>
-                     <WorkImg>
+                     <WorkImg className="Image5">
                      </WorkImg>
                      <WorkContent>
                      <WorkRow>
                 <WorkCol>
                      <WorkColoTitle>
-                              Lorem impsum dolor
+                              Studio Lena Mado
                     </WorkColoTitle>
                     <WorkColMore>
                        <WorkColMoreSpan>
@@ -151,20 +171,24 @@ function WORK() {
                            / 18 sep.2018
                        </WorkColMoreDate>
                     </WorkColMore> 
-                    </WorkCol>     
+                    </WorkCol>  
+                    <WorkFormIcon>
+                      <GrAdd className="GrAdd" size="20px" />    
+                    </WorkFormIcon>    
                      </WorkRow>
                      </WorkContent>
                    </WorkBox>
                  </WorkFormCol>
+                 {/* Form number 5 end 6 start */}
                  <WorkFormCol>
                  <WorkBox>
-                     <WorkImg>
+                     <WorkImg className="Image6">
                      </WorkImg>
                      <WorkContent>
                      <WorkRow>
                 <WorkCol>
                      <WorkColoTitle>
-                              Lorem impsum dolor
+                              Studio Big Bang
                     </WorkColoTitle>
                     <WorkColMore>
                        <WorkColMoreSpan>
@@ -175,15 +199,16 @@ function WORK() {
                        </WorkColMoreDate>
                     </WorkColMore> 
                     </WorkCol>     
+                    <WorkFormIcon>
+                      <GrAdd className="GrAdd" size="20px" />    
+                    </WorkFormIcon> 
                      </WorkRow>
                      </WorkContent>
                    </WorkBox>
                  </WorkFormCol>
-        
                </WorkFormRow2>
-               {/* Row2 부분 */}
+               {/* number 6 end  */}
            </WorkFormHeader>
-
        </WorkFormWrpaper>
      );
  }

@@ -76,7 +76,11 @@ export const MainVisual = ({ isOpen, toggle }) => {
                 >
                 SERVISCS
                 </MainVisualHeaderP>
-                <MainVisualHeaderP>
+                <MainVisualHeaderP
+                to="Work"
+                spy={true}
+                smooth={true}
+                offset={-80}>
                  WORK
                  </MainVisualHeaderP>
                 <MainVisualHeaderP>BLOG</MainVisualHeaderP>

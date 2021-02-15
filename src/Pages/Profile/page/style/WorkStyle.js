@@ -38,14 +38,14 @@ export const WorkFormH1 = styled.div`
    max-width:1296px;
    height:57px;
    text-align:center;
-   font:bold 20px/24px arial;
+   font:bold 38px/24px arial;
 `;
 
 export const WorkFormP = styled.div`
    max-width:1296px;
    height:24px;
    margin-bottom:16px;
-   font:14px/16px arial;
+   font:18px/16px arial;
    text-align:center;
 `;
 
@@ -68,9 +68,8 @@ export const WorkFormCol = styled.div`
    width:440px;
    min-width:420px;
    height:416px;
- 
    background:#fff;
-   margin:0px 0px 0px 12px;
+   margin:0px 0px 0px 0px;
    padding: 0px 2px 0px 10px;
    float:left;
 `;
@@ -128,12 +127,32 @@ export const WorkColMoreSpan = styled.div`
    width:99.22px;
    hieght:14px;
    float:left;
-   font:bold 17px/16px arial;
+   font:bold 15px/16px arial;
    display:inline;
    color:blue;
+   margin-right:1px;
 `;
 
 export const WorkColMoreDate = styled.div`
   float:left;
   font:bold 14px/16px arial;
+  margin-left:-10px;
+`;
+
+export const WorkFormBox = styled.div`
+  width:136.95px;
+  height:60px;
+  padding:20px;
+  border:3px solid #000;
+`;
+
+export const WorkFormIcon = styled.div`
+   width:40.02px;
+   height:40px;
+   border:3px solid blue;
+   border-radius:50%;
+   float:left;
+   margin-left:40px;
+   margin-top:10px;
+   text-align:center;
 `
