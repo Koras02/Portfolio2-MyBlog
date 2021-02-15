@@ -56,7 +56,8 @@ function CounterSection() {
                         25
                      </CheckBoxH1>
                      <CheckBoxP>
-                       YEARS OF EXPERIENCE
+                       YEARS OF <br/>
+                       EXPERIENCE
                      </CheckBoxP>
                    </CounterNumber>
                   </CounterBox>                      
