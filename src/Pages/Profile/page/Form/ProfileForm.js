@@ -23,9 +23,9 @@ export default class ProfileForm extends Component {
     var settings = {
       dots: true,
       slidesToShow: 1,
+      autoplay:false,
       slidesToScroll: 1,
       autoplaySpeed: 1000,
-      autoPlay:true,
       pauseOnHover: true,
       appendDots: dots => (
         <div>
@@ -45,6 +45,13 @@ export default class ProfileForm extends Component {
                          <ProfileFormTab>
                             <ProfileImg1>
                             </ProfileImg1>
+                            <div className="form">
+                      <h1>XAVI ALONSO</h1>
+                      <h1 className="description">
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
+                        <br/>consectetur adipiscing elit.
+                      </h1>
+                      </div>
                          </ProfileFormTab>
                        </ProfileForm3>
                     </ProfileForm2>
@@ -54,8 +61,14 @@ export default class ProfileForm extends Component {
                       <ProfileForm3>
                       <ProfileFormTab>
                       <ProfileImg2>
-                              
                       </ProfileImg2>
+                      <div className="form">
+                      <h1>XAVI ALONSO</h1>
+                      <h1 className="description">
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
+                        <br/>consectetur adipiscing elit.
+                      </h1>
+                      </div>
                       </ProfileFormTab>
                       </ProfileForm3>
                   </ProfileForm2>
@@ -65,8 +78,14 @@ export default class ProfileForm extends Component {
                   <ProfileForm3>
                       <ProfileFormTab>
                       <ProfileImg3>
-                              
                         </ProfileImg3>
+                        <div className="form">
+                      <h1>XAVI ALONSO</h1>
+                      <h1 className="description">
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
+                        <br/>consectetur adipiscing elit.
+                      </h1>
+                      </div>
                       </ProfileFormTab>
                       </ProfileForm3>
                   </ProfileForm2>
