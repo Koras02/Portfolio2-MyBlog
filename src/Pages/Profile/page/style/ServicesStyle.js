@@ -3,14 +3,14 @@ import styled from 'styled-components';
 export const ServicesWrapper = styled.div`
   max-width:100%;
   height:1027.56px;
-  border:1px solid #000;
+ 
   background:#f5f5f5;
   padding-top:48px;   
   
   @media screen and (max-width:990px) {
     max-width:100%;
     height:1223.56px;
-    border:1px solid #000;
+ 
     background:#f5f5f5;
     padding-top:48px;   
  }

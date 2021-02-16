@@ -94,6 +94,9 @@ export const MainVisual = ({ isOpen, toggle }) => {
                 <MainVisualHeaderP>DROP DOWN</MainVisualHeaderP>
                <MainVisualHeaderP
                to="CONTACT"
+               spy={true}
+               smooth={true}
+               offset={-80}
                >CONTACT</MainVisualHeaderP>
                 <MainBtn>
                <MainBtnLink onClick={toggle}>Sign in</MainBtnLink>

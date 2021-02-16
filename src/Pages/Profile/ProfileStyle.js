@@ -3,9 +3,11 @@ import Image from './Images/Person.jpg'
 
 export const ProfileWrapper = styled.div`
   width:100%;
-  height:5453.13px;
+  height:5670px;
+  // height:500vh;
   background-image: url(${Image}) no-repeat;
-  z-index:2;
+
+  z-index:1;
   overflow:hidden;
-  border:1px solid red;
+ 
 `
