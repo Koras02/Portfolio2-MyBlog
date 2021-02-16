@@ -22,11 +22,10 @@ export default class ProfileForm extends Component {
   render() {
     var settings = {
       dots: true,
-      slidesToShow: 1,
-      autoplay:false,
-      slidesToScroll: 1,
-      autoplaySpeed: 1000,
+      autoplay:true,
       pauseOnHover: true,
+      autoplaySpeed: 1000,
+      arrows:false,
       appendDots: dots => (
         <div>
              <ul className="slide">{dots}</ul>

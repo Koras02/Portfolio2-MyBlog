@@ -3,6 +3,7 @@ import MainVisual from '../MainPage /MainVisual';
 import HeroSection from './HeroSection';
 import { HeroImage } from './HeroSection/HeroSectionStyle';
  
+ 
 // import { Body } from './indesStyle';
  
 import Profile from './Profile/Profile';
@@ -20,7 +21,7 @@ const Home = () => {
           </HeroImage>
           <HeroSection />
           <Profile />
-        
+     
         </>
      );
  }
