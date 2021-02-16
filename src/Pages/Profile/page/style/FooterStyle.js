@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import Image from '../Form/Images/Mount.jpg';
+ 
 
 export const FooterWrapper = styled.div`
   max-width:100%;
@@ -51,8 +52,8 @@ export const FooterContainerContent = styled.div`
    width:1296px;
    height:570px;
    margin:auto;
-   border:1px solid red;
-   margin-top:64px;
+   
+   margin-top:48px;
   
    
 `;
@@ -60,7 +61,7 @@ export const FooterContainerContent = styled.div`
 export const FooterContent = styled.div`
    width:1200px;
    height:424px;
-   border:1px solid #000;
+  //  border:1px solid #000;
    margin-bottom:48px;
    padding:48px 48px 48px 48px;
    background:#fff;
@@ -68,14 +69,14 @@ export const FooterContent = styled.div`
 export const FooterRow = styled.div`
    width:1200px;
    height:474px;
-   border:1px solid #000;
+  //  border:1px solid #000;
    display:flex;
 `;
 
 export const FooterCol1 = styled.div`
   width:612px;
   height:474px;
-  border:1px solid #000;
+ 
   padding:0px 0px 0px 0px;
   display:inline-block;
   margin-left:12px;
@@ -88,8 +89,8 @@ export const FooterCol1 = styled.div`
 
 export const FooterTitle = styled.div`
   height:38px;
-  margin-bottom:48px;
-  border:1px solid #000;
+  margin-bottom:30px;
+ 
   font:bold 28px/30px arial;
 `;
 
@@ -100,6 +101,8 @@ export const Border = styled.div`
 export const FooterForm = styled.div`
   width:588px;
   height:388px;
+  // border:1px solid #000;
+  margin-bottom:48px;
 `;
 
 export const FooterFormRow = styled.div`
@@ -130,5 +133,78 @@ export const FooterFormCol = styled.input`
    width:554px;
    height:100px;
    
+   `;
+
+   export const FooterButtonForm = styled.div`
+     width:588x;
+     height:48px;
+     padding:0px 12px 0px 12px;
    `
  
+    export const FooterFormButton = styled.button`
+      width:172.08px;
+      height:48px;
+      background:#007aff;
+      border:4px solid #e3edfc;
+       margin:auto;
+       position:relative;
+       left:30%;
+       border-radius:100px;
+       outline:none;
+
+       &:focus {
+        border:3px solid #0d6efd;
+       }
+    `;
+
+    export const FooterLead = styled.div`
+      width:588px;
+      height:120px;
+      margin-bottom:16px;
+      font:16px/34px arial;
+    `;
+
+    export const FooterIcon = styled.div`
+      width:588px;
+      height:96px;
+      display:block;
+     
+      margin-top:30px;
+    `;
+
+    export const FooterIconList = styled.div`
+       width:588px;
+       height:32px;
+       
+       display:flex;
+       `;
+       
+       export const FooterIconH1 = styled.div`
+       font:18px/24px arial;
+       margin-left:10px;
+    `;
+
+    export const FooterSocial = styled.div`
+       width:588px;
+       height:88px;
+       border:1px solid #000;
+       display:block;
+       padding:24px 0px 24px 0px;
+    ` ;
+
+    export const FooterSocialIcons = styled.div`
+      width:588px;
+      height:40px;
+      border:1px solid #000;
+    `
+
+    export const FooterIconsList = styled.a`
+       width:40px;
+       height:40px;
+       border:1px solid #000;
+       border-radius:100%;
+       float:left;
+       margin-left:0px;
+       margin-right:10px;
+       border:3px solid blue;
+    `
