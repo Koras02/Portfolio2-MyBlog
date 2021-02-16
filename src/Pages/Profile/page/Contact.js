@@ -1,10 +1,19 @@
  import React from 'react';
-import { ContactWrapper } from './style/ContactStyle';
+ 
+import {
+    ContactWrapper,
+    ContactOverflow,
+    ContactContainer,
+} from './style/ContactStyle';
 
 export function Contact() {
      return (
-       <ContactWrapper>
-         Hello React!
+         <ContactWrapper id="CONTACT">
+            <ContactOverflow>
+            </ContactOverflow>
+              <ContactContainer>
+
+              </ContactContainer>
        </ContactWrapper>
      );
  }

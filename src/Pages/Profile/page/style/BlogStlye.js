@@ -9,6 +9,7 @@ export const BlogWrapper = styled.div`
    height:774.31px;
    background:#fff;
    padding-top:64px;
+ 
 `
 
 export const BlogContainer  = styled.div`
@@ -24,12 +25,14 @@ export const BlogRow = styled.div`
    height:174.22px;
 //    border:1px solid red;
 
+
 `
 export const BlogCol  = styled.div`
     max-width:1320px;
     height:174.22px;
     // border:1px solid blue;
     padding: 0px 12px 0px 12px;
+     
 
 `
 export const BlogColTitleBox = styled.div`
@@ -197,7 +200,7 @@ export const BlogRow2ColCardFooter = styled.div`
  
    padding:2px 0px 8px 0px;
    background:#d4d4d4;
-   z-index:999;
+ 
 `;
 
 
