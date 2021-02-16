@@ -1,5 +1,7 @@
 import React from 'react';
 import About from './page/About';
+import Blog from './page/Blog';
+import Contact from './page/Contact';
 import CounterSection from './page/Form/CounterSection';
 import ProfileForm from './page/Form/ProfileForm';
 import Services from './page/Services';
@@ -16,6 +18,8 @@ export function Profile() {
          <CounterSection />
          <WORK/>
          <ProfileForm/>
+         <Blog />
+         <Contact/>
          </ProfileWrapper>
       </>
      );

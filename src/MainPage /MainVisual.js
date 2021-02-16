@@ -80,14 +80,23 @@ export const MainVisual = ({ isOpen, toggle }) => {
                 to="Work"
                 spy={true}
                 smooth={true}
-                offset={-80}>
+                offset={-80}
+                >
                  WORK
                  </MainVisualHeaderP>
-                <MainVisualHeaderP>BLOG</MainVisualHeaderP>
+                <MainVisualHeaderP
+                to="BLOG"
+                spy={true}
+                smooth={true}
+                offset={-80}
+                >
+               BLOG</MainVisualHeaderP>
                 <MainVisualHeaderP>DROP DOWN</MainVisualHeaderP>
-                    <MainVisualHeaderP>CONTACT</MainVisualHeaderP>
+               <MainVisualHeaderP
+               to="CONTACT"
+               >CONTACT</MainVisualHeaderP>
                 <MainBtn>
-                     <MainBtnLink onClick={toggle}>Sign in</MainBtnLink>
+               <MainBtnLink onClick={toggle}>Sign in</MainBtnLink>
                 </MainBtn>
                 </MainVisualNavbar>
              </MainVisualHeader>
