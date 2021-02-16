@@ -12,31 +12,30 @@ import Image from './Images/1672440.jpg'
  position:fixed;
  border:1px solid #fff;  
  opacity:100%;
-
-
+ 
  ::befor {
    box-sizeing
- }
- ::after {
-   box-sizing:border-box;
- }
- `;
- 
- 
- 
- 
- export const HeroContainer = styled.div`
- max-width:100%;
- height:1000px;
- display:flex;
- z-index:-999;
- opacity:100%;
- opacity:100%;
- justify-content:center;
+  }
+  ::after {
+    box-sizing:border-box;
+  }
+  `;
+  
+  
+  
+  
+  export const HeroContainer = styled.div`
+  max-width:100%;
+  height:1000px;
+  display:flex;
+  z-index:-999;
+  opacity:100%;
+  opacity:100%;
+  justify-content:center;
   align-items:center;
   border-bottom:1px solid red;
-   
-
+  z-index:1
+  
 `;
 
 export const HeroBg = styled.div`

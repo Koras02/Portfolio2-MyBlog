@@ -104,6 +104,8 @@ export const ImageForm = styled.div`
           background: ${props => (props.onClick ? 'red': '#e6f7ff')}
        }
 
+   
+
      
 `;
 
