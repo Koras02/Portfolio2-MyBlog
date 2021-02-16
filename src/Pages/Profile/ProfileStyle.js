@@ -3,7 +3,7 @@ import Image from './Images/Person.jpg'
 
 export const ProfileWrapper = styled.div`
   width:100%;
-  height:5670px;
+  height:5790px;
   // height:500vh;
   background-image: url(${Image}) no-repeat;
 

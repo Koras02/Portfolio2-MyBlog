@@ -6,7 +6,7 @@ import Image3 from '../Form/Images/DeskTop.jpg'
 
 export const BlogWrapper = styled.div`
    width:100%;
-   height:774.31px;
+   height:800px;
    background:#fff;
    padding-top:64px;
  
@@ -17,7 +17,7 @@ export const BlogContainer  = styled.div`
    height:710.31px;
  
    margin:auto;
-   padding:0px 12px 0px 12px;
+   padding:0px 10px 0px 10px;
 `
 
 export const BlogRow = styled.div`
@@ -86,12 +86,12 @@ export const BlogRow2 = styled.div`
     // margin:0px -10px 0px -0px;
 `;
 export const BlogRow2Col1 = styled.div`
-    max-width:416px;
+    max-width:405px;
     height:536.31px;
-    border:1px solid #000;
+    border:0.1px solid gray;
     border-radius:1%;
     float:left;
-    margin:0px 0px 0px 10px;
+    margin:0px 2px 0px 20px;
     
  
 `
@@ -106,13 +106,13 @@ export const BlogRow2Col1 = styled.div`
 //     border:1px solid red;
 // `
 export const BlogRow2ColCard = styled.div`
-   width:416px;
+   width:405px;
    height:488.31px;
    margin-bottom:48px;
 `
 
 export const BlogRow2ColCardImg = styled.div`
-max-width:416px;
+max-width:405px;
 height:275.72px;
  
 background:url(${Image1}) no-repeat;
@@ -120,7 +120,7 @@ background-size:cover;
 `;
 
 export const BlogRow2ColCardImg2 = styled.div`
-max-width:416px;
+max-width:405px;
 height:275.72px;
  
 background:url(${Image2}) no-repeat;
@@ -128,7 +128,7 @@ background-size:cover;
 `;
 
 export const BlogRow2ColCardImg3 = styled.div`
-max-width:416px;
+max-width:405px;
 height:275.72px;
  
 background:url(${Image3}) no-repeat;
@@ -138,7 +138,7 @@ background-size:cover;
 
 
 export const BlogRow2ColCardBody = styled.div`
-  max-width:414px;
+  max-width:405px;
   height:169.59px;
   padding:16px 16px 16px 16px;
 `;
@@ -195,7 +195,7 @@ export const BlogRow2ColCardDescription = styled.div`
 `
 
 export const BlogRow2ColCardFooter = styled.div`
-   width:416px;
+   width:405px;
    height:49px;
  
    padding:2px 0px 8px 0px;

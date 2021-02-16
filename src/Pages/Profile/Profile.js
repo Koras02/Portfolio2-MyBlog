@@ -2,6 +2,8 @@ import React from 'react';
 import About from './page/About';
 import Blog from './page/Blog';
 import Contact from './page/Contact';
+import Footer from './page/Footer';
+import Footer2 from './page/Footer2';
 import CounterSection from './page/Form/CounterSection';
 import ProfileForm from './page/Form/ProfileForm';
 import Services from './page/Services';
@@ -20,6 +22,8 @@ export function Profile() {
          <ProfileForm/>
          <Blog />
          <Contact/>
+         <Footer />
+         <Footer2 />
          </ProfileWrapper>
       </>
      );

@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import MainVisual from '../MainPage /MainVisual';
 import HeroSection from './HeroSection';
 import { HeroImage } from './HeroSection/HeroSectionStyle';
-import Footer from './Profile/page/Footer';
+ 
  
  
 // import { Body } from './indesStyle';
@@ -22,7 +22,6 @@ const Home = () => {
           </HeroImage>
           <HeroSection />
           <Profile />
-          <Footer />
         </>
      );
  }
