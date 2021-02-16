@@ -38,9 +38,11 @@ export const Main = ({toggle}) => {
       smooth={true} duration={1000} spy={true} exact="true" offset={-200}
       >Profile</HomeHeaderP>
       <HomeHeaderP to="Language"
-        smooth={true} duration={1000} spy={true} exact="true" offset={-200}
+        smooth={true} duration={3000} spy={true} exact="true" offset={-200}
       >Languge</HomeHeaderP>
-      <HomeHeaderP>Delveoper</HomeHeaderP>
+      <HomeHeaderP to="Developer"
+            smooth={true} duration={3000} spy={true} exact="true" offset={-200}
+      >Delveoper</HomeHeaderP>
       <HomeHeaderP>Home</HomeHeaderP>
       <HomeHeaderP>Home</HomeHeaderP>
       </HomeWrapper> 
