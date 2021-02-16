@@ -7,28 +7,30 @@ export const FooterWrapper = styled.div`
   height:746px;
   padding-bottom:30px;
   margin-bottom:0px;
-  background:#fff;
-  z-index:1;
+  background:url(${Image});
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center center;
+ 
+  background-attachment:fixed;
+  z-index:0;
   `;
   
   export const FooterOverflow = styled.div`
   width:100%;
   height:775px;
   border:1px solid #000;
-  background:blue;
-  background:url(${Image});
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-position:center center;
-  background-attachment:fixed;
-  opacity:70%;
-  z-index:999;
+  background:#0d6efd;
+  z-index:-999;
+  opacity:95%;
+  
   `;
   
   export const FooterContainer = styled.div`
   width:1320px;
   height:682px;
- 
+  opacity:100%;
+  z-index:1;
    margin:150px auto;
  
    padding:0px 16px 0px 16px;
@@ -187,7 +189,7 @@ export const FooterFormCol = styled.input`
     export const FooterSocial = styled.div`
        width:588px;
        height:88px;
-       border:1px solid #000;
+   
        display:block;
        padding:24px 0px 24px 0px;
     ` ;
@@ -195,7 +197,7 @@ export const FooterFormCol = styled.input`
     export const FooterSocialIcons = styled.div`
       width:588px;
       height:40px;
-      border:1px solid #000;
+      
     `
 
     export const FooterIconsList = styled.a`
