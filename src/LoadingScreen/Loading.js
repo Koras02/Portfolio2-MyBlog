@@ -1,12 +1,12 @@
  import React from 'react';
 
-function SideBottom() {
+function Loading() {
      return (
        <div>
-          
+         로딩중...
        </div>
      );
  }
 
 
- export default SideBottom;
+ export default Loading;
