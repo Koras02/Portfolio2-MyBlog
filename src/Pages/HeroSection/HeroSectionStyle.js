@@ -5,12 +5,13 @@ import Image from './Images/1672440.jpg'
  export const HeroImage = styled.div`
  width:100%;
  height:100vh;
- z-index:-990;
+ z-index:-999;
  background:url(${Image}) no-repeat;
  background-size:cover;
  background-position:center center;
  position:fixed;
- border:1px solid #fff;  
+ overflow:hidden;
+   
  opacity:100%;
  
  ::befor {

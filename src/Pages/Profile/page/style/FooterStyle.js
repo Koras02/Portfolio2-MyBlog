@@ -182,7 +182,7 @@ export const FooterFormCol = styled.input`
        `;
        
        export const FooterIconH1 = styled.div`
-       font:18px/24px arial;
+       font:14px/24px arial;
        margin-left:10px;
     `;
 

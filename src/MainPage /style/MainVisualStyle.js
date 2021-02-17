@@ -5,7 +5,7 @@ import {Link as LinkR} from 'react-router-dom';
 import {FaTimes} from 'react-icons/fa'
 
 export const MainbarContainer = styled.aside`
-   background:#000;
+   background:#fff;
    position:fixed;
    z-index:1;
    width: 100%;
@@ -38,32 +38,34 @@ color:red;
 
 export const MainVisualHeaderWrapper = styled.div`
   width:100%;
-  height:84px;
+  height:44px;
   background:${({scrollNav}) => (scrollNav ? '#000': '#000')};
-  opacity:${({scrollNav}) => (scrollNav ? '85%': '80%')};
+  opacity:${({scrollNav}) => (scrollNav ? '90%': '100%')};
   position:${({scrollNav}) => (scrollNav ? 'fixed': 'fixed')};
   top:${({scrollNav}) => (scrollNav ? '0%': '0%')};
   transition:0.5s;
   z-index:1;
+  padding:20px 0px 20px 0px;
 `;
 
 export const MainVisualHeader = styled.ul`
-   max-width:1300px;
+   max-width:1296px;
    height:44px;
    margin:0px auto;
-   padding:20px 0px 10px 20px;
+   padding:0px 12px 0px 12px;
 
    @media screen and (max-width:1400px) {
-      max-width:1200px;
+      max-width:1140px;
+      border:1px solid red;
    }
    @media screen and (max-width:1200px) {
-      max-width:1000px;
+      max-width:960px;
+      border:1px solid blue;
    }
-   @media screen and (max-width:910px) {
-      max-width:800px;
-      
+   @media screen and (max-width:980px) {
+      max-width:720px;
+      border:1px solid blue;
    }
-
    @media screen and (max-width:480px) {
       grid-template-rows: repeat(6, 60px);
    }
@@ -74,7 +76,7 @@ export const MainVisualHeaderH1 = styled.div`
    font-size: 1.5rem;
    font-weight:bold;
    line-height:1.5;
-   margin-left:10px;
+   margin-left:0px;
    float:left;
 `
 
@@ -84,12 +86,14 @@ export const MainVisualHeaderP = styled(LinkS)`
   justify-content:center;
   float:right;
   color:#fff;
-  font-size:1.2rem;
+  font-size:1.1rem;
   font-weight:bold;
   list-style:none;
 //   transition: 0s ease-in-out;
-  margin:0px 20px 0px 20px;
+  margin:0px 10px 0px 30px;
   line-height:40px;
+  position:relative;
+  left:22%;
  
 
 
@@ -99,14 +103,23 @@ export const MainVisualHeaderP = styled(LinkS)`
      border-bottom:1px solid #fff;
   }
 
+  @media screen and (max-width:1400px) {
+   margin:0px 40px 0px 0px;
+   position:relative;
+   font-size:1.0rem;
+   left:20%;
+}
+@media screen and (max-width:1200px) {
+   margin:0px 40px 0px 0px;
+   position:relative;
+   font-size:1.0rem;
+   left:10%;
+}
+
   @media screen and (max-width:984px) {
       display:none;
   }
 
-  @media screen and (max-width:900px) {
-   grid-template-rows: repeat(6, 60px);
- 
-  }
 `
 
  
@@ -120,7 +133,7 @@ list-style: none;
 text-align:center;
 margin-right: -22px;
 @media screen and (max-width:768px){
-  display:none;
+  display:block;
 }
   `;
   
@@ -130,10 +143,10 @@ export const MainBtn = styled.div`
    align-items:center;
    display:flex;
    position:relative;
-   left:20%;
+   left:40%;
 
 
-   @media screen and (min-width: 960px){
+   @media screen and (min-width: 990px){
       display:none;
    }
 

@@ -46,12 +46,12 @@ function Footer() {
                                    <FooterFormRow>
                                      <FooterFormCol type="text" placeholder="Your name" className="Footer" required />
                                      <FooterFormCol type="text" placeholder="Your email" className="Footer" required />
-                                     <FooterFormCol type="text" placeholder="Your PhoneNumber" className="Footer" required />
+                                     <FooterFormCol type="text" placeholder="Your PhoneNumber" className="Footer" required/>
                                      <FooterFormCol1>
-                                       <textarea className="textarea" placeholder="message"/>
+                                       <textarea className="textarea" placeholder="message" required />
                                      </FooterFormCol1>
                                      <FooterButtonForm>
-                                     <FooterFormButton type="submi">
+                                     <FooterFormButton type="submit">
                                            Send Message
                                      </FooterFormButton>
                                      </FooterButtonForm>
@@ -74,15 +74,15 @@ function Footer() {
                                   </FooterLead>
                                   <FooterIcon>
                                     <FooterIconList>
-                                      <SiGooglemaps  color="blue" size="25px"/>
+                                      <SiGooglemaps  color="blue" size="20px"/>
                                       <FooterIconH1>329 WASHINGTON ST BOSTON,MA 02108</FooterIconH1>
                                     </FooterIconList>
                                     <FooterIconList>
-                                      <ImPhone  color="blue" size="24px" />
+                                      <ImPhone  color="blue" size="20px" />
                                     <FooterIconH1>(617) 557-0089</FooterIconH1>
                                     </FooterIconList>
                                     <FooterIconList>
-                                      <ImMail2 color="blue" size="24px" />
+                                      <ImMail2 color="blue" size="20px" />
                                     <FooterIconH1>wjdgh0727@gmail.com</FooterIconH1>
                                     </FooterIconList>
                                   </FooterIcon>
