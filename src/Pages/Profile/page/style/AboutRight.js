@@ -64,6 +64,7 @@ export const AboutH1 = styled.div`
   font:bold 30px/44px arial; 
   display:inline;
   float:left;
+  margin-bottom:48px;
 `;
 
 export const Bottom = styled.div`
@@ -75,15 +76,20 @@ export const AboutP = styled.div`
   width:588px;
   height:418px;
   float:left;
-  font:20px/24px arial;
+ 
+  // border:1px solid #000;
+`;
 
-  @media screen and (max-width:1400px) {
-    font:16px/30px arial;
-  }
-  @media screen and (max-width:1200px) {
-    font:13px/34px arial;
-  }
-  @media screen and (max-width:1024px) {
-    font:12px/34px arial;
-  }
+export const AboutP1 = styled.div`
+  font: 16px/26px arial;
+  margin-top:1px;
+  margin-bottom:2px;
+`;
+
+export const AboutPLead = styled.div`
+   width:558px;
+   height:120px;
+   display:block;
+   margin-bottom:12px;
+  //  border:1px solid #000;
 `

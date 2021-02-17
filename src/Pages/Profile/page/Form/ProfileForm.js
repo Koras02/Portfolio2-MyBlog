@@ -24,7 +24,7 @@ export default class ProfileForm extends Component {
       dots: true,
       autoplay:true,
       pauseOnHover: true,
-      autoplaySpeed: 1000,
+      autoplaySpeed: 5000,
       arrows:false,
       appendDots: dots => (
         <div>
