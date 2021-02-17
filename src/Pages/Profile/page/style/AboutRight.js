@@ -15,9 +15,9 @@ export const AboutRightWrapper = styled.div`
           margin:0px -10px 0px -0px auto;
    }
    @media screen and (max-width:1200px) {
-    width:300px;
-    padding:0px 12px 0px 12px;
-    font: bold 14px/16px arial;
+    width:360px;
+    padding:10px 25px 0px 18px;
+    font: bold 16px/18px arial;
     border:1px solid red;
     float:left;
     margin:0px -10px 0px -10px auto;
@@ -72,30 +72,18 @@ export const Bottom = styled.div`
 `
 
 export const AboutP = styled.div`
-  display:block;
+  width:588px;
+  height:418px;
   float:left;
-  margin-top:10px;
-  font-size:18px;
-  font-weight:serif;
-  line-height:28px;
-  margint-bottom:16px;
+  font:20px/24px arial;
 
-  @media screen and (max-width: 1400px) {
- 
-}
-
-@media screen and (max-width:1200px) {
-    margin-top:10px;
-    font-size:11px;
-    font-weight:serif;
-    line-height:22px;
-    margint-bottom:16px;
-}
-@media screen and (max-width:790px) {
-  margin-top:10px;
-  font-size:11px;
-  font-weight:serif;
-  line-height:22px;
-  margint-bottom:16px;
-}
+  @media screen and (max-width:1400px) {
+    font:16px/30px arial;
+  }
+  @media screen and (max-width:1200px) {
+    font:13px/34px arial;
+  }
+  @media screen and (max-width:1024px) {
+    font:12px/34px arial;
+  }
 `

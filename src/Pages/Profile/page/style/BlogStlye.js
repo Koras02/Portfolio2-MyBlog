@@ -6,7 +6,7 @@ import Image3 from '../Form/Images/DeskTop.jpg'
 
 export const BlogWrapper = styled.div`
    width:100%;
-   height:800px;
+   height:850px;
    background:#fff;
    padding-top:64px;
  
@@ -216,7 +216,7 @@ export const BlogRow2CardAutoer1 = styled.div`
 export const BlogRow2ColCardFooterIcon = styled.img`
   width:32px;
   height:32px;
-  border:1px solid #000;
+//   border:1px solid #000;
   border-radius:100%;
   margin-right:4px;
 `;
