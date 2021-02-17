@@ -106,14 +106,14 @@ export const WorkCol = styled.div`
    height:60px;
    padding:0px 12px 0px 12px;
    float:left;
-   border:1px solid #000; 
+   // border:1px solid #000; 
 `;
 
 export const WorkColoTitle = styled.div`
    width:242.92px;
    height:23px;
    margin:0px 0px 8px 0px;
-   border:1px solid #000;
+   // border:1px solid #000;
    display:block;
    font:bold 16px/18px arial;
 `;
@@ -143,7 +143,7 @@ export const WorkFormBox = styled.div`
   width:136.95px;
   height:60px;
   padding:20px;
-  border:3px solid #000;
+//   border:3px solid #000;
 `;
 
 export const WorkFormIcon = styled.div`

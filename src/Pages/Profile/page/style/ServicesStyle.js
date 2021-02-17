@@ -4,7 +4,7 @@ export const ServicesWrapper = styled.div`
   max-width:100%;
   height:1027.56px;
  
-  background:#f5f5f5;
+  background:#f5f5f5;b
   padding-top:48px;   
   
   @media screen and (max-width:990px) {
@@ -27,7 +27,7 @@ export const ServicesContainer = styled.div`
   @media screen and (max-width:990px) {
     max-width:100%;
     height:1223.56px;
-    border:1px solid #000;
+  
     background:#f5f5f5;
     padding-top:48px;   
  }
@@ -43,7 +43,7 @@ export const ServicesRow = styled.div`
   @media screen and (max-width:990px) {
     max-width:720px;
     height:1049.56x;
-    border:1px solid #000;
+  
     background:#f5f5f5;
     padding-top:48px;   
  }
@@ -53,7 +53,7 @@ export const ServicesH1 = styled.div`
   font-size:46px;
   font-weight:bold;
   margin-bottom:9px;
-  display:block;
+ 
   text-align:center;
 `;
 
@@ -63,6 +63,7 @@ export const ServicesP = styled.div`
   font-size:14px;
   line-height:10px;
   margin-bottom:16px;
+
 `;
 
 

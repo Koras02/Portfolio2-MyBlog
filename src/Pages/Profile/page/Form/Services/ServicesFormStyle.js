@@ -74,7 +74,7 @@ export const ServicesBox = styled.div`
 
 
 export const ImageForm = styled.div`
-     border:1px solid #000;
+ 
      width:357.41px; 
      margin:auto;
      margin-bottom:16px;
@@ -94,7 +94,7 @@ export const ImageForm = styled.div`
        border:1px solid #000;
        width:100px;
        height:100px;
-       margin:auto;
+       margin:20px auto;
        border-radius:100%;
        background:${props => (props.onClick ? 'blue': 'blue')};
        
@@ -116,7 +116,11 @@ export const ImageH1 = styled.div`
 
 export const Description = styled.div`
 display:block;   
-border:1px solid #000;
+
+@media screen and (max-width: 1200px) {
+   font:bold 12px/14px arial;
+}
+ 
 `
 
 export const Icon = styled.div`
@@ -127,6 +131,7 @@ export const Icon = styled.div`
   background:#fff;
   border-radius:100%;
   opacity:100%;
+  position:relative;
   &:hover{ 
   background: ${props => (props.onClick ? 'red': 'blue')}
   }
