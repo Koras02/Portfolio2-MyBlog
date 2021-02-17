@@ -1,17 +1,19 @@
 .footerWrapper {
     width:100%;
-    height:102.8px;
+    height:90.8px;
     background: blue;
     padding:25px 0px 25px 0px;
+    box-shadow: 10px 5px 5px red;
 }
 
-.container {
+.footercontainer {
     max-width:1320px;
     height:52.8px;
     margin:auto;
     padding:0px 12px 0px 12px;
     border:1px solid #000;
     color:#000;
+    box-shadow: 10px 5px 5px red;
 }
 
 h1 {
@@ -19,5 +21,18 @@ h1 {
 }
 
 span {
-    font:bold 24px/24px arial;
+    font:bold 20px/24px arial;
+}
+
+.a {
+    color:red;
+    float:right;
+    width:40px; 
+    right: 15px;
+    height:40px;
+    border-radius:50px;
+    background: #0078ff;
+    width:40px;
+    height:40px;
+    transition:all 0.4s;
 }

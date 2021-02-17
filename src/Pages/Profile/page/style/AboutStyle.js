@@ -2,14 +2,14 @@ import styled from 'styled-components';
 
 export const AboutWrapper = styled.div`
   max-width:100%;
-  height:699.09px;
+  height:679.09px;
   background: #e3e3e3;
   padding-top:60px;
  
  
   @media screen and (max-width:1400px) {
     max-width:1440px;
-    height:764px;
+    height:760px;
   }
 
   @media screen and (max-width:860px) {
@@ -33,11 +33,12 @@ export const AboutContainer = styled.div`
 
   @media screen and (max-width:1400px) {
     max-width:1140px;
-    height:700px;
+    height:602.5px;
   }
 
   @media screen and (max-width:1200px) {
     max-width:960px;
+    height:742px;
   }
 
   @media screen and (max-width:1000px) {
@@ -62,7 +63,12 @@ export const AboutCollpase = styled.div`
     max-width:1320px;
     height:649.5px;
     margin:auto;
+    @media screen and (max-width:1400px) {
+      max-width:1140px;
+      height:700px;
+    }
  
+  
 `
 
 export const Box = styled.div`
@@ -70,15 +76,31 @@ export const Box = styled.div`
     height:649.5px;
     margin:auto;
     padding-top:64px;
+
+    @media screen and (max-width:1400px) {
+      max-width:1116px;
+      height:651px;
+    }
+  
+    @media screen and(max-width:1200px) {
+      max-width:864px;
+      height:614px;
+      border:1px solid #000;
+    }
 `
 
 
 
  export const AboutRow = styled.div`
    max-width:1304px;
-   height:473.5px;
-   
+   height:473.5px;   
    margin:auto;
+  
+   @media screen and (max-width:1200px) {
+    max-width:864px;
+    height:614px;
+    border:1px solid #000;
+  }
 `;
 
 export const ColLeft = styled.div`
@@ -90,6 +112,11 @@ export const ColLeft = styled.div`
 
     @media screen and (max-width:1400px) {
       max-width:560px;
+    }
+
+    @media screen and (max-width:1200px) {
+      max-width:432px;
+      border:1px solid #000;
     }
    
     @media screen and (max-width:1000px) {
