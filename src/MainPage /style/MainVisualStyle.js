@@ -90,10 +90,63 @@ export const MainVisualHeaderP = styled(LinkS)`
   font-weight:bold;
   list-style:none;
 //   transition: 0s ease-in-out;
-  margin:0px 10px 0px 30px;
+  margin:0px 15px 0px 30px;
   line-height:40px;
   position:relative;
   left:22%;
+
+  &:nth-child(6) {
+   position:relative;
+   left:30px;
+   margin-left:20px;
+}
+  &:nth-child(7) {
+     margin-left:5px;
+     position:relative;
+     left:27%;
+  }
+ 
+
+
+  &.active {
+     color:red;
+     line-height:30px;
+     border-bottom:1px solid #fff;
+  }
+
+  @media screen and (max-width:1400px) {
+   margin:0px 40px 0px 0px;
+   position:relative;
+   font-size:1.0rem;
+   left:20%;
+}
+@media screen and (max-width:1200px) {
+   margin:0px 40px 0px 0px;
+   position:relative;
+   font-size:1.0rem;
+   left:10%;
+}
+
+  @media screen and (max-width:984px) {
+      display:none;
+  }
+
+`;
+
+
+export const MainVisualHeaderP2 = styled(LinkS)`  
+  display:flex;
+  align-items:center;  
+  justify-content:center;
+  float:right;
+  color:#fff;
+  font-size:1.1rem;
+  font-weight:bold;
+  list-style:none;
+//   transition: 0s ease-in-out;
+//   margin:0px 10px 0px 30px;
+  position:relative;
+  left:24%;
  
 
 
@@ -121,7 +174,6 @@ export const MainVisualHeaderP = styled(LinkS)`
   }
 
 `
-
  
  
 
@@ -186,4 +238,32 @@ cursor:pointer;
   transition: all 0.2s ease-in-out;
   text-decoration:none; 
  
+  `;
+
+  export const MenuWrapper = styled.div`
+  border:1px solid #fff;
+  background:#fff;
+  z-index:1;
+ width:200px;
+ height:225px;
+ margin:auto;
+ position:relative;
+ left:550px;
+ 
+  display: ${props => props.default ? 'none' : 'block'} 
+   &:hover {
+    display: ${props => props.default ? 'none' : 'none'} 
+   }
+    `
+
+  export const MenuWrapperLink = styled(LinkR)`
+     color:#000;
+     float:left;
+     text-decoration:none;
+     padding:10px;
+     font:bold 14px/20px arial;
+     position:relative;
+     left:10px;
+     top:10px;
+    
   `

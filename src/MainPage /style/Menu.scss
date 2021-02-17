@@ -1,0 +1,41 @@
+.Menu {
+   border:1px solid #fff;
+   background:#fff;
+   z-index:1;
+  max-width:200px;
+  height:225px;
+  margin:auto;
+  position:relative;
+  left:550px;
+
+  @media screen and (max-width:1900px) {
+    position:relative;
+    left:550px;
+    border:1px solid blue;
+ }
+ @media screen and (max-width: 1600px) {
+    max-width:180px;
+    height:215px;
+    margin:0px 20px 0px 140px auto;
+    position:relative;
+    left:35%;
+    border:1px solid red;
+  
+ }
+  @media screen and (max-width:1400px) {
+    max-width:180px;
+    height:215px;
+    margin:0px 20px 0px 140px auto;
+    position:relative;
+    left:35%;
+    border:1px solid red;
+  }
+  @media screen and (max-width:1200px) {
+    max-width:180px;
+    height:215px;
+    margin:0px 20px 0px 140px auto;
+    position:relative;
+    left:30%;
+    border:1px solid red;
+  }
+};

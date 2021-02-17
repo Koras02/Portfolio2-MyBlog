@@ -12,16 +12,21 @@ import {
       MainBtn,
       MainBtnLink,
       MainVisualHeaderP1,
-      CloseIcon
+      MainVisualHeaderP2,
+      CloseIcon,
+      MenuWrapper,
+      MenuWrapperLink
 } from './style/MainVisualStyle';
- 
 import { IconContext } from 'react-icons';
+// import Menu from './Menu';
+// import Menu from './Menu';
  
  
 
 // 
 export const MainVisual = ({ isOpen, toggle }) => {
      const [scrollNav, setScrollNav] = useState(true);
+     const [mouseover,setToggle] = useState(false);
      const changeNav = () => {
           if(window.scrollY >= 80) {
                setScrollNav(true)
@@ -29,14 +34,20 @@ export const MainVisual = ({ isOpen, toggle }) => {
                setScrollNav(false)
           }
      };
-
+     
+     const onToggle = () => {
+          setToggle(mouseover => !mouseover);
+     
+     }
      useEffect (() => {
          window.addEventListener('scroll', changeNav);
      }, [])
+
+ 
      return (
           <>
           <IconContext.Provider value={{ color: 'red'}}>
-          <MainbarContainer isOpen={isOpen} onClick={toggle} scrollNav={scrollNav}>
+          <MainbarContainer isOpen={isOpen} onClick={toggle} scrollNav={scrollNav} >
               <MobileIcon>
                    <Icon  onClick={toggle}>
                         <CloseIcon />
@@ -91,18 +102,45 @@ export const MainVisual = ({ isOpen, toggle }) => {
                 offset={-80}
                 >
                BLOG</MainVisualHeaderP>
-                <MainVisualHeaderP>DROP DOWN</MainVisualHeaderP>
+                <MainVisualHeaderP2 
+                onMouseOverCapture={onToggle}
+                className="DROPDOWN"
+                >DROP DOWN
+                </MainVisualHeaderP2>
                <MainVisualHeaderP
-               to="CONTACT"
+               to="footer"
                spy={true}
                smooth={true}
                offset={-80}
                >CONTACT</MainVisualHeaderP>
                 <MainBtn>
-               <MainBtnLink onClick={toggle}>Sign in</MainBtnLink>
+               <MainBtnLink>Sign in</MainBtnLink>
                 </MainBtn>
                 </MainVisualNavbar>
              </MainVisualHeader>
+               {mouseover && 
+             <MenuWrapper>
+                <MenuWrapperLink to="/">
+                    Drop Down 1
+                </MenuWrapperLink>
+                <br/>
+                <MenuWrapperLink to="/">
+                    Drop Down 1
+                </MenuWrapperLink>
+                <br/>
+                <MenuWrapperLink to="/">
+                    Drop Down 1
+                </MenuWrapperLink>
+                <br/>
+                <MenuWrapperLink to="/">
+                    Drop Down 1
+                </MenuWrapperLink>
+                <br/>
+                <MenuWrapperLink to="/">
+                    Drop Down 1
+                </MenuWrapperLink>
+             </MenuWrapper>
+               }
           </MainVisualHeaderWrapper>
           </IconContext.Provider>
           </>
