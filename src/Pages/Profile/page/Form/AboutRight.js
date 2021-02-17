@@ -1,6 +1,6 @@
  import React from 'react';
  import '../style/AboutRight.scss'
-import { AboutH1, AboutP, AboutRightWrapper, Bottom } from '../style/AboutRight';
+import { AboutH1, AboutP, AboutP1, AboutPLead, AboutRightWrapper, Bottom } from '../style/AboutRight';
 
 function AboutRight() {
      return (
@@ -13,32 +13,45 @@ function AboutRight() {
          <br />
          <br />
          <AboutP>
-         <p className="p1">
-         Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
-         <br /> 
-         Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. 
-         <br/>
-         Praesent sapien massa, convallis a pellentesque nec, egestas non
-         <br/> 
-         nisi. Nulla porttitor accumsan tincidunt  .Mauris blandit aliquet
-         </p> 
-         <br /> 
-         <p className="p1">
-         elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget
-         <br />
-         felis porttitor volutpat. Vestibulum ac diam sit amet quam 
-         <br />
-         vehicula elementum sed sit amet dui. porttitor at sem.
-         </p>
-         <br/>
-         <p className="p1">
-         Nulla porttitor accumsan tincidunt. Quisque velit nisi, 
-         <br /> 
-         elementum id enim. Nulla porttitor accumsan tincidunt.
-        <br/>
-         Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-         </p>
+           <AboutPLead>
+           <AboutP1>
+           Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
+            </AboutP1>
+            <AboutP1>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            </AboutP1>
+            <AboutP1>
+            Praesent sapien massa, convallis a pellentesque nec, egestas non
+            </AboutP1>
+            <AboutP1>
+            nisi. Nulla porttitor accumsan tincidunt.
+            </AboutP1>
+            </AboutPLead>
+            <AboutPLead>
+           <AboutP1>
+           Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus
+            </AboutP1>
+            <AboutP1>
+            suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam sit
+            </AboutP1>
+            <AboutP1>
+            amet quam vehicula elementum sed sit amet dui. porttitor at sem.
+            </AboutP1>
+            </AboutPLead>
+            <AboutPLead>
+           <AboutP1>
+           Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut
+            </AboutP1>
+            <AboutP1>
+            lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt.
+            </AboutP1>
+            <AboutP1>
+            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+            </AboutP1>
+ 
+            </AboutPLead>
          </AboutP>
+         
        </AboutRightWrapper>
      );
  }

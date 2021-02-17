@@ -56,7 +56,7 @@ export const MainVisualHeader = styled.ul`
 
    @media screen and (max-width:1400px) {
       max-width:1140px;
-      border:1px solid red;
+      // border:1px solid red;
    }
    @media screen and (max-width:1200px) {
       max-width:960px;
@@ -95,18 +95,7 @@ export const MainVisualHeaderP = styled(LinkS)`
   position:relative;
   left:22%;
 
-  &:nth-child(6) {
-   position:relative;
-   left:30px;
-   margin-left:20px;
-}
-  &:nth-child(7) {
-     margin-left:5px;
-     position:relative;
-     left:27%;
-  }
  
-
 
   &.active {
      color:red;
@@ -144,16 +133,16 @@ export const MainVisualHeaderP2 = styled(LinkS)`
   font-weight:bold;
   list-style:none;
 //   transition: 0s ease-in-out;
-//   margin:0px 10px 0px 30px;
+  margin:0px 10px 0px 0px;
   position:relative;
-  left:24%;
+  left:25%;
  
 
 
   &.active {
-     color:red;
+   //   color:red;
      line-height:30px;
-     border-bottom:1px solid #fff;
+   //   border-bottom:1px solid #fff;
   }
 
   @media screen and (max-width:1400px) {
@@ -205,7 +194,7 @@ export const MainBtn = styled.div`
 `
 
 export const MainVisualHeaderP1 = styled.div`
-  color:red;
+//   color:red;
 `
 
 export const MainVisualNavbar = styled.div`

@@ -55,7 +55,7 @@ export const AboutContainer = styled.div`
   @media screen and (max-width:970px) {
     max-width:720px;
     height:620px;
-    border:1px solid red;
+    // border:1px solid red;
     padding:0px 12px 0px 12px;
   }
   
@@ -63,7 +63,7 @@ export const AboutContainer = styled.div`
  @media screen and (max-width:800px) {
    max-width:540px;
    height:1100.5px;
-   border:1px solid blue;
+  //  border:1px solid blue;
    padding:0px 12px 0px 12px;
  } 
   

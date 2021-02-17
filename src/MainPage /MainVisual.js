@@ -13,11 +13,13 @@ import {
       MainBtnLink,
       MainVisualHeaderP1,
       MainVisualHeaderP2,
+     //  MainVisualHeaderP3,
       CloseIcon,
       MenuWrapper,
       MenuWrapperLink
 } from './style/MainVisualStyle';
 import { IconContext } from 'react-icons';
+import { animateScroll as scroll} from 'react-scroll';
 // import Menu from './Menu';
 // import Menu from './Menu';
  
@@ -43,11 +45,14 @@ export const MainVisual = ({ isOpen, toggle }) => {
          window.addEventListener('scroll', changeNav);
      }, [])
 
+     const toggleHome = () => {
+          scroll.scrollToTop();
+     }
  
      return (
           <>
           <IconContext.Provider value={{ color: 'red'}}>
-          <MainbarContainer isOpen={isOpen} onClick={toggle} scrollNav={scrollNav} >
+          <MainbarContainer isOpen={isOpen} scrollNav={scrollNav} >
               <MobileIcon>
                    <Icon  onClick={toggle}>
                         <CloseIcon />
@@ -63,7 +68,9 @@ export const MainVisual = ({ isOpen, toggle }) => {
           </MainbarContainer>
           <MainVisualHeaderWrapper scrollNav={scrollNav}>
              <MainVisualHeader>
-                <MainVisualHeaderH1>My Blog</MainVisualHeaderH1>
+                <MainVisualHeaderH1
+                onClick={toggleHome} 
+                >My Blog</MainVisualHeaderH1>
                <MainVisualNavbar>
                 <MainVisualHeaderP 
                 to="home"
@@ -102,17 +109,19 @@ export const MainVisual = ({ isOpen, toggle }) => {
                 offset={-80}
                 >
                BLOG</MainVisualHeaderP>
-                <MainVisualHeaderP2 
+                <MainVisualHeaderP 
                 onMouseOverCapture={onToggle}
                 className="DROPDOWN"
                 >DROP DOWN
-                </MainVisualHeaderP2>
-               <MainVisualHeaderP
+                </MainVisualHeaderP>
+               <MainVisualHeaderP2
                to="footer"
                spy={true}
                smooth={true}
                offset={-80}
-               >CONTACT</MainVisualHeaderP>
+               >
+               CONTACT
+               </MainVisualHeaderP2>
                 <MainBtn>
                <MainBtnLink>Sign in</MainBtnLink>
                 </MainBtn>
