@@ -30,7 +30,7 @@ import { ImFacebook2, ImInstagram, ImMail2, ImPhone, ImSpotify, ImTwitter  } fro
 
 function Footer() {
      return (
-       <FooterWrapper>
+       <FooterWrapper id="footer">
          <FooterOverflow>
            <FooterContainer>
               <FooterContainerRow>
