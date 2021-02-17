@@ -9,16 +9,22 @@ export const AboutWrapper = styled.div`
  
   @media screen and (max-width:1400px) {
     max-width:1440px;
-    height:760px;
+    height:704px;;
   }
+  @media screen and (max-width:980px) {
+    max-width:100%;
+    height:980px;
+ }
 
   @media screen and (max-width:860px) {
-    // height:1025.5px;
+    max-width:100%;
+    height:970px;
   }
-  
-  @media screen and (max-width: 760px) {
-    height:1197.5px;
-  }
+
+ @media screen and (max-width:800px) {
+   max-width:100%;
+   height:1261.5px;
+ }
 
 `
 
@@ -33,30 +39,35 @@ export const AboutContainer = styled.div`
 
   @media screen and (max-width:1400px) {
     max-width:1140px;
-    height:602.5px;
+    height:600.5px;
   }
 
   @media screen and (max-width:1200px) {
     max-width:960px;
-    height:742px;
+    height:600px;
   }
 
   @media screen and (max-width:1000px) {
     max-width:720px;
-
+    hegiht:620px;
   }
 
-  @media screen and (max-width:760px) {
-    max-width:540px;
-    height:1100px;
+  @media screen and (max-width:970px) {
+    max-width:720px;
+    height:620px;
     border:1px solid red;
+    padding:0px 12px 0px 12px;
   }
   
+
+ @media screen and (max-width:800px) {
+   max-width:540px;
+   height:1100.5px;
+   border:1px solid blue;
+   padding:0px 12px 0px 12px;
+ } 
   
-  @media screen and (max-width:540px) {
-    max-width:543px;
-    height:100px;
-  }
+ 
 `;
 
 export const AboutCollpase = styled.div`
@@ -85,8 +96,23 @@ export const Box = styled.div`
     @media screen and(max-width:1200px) {
       max-width:864px;
       height:614px;
-      border:1px solid #000;
+   
     }
+
+    @media screen and (max-width:980px;) {
+      max-width:696px;
+      height:622px;;
+      border:1px solid red;
+      padding:0px 12px 0px 12px;
+    }
+ 
+
+    @media screen and (max-width:800px) {
+      max-width:516px;
+      height:1149.5px;
+      border:1px solid #000;
+    } 
+     
 `
 
 
@@ -99,8 +125,18 @@ export const Box = styled.div`
    @media screen and (max-width:1200px) {
     max-width:864px;
     height:614px;
-    border:1px solid #000;
+    // border:1px solid #000;
   }
+  @media screen and (max-width:970px) {
+    max-width:720px;
+    height:600px;
+  
+  }
+  @media screen and (max-width:800px) {
+    max-width:500px;
+    height:1000.5px;
+    border:1px solid #000;
+  } 
 `;
 
 export const ColLeft = styled.div`
@@ -116,15 +152,21 @@ export const ColLeft = styled.div`
 
     @media screen and (max-width:1200px) {
       max-width:432px;
-      border:1px solid #000;
+   
     }
    
     @media screen and (max-width:1000px) {
       max-width:312px;
     }
 
+    @media screen and (max-width:990px) {
+       max-width:312px;
+       height:794px;
+    }
+
     @media screen and (max-width:760px) {
-      min-width:510px;
+      min-width:500px;
+      height:432px;
     }
 `
 
@@ -135,8 +177,16 @@ export const RowProfile = styled.div`
   @media screen and (max-width:1400px) {
     max-width:560px;
   }
+  @media screen and (max-width:1200px) {
+    max-width:432px;
+  }
+
   @media screen and (max-width:1000px) {
     max-width:312px;
+  }
+
+  @media screen and (max-width:960px) {
+    max-width:
   }
 `
 
@@ -155,6 +205,10 @@ export const ImgForm = styled.div`
   //  border:1px solid #000;
    display:inline-flex;float:left;
 
+   @media screen and (max-width:1200px){ 
+     width:180px;
+
+   }
 
    @media screen and (max-width:1024px) {
     width:150px;
@@ -187,6 +241,11 @@ export const ProfileDescription = styled.div`
    @media screen and (max-width:1024px) {
     font:bold 14px/16px arial;
  }
+
+ @media screen and (max-width:970px) {
+   font:bold 16px/18px arial;
+   margin-left:-10px;
+ }
    
 `;
 
@@ -213,6 +272,11 @@ export const Skill = styled.div`
    height:272.31px;
   //  border:1px solid #000;
    float:left;
+
+   @media screen and (max-width:1000px) {
+     max-width:288px;
+     height:272.31px;
+   }
 `;
 
 export const SkillH1 = styled.div`
@@ -230,12 +294,16 @@ export const SkillP = styled.div`
 export const Graph = styled.div`
    max-width:558px;
    height:11.99px;
-   border:1px solid #000;
+ 
    background:;
    opacity:85%;
 
+  @media screen and (max-width:1200px) {
+    max-width:408px;
+  }
+
    @media screen and (max-width:1024px) {
-     max-width:300px;
+     max-width:408;
    }
 `;
  
