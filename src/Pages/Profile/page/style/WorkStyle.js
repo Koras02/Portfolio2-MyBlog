@@ -1,5 +1,6 @@
 import styled from 'styled-components';
-
+import {Link as LinkR} from 'react-router-dom';
+ 
 export const WorkFormWrpaper = styled.div`
   width:100%;
   height:1070px;
@@ -146,7 +147,7 @@ export const WorkFormBox = styled.div`
 //   border:3px solid #000;
 `;
 
-export const WorkFormIcon = styled.div`
+export const WorkFormIcon = styled(LinkR)`
    width:40.02px;
    height:40px;
    border:3px solid blue;
