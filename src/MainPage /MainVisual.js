@@ -90,7 +90,7 @@ export const MainVisual = ({ isOpen, toggle }) => {
                 to="Services"
                 spy={true}
                 smooth={true}
-                offset={-80}
+                offset={-60}
                 >
                 SERVISCS
                 </MainVisualHeaderP>
@@ -98,7 +98,7 @@ export const MainVisual = ({ isOpen, toggle }) => {
                 to="Work"
                 spy={true}
                 smooth={true}
-                offset={-80}
+                offset={-60}
                 >
                  WORK
                  </MainVisualHeaderP>
@@ -106,7 +106,7 @@ export const MainVisual = ({ isOpen, toggle }) => {
                 to="BLOG"
                 spy={true}
                 smooth={true}
-                offset={-80}
+                offset={-60}
                 >
                BLOG</MainVisualHeaderP>
                 <MainVisualHeaderP 
@@ -118,7 +118,7 @@ export const MainVisual = ({ isOpen, toggle }) => {
                to="footer"
                spy={true}
                smooth={true}
-               offset={-80}
+               offset={-60}
                >
                CONTACT
                </MainVisualHeaderP2>
@@ -128,7 +128,7 @@ export const MainVisual = ({ isOpen, toggle }) => {
                 </MainVisualNavbar>
              </MainVisualHeader>
                {mouseover && 
-             <MenuWrapper>
+             <MenuWrapper onMouseLeave={onToggle}>
                 <MenuWrapperLink to="/">
                     Drop Down 1
                 </MenuWrapperLink>
