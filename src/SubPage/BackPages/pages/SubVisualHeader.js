@@ -3,7 +3,7 @@ import {
      SubVisualHeadersWrapper, SubVisualHeaderTableCall
      } from '../../FrontPages/Styles/SubPageHeadersStyle';
 import { SubVisualH1, SubVisualHeadersContainer, SubVisualP } from '../../FrontPages/Styles/SubPagStyle';
-import SubVisualBody from './SubVisualBody';
+ 
 // import SubVisualBody from './SubVisualBody';
 // import SubVisualBack from './SubVisualBack';
  
@@ -21,8 +21,9 @@ import SubVisualBody from './SubVisualBody';
                     </SubVisualP>
                </SubVisualHeadersContainer>
            </SubVisualHeaderTableCall>
-           <SubVisualBody />
+           {/* <SubVisualBody /> */}
          </SubVisualHeadersWrapper>
+      
          </>
       );
   }

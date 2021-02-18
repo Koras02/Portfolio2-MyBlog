@@ -9,6 +9,8 @@ import { SubVisualHeadersContainer,
      SubVisualHeadersNavUserList, 
      SubVisualHeadersWrapper
      } from './Styles/SubPagStyle';
+import {AiOutlineDown} from 'react-icons/ai'
+import './Styles/SubVisualHeaderss.scss'
  
  function SubVisualHeaderss() {
       return (
@@ -35,7 +37,9 @@ import { SubVisualHeadersContainer,
                   <SubVisualHeadersNavListLink to="/">BLOG</SubVisualHeadersNavListLink>
                   </SubVisualHeadersNavList>
                   <SubVisualHeadersNavList>
-                  <SubVisualHeadersNavListLink to="/">DROPDOWN</SubVisualHeadersNavListLink>
+                  <SubVisualHeadersNavListLink to="/">
+                    DROPDOWN <AiOutlineDown  className="DropDown" size="10px" />
+                  </SubVisualHeadersNavListLink>
                   </SubVisualHeadersNavList>
                   <SubVisualHeadersNavList>
                   <SubVisualHeadersNavListLink1 to="/">CONTACT</SubVisualHeadersNavListLink1>
@@ -44,6 +48,7 @@ import { SubVisualHeadersContainer,
              </SubVisualHeadersNav>
            </SubVisualHeadersContainer>  
          </SubVisualHeadersWrapper>
+      
          
       );
   }

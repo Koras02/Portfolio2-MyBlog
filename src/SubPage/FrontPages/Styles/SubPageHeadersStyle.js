@@ -8,6 +8,7 @@ export const SubVisualHeadersWrapper = styled.div`
 //    border:1px solid #000;
    position:relative;
    background:#ffc107;
+   border:1px solid #0
 
 `;
 

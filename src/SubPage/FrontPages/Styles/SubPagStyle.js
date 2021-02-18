@@ -4,10 +4,12 @@ import {Link as LinkR} from 'react-router-dom';
 
 export const SubVisualWrapper = styled.div`
    width:100%;
-//    height:784.56px;
-  height:100vh;
+   max-height:100vh;
+   // min-height:784.56px;
    background:#0dcaf0;
-   position:relative;
+   // border:1px solid
+   // position:absolute;
+    overflow:hidden;
    z-index:999;
    opacity:90%;
 `;
@@ -18,7 +20,7 @@ export const SubVisualHeadersWrapper = styled.div`
    padding:20px 0px 20px 0px;
    opacity:100%;
    position:relative;
-
+   border:1px solid #000;
 `;
 
 
@@ -80,49 +82,34 @@ export const SubVisualHeadersNav = styled.div`
 export const SubVisualHeadersNavUserList = styled.div`
    width:691.75px;
    height:44px;
-//    border:1px solid #000;
+   border:1px solid #000;
 `;
 
 export const SubVisualHeadersNavList = styled.div`
-//    border:1px solid #000;
-   display:inline;
-   margin:10px 20px 0px 0px;
-//    margin:20px;
-//    padding:10px 10px 10px 0px;
+    display:inline;
 `;
 
 export const SubVisualHeadersNavListLink = styled(LinkR)`
-   width:50.05px;
-   height:24px;
-//    border:1px solid #000;
-   color:#fff;
-   text-decoration:none;
-   display:inline-flex;
-   font:bold 10px/18px arial;
-   margin-right:10px;
-   margin-left:-0px;
-//    text-algin:center;
-//    position:relative;
-   left:10px;
-  &:nth-child() {
-      color:red;
-  }
+    font:bold 14px/18px arial;
+    margin:0px 20px 0px 10px;
+    color:#fff;
+    text-decoration:none;
+ 
+     
+    &:hover {
+       padding:0px 0px 2px 0px;
+       font:bold 14px/24px arial;
+       border-bottom:2px solid  #fff;
+       transition:1s;
+      
+    }
 `
 
 export const SubVisualHeadersNavListLink1 = styled(LinkR)`
-   width:50.05px;
-   height:24px;
-//    border:1px solid #000;
-   color:#fff;
-   text-decoration:none;
-   display:inline-flex;
-   font:bold 10px/18px arial;
-   margin-right:15px;
-   margin-left:1px;
-//    text-algin:center;
-   position:relative;
-   left:25px;
-  &:nth-child() {
-      color:red;
-  }
+text-decoration:none;
+color:#fff;
+padding:10px 30px 10px 0px;
+font:bold 14px/16px arial;
+
+ 
 `
