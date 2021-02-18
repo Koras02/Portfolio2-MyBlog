@@ -38,14 +38,14 @@ color:red;
 
 export const MainVisualHeaderWrapper = styled.div`
   width:100%;
-  height:44px;
+  height:42px;
   background:${({scrollNav}) => (scrollNav ? '#000': '#000')};
   opacity:${({scrollNav}) => (scrollNav ? '90%': '100%')};
   position:${({scrollNav}) => (scrollNav ? 'fixed': 'fixed')};
   top:${({scrollNav}) => (scrollNav ? '0%': '0%')};
   transition:0.5s;
   z-index:1;
-  padding:20px 0px 20px 0px;
+  padding:12px 0px 12px 0px;
 `;
 
 export const MainVisualHeader = styled.ul`
@@ -86,21 +86,26 @@ export const MainVisualHeaderP = styled(LinkS)`
   justify-content:center;
   float:right;
   color:#fff;
-  font-size:1.1rem;
+  font-size:1.0rem;
   font-weight:bold;
   list-style:none;
 //   transition: 0s ease-in-out;
-  margin:0px 15px 0px 30px;
-  line-height:40px;
+  margin:2px 15px 0px 30px;
+  line-height:30px;
   position:relative;
   left:22%;
-
- 
-
+  
+  
+  
   &.active {
-     color:red;
-     line-height:30px;
-     border-bottom:1px solid #fff;
+   // color:red;
+   border-bottom:2px solid #fff;
+  
+   }
+
+  &:hover {
+     transition:5s;
+  
   }
 
   @media screen and (max-width:1400px) {
@@ -140,9 +145,10 @@ export const MainVisualHeaderP2 = styled(LinkS)`
 
 
   &.active {
-   //   color:red;
-     line-height:30px;
-   //   border-bottom:1px solid #fff;
+     color:red;
+     border-bottom:2px solid #fff;
+     position:relative;
+     top:1px;
   }
 
   @media screen and (max-width:1400px) {
@@ -255,4 +261,6 @@ cursor:pointer;
      left:10px;
      top:10px;
     
-  `
+  `;
+
+ 
