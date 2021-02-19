@@ -3,10 +3,11 @@ import styled from 'styled-components';
 export const SubVisualOverflow = styled.div`
    max-width:100%;
    // height:784.56px;
-   height:110vh;
-   overflow:hidden;
+   height:790px;
+   // overflow:hidden;
    // background:green;
    position:relative;
+   border:1px solid #fff;
    bottom:90px;
    z-index:999;
    opacity:90%;

@@ -4,7 +4,7 @@ export const SubVisualBodyWrapper = styled.div`
   max-width:100%;
   height:579.77px;
 //  height:150vh;
- overflow:hidden;
+ overflow-y:hidden;
  background:green;
   border:1px solid red;
   position:relative;

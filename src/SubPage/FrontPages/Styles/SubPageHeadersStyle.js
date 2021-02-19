@@ -5,6 +5,7 @@ export const SubVisualHeadersWrapper = styled.div`
    height:44px;
    padding:20px 0px 20px 0px;
    opacity:100%;
+   // overflow:hidden;
 //    border:1px solid #000;
    position:relative;
    background:#ffc107;

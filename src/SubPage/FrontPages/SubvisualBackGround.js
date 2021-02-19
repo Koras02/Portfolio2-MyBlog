@@ -1,4 +1,5 @@
  import React from 'react';
+import SubVisualFooter from '../BackPages/pages/SubVisualFooter';
 // import SubVisualDescription from '../BackPages/pages/SubVisualDescription';
 // import SubVisualBody from '../BackPages/pages/SubVisualBody';
 // import SubVisualBody from '../BackPages/pages/SubVisualBody';
@@ -11,7 +12,7 @@ function SubvisualBackGround() {
         <SubVisualOverflow>
             <SubVisualHeaderss />
             <SubVisualFronBody />
-            {/* <SubVisualDescription /> */}
+            <SubVisualFooter />
         </SubVisualOverflow>
      );
  }

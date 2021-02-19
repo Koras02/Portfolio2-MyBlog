@@ -28,8 +28,8 @@ export const Footer2 = ({ toggle }) => {
      return (
         <footer className="footerWrapper">
            <container className="footerContainer" scrollNav={scrollNav}>
-               <h1 className="he">@ Copyright <span>DevFolio</span> All Rights Reserved</h1>
-               <h1 className="he">Designed by BootstrapMode</h1>
+               <h1 className="footer2H1">@ Copyright <span className="footer2span">DevFolio</span> All Rights Reserved</h1>
+               <h1 className="footer2H1">Designed by BootstrapMode</h1>
                <FooterLink to="/" onClick={toggleHome}>
                   <TiArrowUpThick color="#fff" size="40px"/>
                </FooterLink>

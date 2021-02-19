@@ -7,6 +7,7 @@ import {
 import SubvisualBackGround from './FrontPages/SubvisualBackGround';
 // import SubvisualBackGround from './FrontPages/SubvisualBackGround';
 import SubVisualHeaders from './BackPages/SubVisualHeaders';
+// import SubVisualFooter from './BackPages/pages/SubVisualFooter';
 // import SubVisualBody from './BackPages/pages/SubVisualBody';
 // import SubVisualHeaders from './SubVisualHeaders';
 
@@ -15,6 +16,7 @@ export function SubVisual() {
         <SubVisualWrapper>
             <SubVisualHeaders />
             <SubvisualBackGround />
+   
             {/* <SubVisualBody /> */}
         </SubVisualWrapper>
      );

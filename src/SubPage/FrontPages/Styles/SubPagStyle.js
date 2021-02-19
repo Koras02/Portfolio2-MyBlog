@@ -4,14 +4,20 @@ import {Link as LinkR} from 'react-router-dom';
 
 export const SubVisualWrapper = styled.div`
    width:100%;
-   max-height:100vh;
-   // min-height:784.56px;
+   height:100vh;
    background:#0dcaf0;
    // border:1px solid
    // position:absolute;
     overflow:hidden;
    z-index:999;
    opacity:90%;
+
+   @media screen and (max-width:1500px) {
+      overflow-y:scroll;
+      max-height:190vh;
+   }
+
+ 
 `;
 
 export const SubVisualHeadersWrapper = styled.div`
