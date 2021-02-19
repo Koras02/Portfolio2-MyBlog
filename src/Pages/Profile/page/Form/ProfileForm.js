@@ -45,7 +45,7 @@ export default class ProfileForm extends Component {
                             <ProfileImg1>
                             </ProfileImg1>
                             <div className="form">
-                      <h1>XAVI ALONSO</h1>
+                      <h1 className="formH1">XAVI ALONSO</h1>
                       <h1 className="description">
                         Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
                         <br/>consectetur adipiscing elit.
@@ -62,7 +62,7 @@ export default class ProfileForm extends Component {
                       <ProfileImg2>
                       </ProfileImg2>
                       <div className="form">
-                      <h1>XAVI ALONSO</h1>
+                         <h1 className="formH1">XAVI ALONSO</h1>
                       <h1 className="description">
                         Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
                         <br/>consectetur adipiscing elit.
@@ -79,7 +79,7 @@ export default class ProfileForm extends Component {
                       <ProfileImg3>
                         </ProfileImg3>
                         <div className="form">
-                      <h1>XAVI ALONSO</h1>
+                         <h1 className="formH1">XAVI ALONSO</h1>
                       <h1 className="description">
                         Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
                         <br/>consectetur adipiscing elit.

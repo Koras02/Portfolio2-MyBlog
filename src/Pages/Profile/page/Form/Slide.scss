@@ -3,11 +3,13 @@
 }
 .slide {
     position:relative;
-    top:-10px;
-    left:-40px;
+    top:20px;
+    left:-60px;
 }
 
-.form {
+.formH1 {
+     text-align:center;
+     padding-top:10px;
  
 }
 
@@ -22,4 +24,6 @@
 .description {
     font:bold 16px/18px arial;
     color:#fff;
+    padding-top:10px;
+    text-align:center;
 }
