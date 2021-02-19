@@ -1,26 +1,16 @@
  import React from 'react';
-import { 
- 
-  // SubVisualHeadersWrapper,
-  SubVisualWrapper,
-} from './FrontPages/Styles/SubPagStyle';
-import SubvisualBackGround from './FrontPages/SubvisualBackGround';
-// import SubvisualBackGround from './FrontPages/SubvisualBackGround';
-import SubVisualHeaders from './BackPages/SubVisualHeaders';
-// import SubVisualFooter from './BackPages/pages/SubVisualFooter';
-// import SubVisualBody from './BackPages/pages/SubVisualBody';
-// import SubVisualHeaders from './SubVisualHeaders';
+import BackPage from './BackPage/BackPage';
+import FronPage from './FrontPage/FontPage';
+import { Wrapper } from './style/WrapperStyle';
 
-export function SubVisual() {
+export function BackPages() {
      return (
-        <SubVisualWrapper>
-            <SubVisualHeaders />
-            <SubvisualBackGround />
-   
-            {/* <SubVisualBody /> */}
-        </SubVisualWrapper>
+       <Wrapper>
+        <FronPage />
+        <BackPage />
+      </Wrapper>
      );
  }
 
 
- export default SubVisual;
+ export default BackPages;

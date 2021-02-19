@@ -42,7 +42,7 @@ export const AboutRightWrapper = styled.div`
   float:left;
   margin:0px -10px 0px -10px auto;
   position:relative;
-  bottom:40%;
+  bottom:30%;
  
 }
 
@@ -51,12 +51,21 @@ export const AboutRightWrapper = styled.div`
   width:400px;
   padding:20px 12px 0px 12px;
   font: bold 20px/24px arial;
+  border:1px solid green;
+  float:left;
+  margin:0px -10px 0px -10px auto;
+  position:relative;
+  bottom:30%;
+}
+@media screen and (max-width:760PX) {
+  width:400px;
+  padding:20px 12px 0px 12px;
+  font: bold 20px/24px arial;
   border:1px solid yellow;
   float:left;
   margin:0px -10px 0px -10px auto;
   position:relative;
-  bottom:40%;
- 
+  bottom:-2%;
 }
 `;
 
@@ -77,13 +86,32 @@ export const AboutP = styled.div`
   height:418px;
   float:left;
  
+ 
   // border:1px solid #000;
+
+  @media screen and (max-width:1400px) {
+    width:400px;
+    height:508x;
+    border:1px solid #000;
+    font:bold 14px/24px arial;
+  }
+  @media screen and (max-width:1200px) {
+    width:400px;
+    height:508x;
+    font:bold 14px/24px arial;
+    border:1px solid red;
+    margin:-2px 10px 0px -14px;
+    margin-top:-30px;
+  }
 `;
 
 export const AboutP1 = styled.div`
   font: 16px/26px arial;
   margin-top:1px;
   margin-bottom:2px;
+  @media screen and (max-width:1400px) {
+     font: 14px/29px arial;
+  }
 `;
 
 export const AboutPLead = styled.div`

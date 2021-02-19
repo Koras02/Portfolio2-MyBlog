@@ -3,6 +3,7 @@
   text-decoration:none;
   z-index:1;
   /* background:#000; */
+  list-style: none;
 }
 
 .App-logo {

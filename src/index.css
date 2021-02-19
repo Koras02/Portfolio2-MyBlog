@@ -8,6 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-decoration:none;
   overflow-x: hidden; 
+  list-style:none;
    
 }
 
