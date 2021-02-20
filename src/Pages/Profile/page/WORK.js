@@ -63,7 +63,7 @@ function WORK() {
                        </WorkColMoreDate>
                     </WorkColMore> 
                     </WorkCol>    
-                    <WorkFormIcon to="/Portfolio2-MyBlog/SubVisual">
+                    <WorkFormIcon to="/Portfolio2-MyBlog/SubPage">
                       <GrAdd className="GrAdd" size="20px" />    
                     </WorkFormIcon> 
                      </WorkRow>
@@ -91,7 +91,7 @@ function WORK() {
                        </WorkColMoreDate>
                     </WorkColMore> 
                     </WorkCol>  
-                    <WorkFormIcon to="/Portfolio2-MyBlog/SubVisual">
+                    <WorkFormIcon to="/Portfolio2-MyBlog/SubPage">
                       <GrAdd className="GrAdd" size="20px" />    
                     </WorkFormIcon>  
                      </WorkRow>
