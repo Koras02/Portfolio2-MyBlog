@@ -52,7 +52,7 @@ export const MainVisual = ({ isOpen, toggle }) => {
      return (
           <>
           <IconContext.Provider value={{ color: 'red'}}>
-          <MainbarContainer isOpen={isOpen} scrollNav={scrollNav} >
+          <MainbarContainer isOpen={isOpen} >
               <MobileIcon>
                    <Icon  onClick={toggle}>
                         <CloseIcon />

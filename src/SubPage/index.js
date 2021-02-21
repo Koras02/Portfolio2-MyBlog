@@ -39,66 +39,28 @@ import {
 } from './SubPageStyle';
 import Slider from 'react-slick';
 import './style/SlideShow.scss'
+import SubHeader from './page/SubHeader';
  
  
 
 export default class SubPage extends Component {
- render() {
-    const settings = {
-        dots:true,
-        slidesToShow:1,
-        slideToScroll: 1,
-        autoPlay:true,
-        speed:2000,
-        arrows:false,
-        autoplaySpeed:2000,
-    }
+    render() {
+        const settings = {
+            dots:true,
+            slidesToShow:1,
+            slideToScroll: 1,
+            autoPlay:true,
+            speed:2000,
+            arrows:false,
+            autoplaySpeed:2000,
+        }
+  
+   
     return (
+        <>
         <SubPageWrapper>
            <SubPageOverflow>
-           <SubPageHeader>
-             <SubPageContainer>
-                 <SubPageLogo>
-                     <SubPageLogoLink to="/Portfolio2-MyBlog">
-                         MyBLOG
-                     </SubPageLogoLink>
-                 </SubPageLogo>
-                     <SubPageNavbar>
-                         <SubPageNavUl>
-                             <SubPageNavList to="/">
-                               HOME
-                             </SubPageNavList>
-                             <SubPageNavList>
-                               ABOUT
-                             </SubPageNavList>
-                             <SubPageNavList>
-                              SERVICES
-                            </SubPageNavList>
-                             <SubPageNavList>
-                                WORK
-                            </SubPageNavList>
-                            <SubPageNavList>
-                                BLOG
-                            </SubPageNavList>
-                            <SubPageNavList>
-                                CONTACT
-                            </SubPageNavList>
-                         </SubPageNavUl>
-                     </SubPageNavbar>
-             </SubPageContainer>
-           <SubPageBackHeader>
-             <SubPageBackTable>
-                <SubPageBackContainer>
-                 <SubIntroTitle>
-                   MyBlog Portfolio Details
-                   </SubIntroTitle>
-                <SubPageBackContainerH1>
-                    Home/Blog
-                </SubPageBackContainerH1>
-                </SubPageBackContainer>
-             </SubPageBackTable>
-           </SubPageBackHeader>
-           </SubPageHeader>
+            <SubHeader />
            <SubVisual>
             <SubVisualSection>
                 <SubVisualContainer>
@@ -168,6 +130,7 @@ export default class SubPage extends Component {
          </SubVisualFooter>
          </SubPageOverflow>
        </SubPageWrapper>
+       </>
      );
  }
 }

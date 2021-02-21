@@ -12,7 +12,7 @@ function App() {
     <Router>
        <Switch>
          <Route path="/Portfolio2-MyBlog" component={Home} exact/>
-         <Route path="/Portfolio2-MyBlog/SubPage" component={SubPage} />
+         <Route path="/Portfolio2-MyBlog/SubPage" component={SubPage} exact/>
        </Switch>
     </Router>
     </>
