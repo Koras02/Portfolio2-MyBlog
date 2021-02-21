@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio2-MyBlog/static/css/main.559426d8.chunk.css",
-    "main.js": "/Portfolio2-MyBlog/static/js/main.c4c5572b.chunk.js",
-    "main.js.map": "/Portfolio2-MyBlog/static/js/main.c4c5572b.chunk.js.map",
+    "main.js": "/Portfolio2-MyBlog/static/js/main.3cc635b3.chunk.js",
+    "main.js.map": "/Portfolio2-MyBlog/static/js/main.3cc635b3.chunk.js.map",
     "runtime-main.js": "/Portfolio2-MyBlog/static/js/runtime-main.7d29bcce.js",
     "runtime-main.js.map": "/Portfolio2-MyBlog/static/js/runtime-main.7d29bcce.js.map",
     "static/css/2.15c32dc7.chunk.css": "/Portfolio2-MyBlog/static/css/2.15c32dc7.chunk.css",
@@ -25,8 +25,8 @@
     "static/media/Person.af154522.jpg": "/Portfolio2-MyBlog/static/media/Person.af154522.jpg",
     "static/media/Profile3.8b9153bb.jpg": "/Portfolio2-MyBlog/static/media/Profile3.8b9153bb.jpg",
     "static/media/Woman.0b56d283.jpg": "/Portfolio2-MyBlog/static/media/Woman.0b56d283.jpg",
-    "static/media/Woman.af2e76e6.jpg": "/Portfolio2-MyBlog/static/media/Woman.af2e76e6.jpg",
     "static/media/jellyFish.8d2c9046.jpg": "/Portfolio2-MyBlog/static/media/jellyFish.8d2c9046.jpg",
+    "static/media/overlay-bg.6ca4a5c5.jpg": "/Portfolio2-MyBlog/static/media/overlay-bg.6ca4a5c5.jpg",
     "static/media/slick-theme.scss": "/Portfolio2-MyBlog/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
@@ -34,6 +34,6 @@
     "static/css/2.15c32dc7.chunk.css",
     "static/js/2.9e0fbfbe.chunk.js",
     "static/css/main.559426d8.chunk.css",
-    "static/js/main.c4c5572b.chunk.js"
+    "static/js/main.3cc635b3.chunk.js"
   ]
 }
