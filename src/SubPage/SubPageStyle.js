@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import {Link as LinkR} from 'react-router-dom';
-import Image from './Woman.jpg';
+import Image from './overlay-bg.jpg';
 import Image2 from './Building.jpg';
 import Image3 from './jellyFish.jpg';
 
@@ -8,36 +8,57 @@ export const SubPageWrapper = styled.div`
   width:100%;
   height:100vh;
   background:blue;
-  z-index:1;
-//   opacity:50%;
+  z-index:999;
+//   opacity:100%;
+ overflow:hidden;
+
+ @media screen and (max-width:1600px) {
+    overflow-y:scroll;
+ }
 `;
 
+export const SubPageOverflow = styled.div`
+width:100%;
+height:100vh;;
+border:1px solid #000;
+background:blue;
+opacity:80%;
+position:relative;
+z-index:1;
+ 
+`;
 export const SubPageHeader = styled.div`
    width:100%;
    height:44px;
    padding-top:20px;
    padding-bottom:20px;
    border:1px solid #000;
-   margin:auto;
-   background:url(${Image}) no-repeat;
+   // background:url(${Image}) no-repeat;
+   background:url(${Image}) no-repeat; 
    background-size:cover;
-`;
-
-export const SubPageContainer = styled.div`
+   
+   color:#000;
+   z-index:1;
+   `;
+   
+   export const SubPageContainer = styled.div`
    max-width:1296px;
    hieght:44px;
    margin:auto;
-//    border:1px solid red;
+   //    border:1px solid red;
    padding-left:12px;
    display:flex;
    padding:right:12px;
- :2;
+   // background:red;
+   z-index:999;
+ 
   
 `;
 
 export const SubPageLogo = styled.div`
   box-sizing:border-box;
- z-index:1;
+  color:#fff;
+  z-index:999;
 
 `
 
@@ -48,8 +69,8 @@ export const SubPageLogoLink = styled(LinkR)`
   display:block;
   margin-left:20px;
   float:left;
-  z-index:1;
-  color:#fff;
+  z-index:999;
+  color:green;
  
   `;
   
@@ -61,7 +82,7 @@ export const SubPageLogoLink = styled(LinkR)`
   float:right;
   position:relative;left:50%;
   bottom:5px;
-  z-index:1;
+  z-index:999;
 :;
    
   `;
@@ -70,7 +91,7 @@ export const SubPageLogoLink = styled(LinkR)`
   max-width:691.750px;
   list-stlye:none;
   display:flex;
-:999;
+  z-index:999;
   
   `
   
@@ -78,41 +99,32 @@ export const SubPageLogoLink = styled(LinkR)`
   float:right;
    margin-left:20px;
    padding:10px 20px 10px 0px;
-  color:#fff;
+  color:#000;
    text-decoration:none;
+   z-index:999;
 `;
 
 
-export const SubPageOverflow = styled.div`
-max-width:100%;;
-height:100vh;;
-border:1px solid #000;
-background:blue;
-opacity:100%;
-z-index:2;
-position:relative;
-top:0%;
-// overflow:hidden;
-`;
 
 
 export const SubPageBackHeader = styled.div`
 //  :;
 //    background:#000;  
    box-sizing:border-box;
-   width:100%;
+   max-width:100%;
    height:102px;
    border:1px solid #000;
    position:relative;
    top:-150%;
- :999;
+   //  background:red;
    `;
    
    export const SubPageBackTable = styled.div`
    max-width:100%;
    height:102px;
    border:1px solid #000;
-   color:#fff;
+   color:#000;
+   // background:red;
    `;
    
    export const SubPageBackContainer = styled.div`
@@ -126,7 +138,7 @@ export const SubIntroTitle = styled.div`
 `
 
 export const SubPageBackContainerH1 = styled.div`
-   color:#fff;
+   color:#000;
    position:relative;
    left:40%;
    top:20%;
@@ -165,6 +177,7 @@ export const SubVIsualCol1 = styled.div`
    height:539.77px;
    float:left;
    border:1px solid red;
+   z-index:999;
 `;
 
 
@@ -174,6 +187,7 @@ height:539.77px;
 background:url(${Image}) no-repeat;
 background-size:cover;
 // border:1px solid blue;
+z-index:1;
 `
 
 export const BackgroundBg2 = styled.div`
@@ -182,6 +196,7 @@ height:539.77px;
 background:url(${Image2}) no-repeat;
 background-size:cover;
 // border:1px solid blue;
+z-index:999;
 `
 
 export const BackgroundBg3 = styled.div`
