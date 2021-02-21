@@ -59,7 +59,7 @@ export default class SubPage extends Component {
            <SubPageHeader>
              <SubPageContainer>
                  <SubPageLogo>
-                     <SubPageLogoLink to="">
+                     <SubPageLogoLink to="/Portfolio2-MyBlog">
                          MyBLOG
                      </SubPageLogoLink>
                  </SubPageLogo>
