@@ -39,13 +39,15 @@ color:red;
 export const MainVisualHeaderWrapper = styled.div`
   width:100%;
   height:42px;
-  background:${({scrollNav}) => (scrollNav ? '#000': '#000')};
+  background:${({scrollNav}) => (scrollNav ? '#000': 'red')};
   opacity:${({scrollNav}) => (scrollNav ? '90%': '100%')};
   position:${({scrollNav}) => (scrollNav ? 'fixed': 'fixed')};
   top:${({scrollNav}) => (scrollNav ? '0%': '0%')};
   transition:0.5s;
   z-index:1;
   padding:12px 0px 12px 0px;
+
+ 
 `;
 
 export const MainVisualHeader = styled.ul`
