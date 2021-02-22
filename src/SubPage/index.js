@@ -1,17 +1,6 @@
  import React, { Component } from 'react';
 import { 
-    SubIntroTitle, 
-    SubPageBackContainer, 
-    SubPageBackContainerH1, 
-    SubPageBackHeader, 
-    SubPageBackTable, 
-    SubPageContainer, 
-    SubPageHeader, 
-    SubPageLogo, 
-    SubPageLogoLink, 
-    SubPageNavbar, 
-    SubPageNavList, 
-    SubPageNavUl,
+ 
     SubPageOverflow, 
     SubPageWrapper, 
     SubVisual, 
@@ -53,6 +42,7 @@ export default class SubPage extends Component {
             speed:2000,
             arrows:false,
             autoplaySpeed:2000,
+           
         }
   
    

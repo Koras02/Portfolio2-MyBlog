@@ -5,7 +5,7 @@ import {Link as LinkR} from 'react-router-dom';
 import {FaTimes} from 'react-icons/fa'
 
 export const MainbarContainer = styled.aside`
-   background:#fff;
+background:#fff;
    position:fixed;
    z-index:1;
    width: 100%;
@@ -37,15 +37,15 @@ color:red;
 `;
 
 export const MainVisualHeaderWrapper = styled.div`
-  width:100%;
-  height:42px;
-  background:${({scrollNav}) => (scrollNav ? '#000': 'red')};
-  opacity:${({scrollNav}) => (scrollNav ? '90%': '100%')};
-  position:${({scrollNav}) => (scrollNav ? 'fixed': 'fixed')};
-  top:${({scrollNav}) => (scrollNav ? '0%': '0%')};
-  transition:0.5s;
-  z-index:1;
-  padding:12px 0px 12px 0px;
+width:100%;
+height:42px;
+background:${({scrollNav}) => (scrollNav ? '#000': '#000')};
+opacity:${({scrollNav}) => (scrollNav ? '90%': '100%')};
+position:${({scrollNav}) => (scrollNav ? 'fixed': 'fixed')};
+top:${({scrollNav}) => (scrollNav ? '0%': '0%')};
+transition:0.5s;
+z-index:1;
+padding:12px 0px 12px 0px;
 
  
 `;

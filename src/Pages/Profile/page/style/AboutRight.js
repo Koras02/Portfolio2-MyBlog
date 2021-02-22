@@ -35,29 +35,47 @@ export const AboutRightWrapper = styled.div`
  
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:960px) {
   padding:0px 12px 0px 12px;
   font: bold 14px/16px arial;
   border:1px solid blue;
   float:left;
   margin:0px -10px 0px -10px auto;
   position:relative;
-  bottom:40%;
+  bottom:0%;
  
 }
 
-
-@media screen and (max-width:790px) {
-  width:400px;
-  padding:20px 12px 0px 12px;
-  font: bold 20px/24px arial;
-  border:1px solid yellow;
+@media screen and (max-width:860px) {
+  padding:0px 12px 0px 12px;
+  font: bold 14px/16px arial;
+  border:1px solid blue;
   float:left;
   margin:0px -10px 0px -10px auto;
   position:relative;
-  bottom:40%;
- 
+  top:5%;
 }
+@media screen and (max-width:800px) {
+  padding:0px 12px 0px 12px;
+  font: bold 14px/16px arial;
+  border:1px solid red;
+  float:left;
+  margin:0px -10px 0px -10px auto;
+  position:relative;
+  top:-30%;
+}
+@media screen and (max-width:760px) {
+  padding:0px 12px 0px 12px;
+  font: bold 14px/16px arial;
+  border:1px solid red;
+  float:left;
+  margin:0px -10px 0px -10px auto;
+  position:relative;
+  top:5%;
+}
+
+
+ 
 `;
 
 export const AboutH1 = styled.div`
@@ -84,6 +102,14 @@ export const AboutP1 = styled.div`
   font: 16px/26px arial;
   margin-top:1px;
   margin-bottom:2px;
+
+  @media screen and (max-width: 1200px) {
+    font: 14px/24px arial;
+  }
+  @media screen and (max-width: 1200px) {
+    font: 12px/24px arial;
+    margin-left:-2px;
+  }
 `;
 
 export const AboutPLead = styled.div`

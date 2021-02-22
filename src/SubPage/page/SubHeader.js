@@ -5,49 +5,60 @@ import {
     SubPageBackContainerH1,
      SubPageBackHeader, 
      SubPageBackTable, 
+   
+     SubHeaderv,
      SubPageContainer, 
+    //  SubPageDown, 
      SubPageHeader, 
      SubPageLogo, 
      SubPageLogoLink, 
      SubPageNavbar, 
      SubPageNavList, 
-     SubPageNavUl 
+     SubPageNavUl,
+     SubPageLogo2,
+    //  SubPageLogoLink2,
+ 
     } from './style/SubHeaderStyle';
     import { animateScroll as scroll } from 'react-scroll';
 
 export const SubHeader = ({ isOpen })  => {
-    const [scrollNav,setScrollNav] = useState(true);
+    const [scrollNav, setScrollNav] = useState(true);
+ 
     const changeNav = () => {
-        if(window.scrollY >= 80) {
-            setScrollNav(true)
-        } else {
-            setScrollNav(false)
-        }
+         if(window.scrollY >= 80) {
+              setScrollNav(true)
+         } else {
+              setScrollNav(false)
+         }
     };
-
+    
+ 
     useEffect (() => {
         window.addEventListener('scroll', changeNav);
     }, [])
-
     const toggleHome = () => {
         scroll.scrollToTop()
     }
      return (
          <>
         <SubPageHeader scrollNav={scrollNav} isOpen={isOpen}>
-        <SubPageContainer>
+            <SubHeaderv scrollNav={scrollNav}>
+        <SubPageContainer scrollNav={scrollNav}>
             <SubPageLogo>
                 <SubPageLogoLink to="/Portfolio2-MyBlog" onClick={toggleHome}>
                     MyBLOG
                 </SubPageLogoLink>
             </SubPageLogo>
-                <SubPageNavbar>
+            <SubPageNavbar scrollNav={scrollNav}>
+             <SubPageLogo2>
+                   </SubPageLogo2>
                     <SubPageNavUl>
                         <SubPageNavList to="/">
                           HOME
                         </SubPageNavList>
                         <SubPageNavList>
                           ABOUT
+             
                         </SubPageNavList>
                         <SubPageNavList>
                          SERVICES
@@ -64,6 +75,7 @@ export const SubHeader = ({ isOpen })  => {
                     </SubPageNavUl>
                 </SubPageNavbar>
         </SubPageContainer>
+        </SubHeaderv>
       <SubPageBackHeader scrollNav={scrollNav}>
         <SubPageBackTable>
            <SubPageBackContainer>

@@ -1,6 +1,13 @@
  import React from 'react';
  import '../style/AboutRight.scss'
-import { AboutH1, AboutP, AboutP1, AboutPLead, AboutRightWrapper, Bottom } from '../style/AboutRight';
+import { 
+  AboutH1, 
+  AboutP, 
+  AboutP1, 
+  AboutPLead, 
+  AboutRightWrapper, 
+  Bottom 
+} from '../style/AboutRight';
 
 function AboutRight() {
      return (

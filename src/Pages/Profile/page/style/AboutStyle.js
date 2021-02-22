@@ -186,9 +186,17 @@ export const RowProfile = styled.div`
     max-width:312px;
   }
 
-  @media screen and (max-width:960px) {
-    max-width:
+  @media screen and (max-width:800px) {
+    max-width:500px;
+    height:182px;
+    border:1px solid #000;
   }
+  @media screen and (max-width:600px) {
+    max-width:512px;
+    height:182px;
+    border:1px solid red;
+  }
+ 
 `
 
 export const Profile1 = styled.div`
@@ -197,6 +205,21 @@ export const Profile1 = styled.div`
   float:left;
   // padding:0px 12px 0px 12px;
   // border:1px solid #000;
+  @media screen and (max-width:800px) {
+    max-width:500px;
+    height:182px;
+    border:1px solid #000;
+
+  }
+  @media screen and (max-width:800px) {
+    max-width:500px;
+    height:182px;
+    border:1px solid #000;
+    float:left;
+
+  }
+  
+ 
 `
 
 export const ImgForm = styled.div`
@@ -215,6 +238,14 @@ export const ImgForm = styled.div`
     width:150px;
     float:left
  }
+
+ @media screen and (max-width:800px) {
+   width:250px;
+  border:1px solid #000;
+
+}
+
+ 
 `;
 
 export const ProfileDescription = styled.div`
@@ -233,6 +264,13 @@ export const ProfileDescription = styled.div`
     margin-left:-20px;
     float:left;
  }
+
+ @media screen and (max-width:600px) {
+  max-width:512px;
+  height:350px;
+  border:1px solid red;
+  float:left;
+} 
    `;
    
    export const ProfileH1 = styled.div`
