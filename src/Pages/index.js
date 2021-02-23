@@ -18,7 +18,7 @@ const Home = () => {
     }
      return (
         <>  
-          <MainVisual isOpen={isOpen} toggle={toggle} />
+          <MainVisual isOpen={isOpen} toggle={toggle}  />
           <HeroImage>
           </HeroImage>
           <HeroSection />

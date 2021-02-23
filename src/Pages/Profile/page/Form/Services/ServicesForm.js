@@ -4,13 +4,13 @@ import {
   ServicesBox, 
   ServicesForm, 
   // ServicesH1, 
-  ServicesWrapper,
+ 
   ServicesCol,
-  Img,
+   
   Description,
   ImageForm,
   Icon,
-  Ico,
+  // Ico,
 } from './ServicesFormStyle';
 import './style/Services.scss'
 import {AiFillAlert} from "react-icons/ai";
@@ -19,17 +19,12 @@ export function ServiceForm () {
  
   return (
         <ServicesForm>
-          <ServicesWrapper> 
             <ServicesCol>
             <ServicesBox>
               <ImageForm>
-              <Img onClick={onchange}>
               <Icon>
-                <Ico>
                  <AiFillAlert size={40} className="Alert" />
-                </Ico>
               </Icon>
-              </Img>
               </ImageForm>
               <Description>
                    <h1 className="Serviceh1">WEB DEVELOPMENT</h1> 
@@ -40,13 +35,9 @@ export function ServiceForm () {
             <ServicesCol>
             <ServicesBox>
             <ImageForm>
-              <Img>
-              <Icon>
-                <Ico>
+            <Icon>
                  <AiFillAlert size={40} className="Alert" />
-                </Ico>
-              </Icon>
-              </Img>
+            </Icon>
               </ImageForm>
               <Description>
                  <h1 className="Serviceh1">WEB DEVELOPMENT</h1> 
@@ -57,13 +48,9 @@ export function ServiceForm () {
             <ServicesCol>
             <ServicesBox>
             <ImageForm>
-              <Img>
               <Icon>
-                <Ico>
                  <AiFillAlert size={40} className="Alert" />
-                </Ico>
               </Icon>
-              </Img>
               </ImageForm>
              <Description>
                    <h1 className="Serviceh1">WEB DEVELOPMENT</h1> 
@@ -75,13 +62,9 @@ export function ServiceForm () {
             <ServicesCol>
             <ServicesBox>
             <ImageForm>
-              <Img>
-              <Icon>
-                <Ico>
+            <Icon>
                  <AiFillAlert size={40} className="Alert" />
-                </Ico>
               </Icon>
-              </Img>
               </ImageForm>
            <Description>
                    <h1 className="Serviceh1">WEB DEVELOPMENT</h1> 
@@ -92,13 +75,9 @@ export function ServiceForm () {
             <ServicesCol>
             <ServicesBox>
             <ImageForm>
-              <Img>
-              <Icon>
-                <Ico>
+            <Icon>
                  <AiFillAlert size={40} className="Alert" />
-                </Ico>
               </Icon>
-              </Img>
               </ImageForm>
            <Description>
            <h1 className="Serviceh1">WEB DEVELOPMENT</h1> 
@@ -109,13 +88,9 @@ export function ServiceForm () {
             <ServicesCol>
             <ServicesBox>
             <ImageForm>
-              <Img>
-              <Icon>
-                <Ico>
+            <Icon>
                  <AiFillAlert size={40} className="Alert" />
-                </Ico>
               </Icon>
-              </Img>
               </ImageForm>
            <Description>
                  <h1 className="Serviceh1">WEB DEVELOPMENT</h1> 
@@ -123,7 +98,7 @@ export function ServiceForm () {
             </Description>
             </ServicesBox>
             </ServicesCol>
-          </ServicesWrapper>
+         
         </ServicesForm>
         
      );

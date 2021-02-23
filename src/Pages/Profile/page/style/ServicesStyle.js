@@ -25,13 +25,7 @@ export const ServicesContainer = styled.div`
   padding-top:48px;
 
 
-  @media screen and (max-width:990px) {
-    max-width:100%;
-    height:1223.56px;
-  
-    background:#f5f5f5;
-    padding-top:48px;   
- }
+ 
 `;
 
 export const ServicesRow = styled.div`
