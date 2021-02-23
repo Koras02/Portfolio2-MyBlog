@@ -1,5 +1,7 @@
 import styled from 'styled-components';
-import {Link as LinkR} from 'react-router-dom';
+// import {Link as LinkR} from 'react-router-dom';
+// import Image from '.././Form/Images/DeskTop.jpg'
+// import Image2 from '.././Form/Images/Food.jpg'
  
 export const WorkFormWrpaper = styled.div`
   width:100%;
@@ -59,101 +61,4 @@ export const WorkFormLine = styled.div`
 //    background:#6610f2;
 `;
 
-export const WorkFormRow2 = styled.div`
-width:1420px;
-height:832px;
  
-`;
-
-export const WorkFormCol = styled.div`
-   width:440px;
-   min-width:420px;
-   height:416px;
-   background:#fff;
-   margin:0px 0px 0px 0px;
-   padding: 0px 2px 0px 10px;
-   float:left;
-`;
-
-export const WorkBox = styled.div`
-   width:416px;
-   height:368px;
-   display:block;
-   margin-bottom:48px;
-   border:1px solid #000;
-`
-
-export const WorkImg = styled.div`
-   width:416px;
-   height:260px;
-   display:block;
-   border:1px solid #000;
-`;
-
-export const WorkContent = styled.div`
-   width:416px;
-   hieght:108px;
-   display:block;
-   padding: 32px 16px 12px 16px;
-`;
-
-export const WorkRow = styled.div`
-   width:410.91px;
-   height:60px;
-`;
-
-export const WorkCol = styled.div`
-   width:273.92px;
-   height:60px;
-   padding:0px 12px 0px 12px;
-   float:left;
-   // border:1px solid #000; 
-`;
-
-export const WorkColoTitle = styled.div`
-   width:242.92px;
-   height:23px;
-   margin:0px 0px 8px 0px;
-   // border:1px solid #000;
-   display:block;
-   font:bold 16px/18px arial;
-`;
-
-export const WorkColMore = styled.div`
-   width:249.92px;
-   height:19px;
-`;
-
-export const WorkColMoreSpan = styled.div`
-   width:99.22px;
-   hieght:14px;
-   float:left;
-   font:bold 15px/16px arial;
-   display:inline;
-   color:blue;
-   margin-right:1px;
-`;
-
-export const WorkColMoreDate = styled.div`
-  float:left;
-  font:bold 14px/16px arial;
-  margin-left:-10px;
-`;
-
-export const WorkFormBox = styled.div`
-  width:136.95px;
-  height:60px;
-  padding:20px;
-//   border:3px solid #000;
-`;
-
-export const WorkFormIcon = styled(LinkR)`
-   width:40.02px;
-   height:40px;
-   border:3px solid blue;
-   border-radius:50%;
-   float:left;
-   margin-left:40px;
-   margin-top:10px;
-   text-align:center;
-`

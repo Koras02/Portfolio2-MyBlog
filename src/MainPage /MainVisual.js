@@ -52,7 +52,7 @@ export const MainVisual = ({ isOpen, toggle }) => {
      return (
           <>
           <IconContext.Provider value={{ color: 'red'}}>
-          <MainbarContainer isOpen={isOpen} >
+          <MainbarContainer isOpen={isOpen}>
               <MobileIcon>
                    <Icon  onClick={toggle}>
                         <CloseIcon />
@@ -67,13 +67,14 @@ export const MainVisual = ({ isOpen, toggle }) => {
                 <MainVisualHeaderP1>HOME</MainVisualHeaderP1>
           </MainbarContainer>
           <MainVisualHeaderWrapper scrollNav={scrollNav}>
-             <MainVisualHeader>
+             <MainVisualHeader id="/Portfolio2-MyBlog/2" >
                 <MainVisualHeaderH1
+
                 onClick={toggleHome} 
                 >My Blog</MainVisualHeaderH1>
                <MainVisualNavbar>
                 <MainVisualHeaderP 
-                to="home"
+                onClick={toggleHome}
                 spy={true}
                 smooth={true}
                 offset={-180}
@@ -83,7 +84,7 @@ export const MainVisual = ({ isOpen, toggle }) => {
                 to="About"
                 spy={true}
                 smooth={true}
-                offset={-85}
+                offset={-80}
                 >ABOUT
                 </MainVisualHeaderP>
                 <MainVisualHeaderP
