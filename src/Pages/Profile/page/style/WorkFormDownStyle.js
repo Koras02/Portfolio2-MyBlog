@@ -149,6 +149,8 @@ float:left;
 export const WorkFormRowLeftTitle = styled.div`
    color:#1e1e1e;
    font-size:1.2rem;
+   font-weight:bold;
+   margin-bottom:10px;
 `;
 
 export const WorkFormRowLeftCategory = styled.div`

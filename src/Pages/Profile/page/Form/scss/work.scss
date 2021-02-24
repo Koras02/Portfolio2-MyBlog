@@ -1,6 +1,8 @@
 span {
     font: 14px/24px arial;
     color:#000;
+    margin-left:2px;
+    margin-right:2px;
 }
 
 .FaPlus {
@@ -27,8 +29,10 @@ img , svg {
  
 
 .span1 {
-    color:#0078ff
+    color:#0078ff;
 }
+
+
 
 .span2 {
     color:#4e4e4e;
@@ -46,9 +50,7 @@ img , svg {
     border-radius: 100%;
 }
 
-.bi-plus-circle:hover > .work-img {
  
-}
 
 .img-fluid {
     max-width:100%;
