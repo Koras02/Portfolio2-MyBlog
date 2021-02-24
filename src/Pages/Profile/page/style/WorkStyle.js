@@ -7,7 +7,7 @@ export const WorkFormWrpaper = styled.div`
   width:100%;
   height:1070px;
   display:block;
-  background:#fff;
+  background:#f5f5f5;
   padding-top:64px;
 `;
 

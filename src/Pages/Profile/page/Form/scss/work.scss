@@ -10,3 +10,57 @@ span {
     color:blue;
 
 }
+
+.work-box,::after, ::before {
+    box-sizing: border-box;
+}
+
+.img-fluid {
+    max-width:100%;
+    height:auto;
+}
+
+img , svg {
+    vertical-align: middle;
+}
+
+ 
+
+.span1 {
+    color:#0078ff
+}
+
+.span2 {
+    color:#4e4e4e;
+    font-size: .8rem;
+}
+
+.bi-plus-circle::before {
+    content: "\f4d3";
+    border:1px solid blue;
+}
+
+.bi-plus-circle {
+    color:red;
+    border:2px solid #000;
+    border-radius: 100%;
+}
+
+.bi-plus-circle:hover > .work-img {
+ 
+}
+
+.img-fluid {
+    max-width:100%;
+    height:auto;
+}
+
+.work-img {
+    display:block;
+    overflow:hidden;
+}
+
+.img, svg {
+    vertical-align: middle;
+}
+
