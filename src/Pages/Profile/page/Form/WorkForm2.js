@@ -1,95 +1,207 @@
  import React from 'react';
+// import { FaPlus } from 'react-icons/fa';
+import { Image, WorkBox, WorkFormRowWrapper, WorkImage } from '../style/WorkForm2Style';
+import './scss/WorkForm.scss'
+// eslint-disable-next-line no-unused-vars
+import Img from './Images/Heart.jpg'
 import { FaPlus } from 'react-icons/fa';
-import { WorkForm2Col, WorkForm2Wrapper, WorkFormBox, WorkFormContent, WorkFormIconWrapper, WorkFormImage2, WorkFormImageLink, WorkFormImg, WorkFormLink, WorkFormRowLeft, WorkFormRowLeftCategory, WorkFormRowLeftTitle, WorkFormRowRight,  } from '../style/WorkFormDownStyle';
-import { WorkFormRow } from '../style/WorkStyle';
-import './scss/work.scss'
+import Img2 from './Images/Food.jpg';
+import Img3 from './Images/DeskTop.jpg'
+import Img4 from './Images/Woman.jpg';
+import Img5 from './Images/Man.jpg';
+import Img6 from './Images/Heart.jpg'
 
-function WorkForm2() {
+export function WorkForm2() {
      return (
-        <WorkForm2Wrapper>
-            {/* 1번 */}
-          <WorkForm2Col>
-             <WorkFormBox>
-               <WorkFormImageLink>
-               <WorkFormImg>
-                  <WorkFormImage2>
-
-                  </WorkFormImage2>
-               </WorkFormImg>
-               </WorkFormImageLink>
-               <WorkFormContent>
-                  <WorkFormRow>
-                       <WorkFormRowLeft>
-                          <WorkFormRowLeftTitle>Lorem impsum dolor</WorkFormRowLeftTitle>
-                          <WorkFormRowLeftCategory>Web Design <span>/ 18 Sep. 2018</span></WorkFormRowLeftCategory>
-                       </WorkFormRowLeft>
-                       <WorkFormRowRight>
-                           <WorkFormIconWrapper>
-                             <WorkFormLink to="/">
-                                  <FaPlus size="30px" className="FaPlus"/>
-                             </WorkFormLink>
-                           </WorkFormIconWrapper>
-                       </WorkFormRowRight>
-                  </WorkFormRow>
-               </WorkFormContent>
-             </WorkFormBox>
-          </WorkForm2Col>
-          {/* 2번  */}
-          <WorkForm2Col>
-          <WorkFormBox>
-               <WorkFormImageLink>
-               <WorkFormImg>
-                  <WorkFormImage2>
-
-                  </WorkFormImage2>
-               </WorkFormImg>
-               </WorkFormImageLink>
-               <WorkFormContent>
-                  <WorkFormRow>
-                       <WorkFormRowLeft>
-                       <WorkFormRowLeftTitle>Lorem impsum dolor</WorkFormRowLeftTitle>
-                          <WorkFormRowLeftCategory>Web Design <span>/ 18 Sep. 2018</span></WorkFormRowLeftCategory>
-                       </WorkFormRowLeft>
-                  </WorkFormRow>
-               </WorkFormContent>
-             </WorkFormBox>
-          </WorkForm2Col>
-          {/* 3번 */}
-          <WorkForm2Col>
-          <WorkFormBox>
-               <WorkFormImageLink>
-               <WorkFormImg>
-                  <WorkFormImage2>
-
-                  </WorkFormImage2>
-               </WorkFormImg>
-               </WorkFormImageLink>
-               <WorkFormContent>
-                  <WorkFormRow>
-                  <WorkFormRowLeft>
-                       <WorkFormRowLeftTitle>Lorem impsum dolor</WorkFormRowLeftTitle>
-                          <WorkFormRowLeftCategory>Web Design <span>/ 18 Sep. 2018</span></WorkFormRowLeftCategory>
-                       </WorkFormRowLeft>
-                  </WorkFormRow>
-               </WorkFormContent>
-             </WorkFormBox>
-          </WorkForm2Col>
-          {/* 아래 */}
-          <WorkForm2Col>
-         <WorkFormBox>
-         <WorkFormImageLink></WorkFormImageLink>
-         </WorkFormBox>
-          </WorkForm2Col>
-          <WorkForm2Col>
-       <WorkFormBox>
-       <WorkFormImageLink></WorkFormImageLink>
-       </WorkFormBox>
-          </WorkForm2Col><WorkForm2Col>
-       <WorkFormBox>
-       <WorkFormImageLink></WorkFormImageLink>
-       </WorkFormBox>
-          </WorkForm2Col>
-        </WorkForm2Wrapper>
+          <>
+            <WorkFormRowWrapper>
+               <div class="col-md-4">
+               <WorkBox className="work-box">
+                     <a href="../images/NoteBook.jpg" data-gallary="portfolioGallery" class="portfolio-lightbox">
+                        <WorkImage className="work-img">
+                          <Image alt className="img-fluid" id="image" src={Img}>
+                              
+                          </Image>
+                        </WorkImage>
+                     <div class="work-content">
+                         <div class="row">
+                            <div class="col-sm-8">
+                               <h2 class="w-title">Lorem impsum dolor</h2>
+                               <div class="w-more">
+                                  <span class="w-ctegory">Web Design </span>
+                                  <span>/</span>
+                                  <span class="w-date">18. Sep. 2018</span>
+                               </div>
+                            </div>
+                            <div class="col-sm-4">
+                               <div class="w-like">
+                                   <a href="portfolio-details.html" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                       <FaPlus class="bi bi-plus-circle"/>
+                                   </a>
+                               </div>
+                            </div>
+                         </div>
+                     </div>
+                     </a>
+                  </WorkBox>
+               </div>
+               {/* 2번째 */}
+               <div class="col-md-4">
+               <WorkBox className="work-box">
+                     <a href="../images/NoteBook.jpg" data-gallary="portfolioGallery" class="portfolio-lightbox">
+                        <WorkImage className="work-img">
+                          <Image alt className="img-fluid" id="image" src={Img2}>
+                              
+                          </Image>
+                        </WorkImage>
+                     <div class="work-content">
+                         <div class="row">
+                            <div class="col-sm-8">
+                               <h2 class="w-title">Lorem impsum dolor</h2>
+                               <div class="w-more">
+                                  <span class="w-ctegory">Web Design </span>
+                                  <span>/</span>
+                                  <span class="w-date">18. Sep. 2018</span>
+                               </div>
+                            </div>
+                            <div class="col-sm-4">
+                               <div class="w-like">
+                                   <a href="portfolio-details.html" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                       <FaPlus class="bi bi-plus-circle"/>
+                                   </a>
+                               </div>
+                            </div>
+                         </div>
+                     </div>
+                     </a>
+                  </WorkBox>
+               </div>
+               {/* 3번째 */}
+               <div class="col-md-4">
+               <WorkBox className="work-box">
+                     <a href="../images/NoteBook.jpg" data-gallary="portfolioGallery" class="portfolio-lightbox">
+                        <WorkImage className="work-img">
+                          <Image alt className="img-fluid" id="image" src={Img3}>
+                              
+                          </Image>
+                        </WorkImage>
+                     <div class="work-content">
+                         <div class="row">
+                            <div class="col-sm-8">
+                               <h2 class="w-title">Lorem impsum dolor</h2>
+                               <div class="w-more">
+                                  <span class="w-ctegory">Web Design </span>
+                                  <span>/</span>
+                                  <span class="w-date">18. Sep. 2018</span>
+                               </div>
+                            </div>
+                            <div class="col-sm-4">
+                               <div class="w-like">
+                                   <a href="portfolio-details.html" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                       <FaPlus class="bi bi-plus-circle"/>
+                                   </a>
+                               </div>
+                            </div>
+                         </div>
+                     </div>
+                     </a>
+                  </WorkBox>
+               </div>
+               {/* 4번째 */}
+               <div class="col-md-4">
+               <WorkBox className="work-box">
+                     <a href="../images/NoteBook.jpg" data-gallary="portfolioGallery" class="portfolio-lightbox">
+                        <WorkImage className="work-img">
+                          <Image alt className="img-fluid" id="image" src={Img4}>
+                              
+                          </Image>
+                        </WorkImage>
+                     <div class="work-content">
+                         <div class="row">
+                            <div class="col-sm-8">
+                               <h2 class="w-title">Lorem impsum dolor</h2>
+                               <div class="w-more">
+                                  <span class="w-ctegory">Web Design </span>
+                                  <span>/</span>
+                                  <span class="w-date">18. Sep. 2018</span>
+                               </div>
+                            </div>
+                            <div class="col-sm-4">
+                               <div class="w-like">
+                                   <a href="portfolio-details.html" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                       <FaPlus class="bi bi-plus-circle"/>
+                                   </a>
+                               </div>
+                            </div>
+                         </div>
+                     </div>
+                     </a>
+                  </WorkBox>
+               </div>
+               {/* 5번째 */}
+               <div class="col-md-4">
+               <WorkBox className="work-box">
+                     <a href="../images/NoteBook.jpg" data-gallary="portfolioGallery" class="portfolio-lightbox">
+                        <WorkImage className="work-img">
+                          <Image alt className="img-fluid" id="image" src={Img5}>
+                              
+                          </Image>
+                        </WorkImage>
+                     <div class="work-content">
+                         <div class="row">
+                            <div class="col-sm-8">
+                               <h2 class="w-title">Lorem impsum dolor</h2>
+                               <div class="w-more">
+                                  <span class="w-ctegory">Web Design </span>
+                                  <span>/</span>
+                                  <span class="w-date">18. Sep. 2018</span>
+                               </div>
+                            </div>
+                            <div class="col-sm-4">
+                               <div class="w-like">
+                                   <a href="portfolio-details.html" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                       <FaPlus class="bi bi-plus-circle"/>
+                                   </a>
+                               </div>
+                            </div>
+                         </div>
+                     </div>
+                     </a>
+                  </WorkBox>
+               </div>
+               {/* 6번째 */}
+               <div class="col-md-4">
+               <WorkBox className="work-box">
+                     <a href="../images/NoteBook.jpg" data-gallary="portfolioGallery" class="portfolio-lightbox">
+                        <WorkImage className="work-img">
+                          <Image alt className="img-fluid" id="image" src={Img6}>
+                              
+                          </Image>
+                        </WorkImage>
+                     <div class="work-content">
+                         <div class="row">
+                            <div class="col-sm-8">
+                               <h2 class="w-title">Lorem impsum dolor</h2>
+                               <div class="w-more">
+                                  <span class="w-ctegory">Web Design </span>
+                                  <span>/</span>
+                                  <span class="w-date">18. Sep. 2018</span>
+                               </div>
+                            </div>
+                            <div class="col-sm-4">
+                               <div class="w-like">
+                                   <a href="portfolio-details.html" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                       <FaPlus class="bi bi-plus-circle"/>
+                                   </a>
+                               </div>
+                            </div>
+                         </div>
+                     </div>
+                     </a>
+                  </WorkBox>
+               </div>
+            </WorkFormRowWrapper>
+          </>
      );
  }
 
