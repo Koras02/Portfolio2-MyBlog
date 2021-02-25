@@ -102,12 +102,17 @@ export const MainVisualHeaderP = styled(LinkS)`
   &.active {
    // color:red;
    border-bottom:2px solid #fff;
+   // visibility: hidden;
+   transition:all 0.3 ease;
   
    }
 
   &:hover {
      transition:5s;
   
+  }
+
+  &:before {
   }
 
   @media screen and (max-width:1400px) {

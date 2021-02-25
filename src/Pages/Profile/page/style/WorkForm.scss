@@ -1,0 +1,10 @@
+.bi-clock  {
+    color:#000;
+    position:relative;
+    top:2px;
+    left:-2px;
+
+    ::after {
+        box-sizing:border-box;
+    }
+}

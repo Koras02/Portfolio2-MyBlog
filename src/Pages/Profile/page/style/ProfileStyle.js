@@ -12,6 +12,7 @@ export const ProfileFormWrapper = styled.div`
   background-size:cover;
   background-position:center center;
   background-attachment:fixed;
+  margin-bottom:0px;
 `;
 
 export const ProflieOverflow = styled.div`
