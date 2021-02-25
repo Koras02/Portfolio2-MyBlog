@@ -1,0 +1,27 @@
+.fixed-top {
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+
+}
+
+#header {
+    display:block;
+}
+
+.overlay-mf {
+    background-color: #0078ff;
+}
+ 
+
+.intro-title mb-4 {
+    margin-bottom:1.5rem;
+}
+
+.breadcrub-item+.breadcrub-item::before {
+    float:lfet;
+    padding-right:.5rem;
+    color:#6c757d;
+    content: var(--bs-breadcrumb-divider, "/");
+}
