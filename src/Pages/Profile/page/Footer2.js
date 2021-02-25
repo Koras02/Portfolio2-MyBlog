@@ -30,8 +30,8 @@ export const Footer2 = ({ toggle }) => {
            <container className="footerContainer" scrollNav={scrollNav}>
                <h1 className="footer2H1">@ Copyright <span className="footer2span">DevFolio</span> All Rights Reserved</h1>
                <h1 className="footer2H1">Designed by BootstrapMode</h1>
-               <FooterLink to="/#" onClick={toggleHome}>
-                  <TiArrowUpThick color="#fff" size="40px"/>
+               <FooterLink action="#" onClick={toggleHome}>
+                  <TiArrowUpThick color="#fff" size="40px" action="#"/>
                </FooterLink>
            </container>
         </footer>
