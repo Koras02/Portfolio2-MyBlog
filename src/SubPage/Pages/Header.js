@@ -1,5 +1,5 @@
  import React from 'react';
-import {   SubPageContainer, SubPageHeader, SubPageLogo, SubPageLogoLink, SubPageNavbar, SubPageNavbarli, SubPageNavbarUl, SubPageTable, SubPageWrapper,SubPageContainer2, SubPageIntroTitle, SubPageIntroContent, SubPageIntroList, SubPageIntroLink, SubPageBackground } from '../style/SubPageStyle';
+import {   SubPageContainer, SubPageHeader, SubPageLogo, SubPageLogoLink, SubPageNavbar, SubPageNavbarli, SubPageNavbarUl, SubPageTable,SubPageContainer2, SubPageIntroTitle, SubPageIntroContent, SubPageIntroList, SubPageIntroLink, SubPageBackground } from '../style/SubPageStyle';
  import '../style/SubPageStyle.scss'
 
 function Header() {
