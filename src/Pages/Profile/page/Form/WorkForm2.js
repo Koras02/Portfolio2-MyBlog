@@ -17,7 +17,7 @@ export function WorkForm2() {
             <WorkFormRowWrapper>
                <div class="col-md-4">
                <WorkBox className="work-box">
-           <a href="/Portfolio2-MyBlog/Portfolio2-SubPage" data-gallery="portfolioGallery" class="portfolio-lightbox">
+           <a href="s/Portfolio2-MyBlog/Portfolio2-SubPage" data-gallery="portfolioGallery" class="portfolio-lightbox">
                         <WorkImage className="work-img">
                           <Image alt className="img-fluid" id="image" src={Img}>
                               
