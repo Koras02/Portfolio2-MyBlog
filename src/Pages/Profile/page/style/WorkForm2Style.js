@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {Link as LinkR} from 'react-router-dom'
 
 export const WorkFormRowWrapper = styled.div`
    width:100%;
@@ -34,4 +35,11 @@ export const Image = styled.img`
    display:block;
   
  
+`
+
+export const WorkBoxLink = styled(LinkR)`
+width:auto;
+height:auto;
+box-sizing:border-box;
+text-decoration: none;
 `

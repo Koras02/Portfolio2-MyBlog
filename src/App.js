@@ -5,7 +5,6 @@ import Home from './Pages';
 import SubPage from './SubPage';
  
  
-
 function App() {
   return (
     <>
