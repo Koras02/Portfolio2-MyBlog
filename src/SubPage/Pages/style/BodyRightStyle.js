@@ -21,8 +21,7 @@ export const BodyRightSliderSerchForm = styled.div`
 `;
 
 export const BodyRightSliderTitle = styled.div`
-    font-size:1.6rem;
-    font-weight: 600px;
+    font:bold 28px/38px arial;
     border-left:5px solid #0078ff;
     padding-left:15px;
     text-transfrom:uppercase;
@@ -53,15 +52,23 @@ export const BodyRightSliderContentFormGroup = styled.div`
     display:flex;
     font:bold 16px/24px arial;
     position:relative;
-    width:320px;
+    width:319px;
     height:38px;
-`;
+    `;
 
 export const BodyRightSliderContentFormGroupInput = styled.input`
-     width:230px;
-     height:24px;
-     border:1px solid #000;
-     padding:6px 12px 6px 12px;
-     outline:none;
+    width:230px;
+    height:24px;
+    border:1px solid #000;
+    padding:6px 12px 6px 12px;
+    // outline:none;
+
+    &:focus {
+        color:#212529;
+        background-color:#fff;
+        border-color:#86b7fe;
+        outline:0;
+        box-shadow: 0 0 0.25rem rgb(13 110 253 / 25%);
+    }
      
 `
