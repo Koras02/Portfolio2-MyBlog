@@ -5,16 +5,16 @@ import { Link as LinkR } from 'react-router-dom'
 export const BodyWrapper = styled.div`
    width:100%;
    height:3118.94px;
-   border:1px solid #000;
+   // border:1px solid #000;
    margin-top:10px;
    background:#f5f5f5;
-   display:block;
+   // float:left;
 `;
 
 export const SectionWrapper = styled.div`
    width:100%;
    height:3184.94px;
-   border:1px solid #000;
+   // border:1px solid #000;
    box-sizing:border-box;
    display:block;
    margin:auto;
@@ -29,12 +29,13 @@ export const SectionContainer = styled.div`
     box-sizing:border-box;
     display:block;
  
-    border:1px solid #000;
+   //  border:1px solid #000;
     margin:auto;
 `;
 
 export const SectionRow = styled.div`
-   max-width:1320px;
+   max-width:1900px;
+   // width:100%;
    height:3054.940px;
    box-sizing:border-box;
    display:flex;
@@ -46,7 +47,7 @@ export const SectionRow1 = styled.div`
    max-width:856px;
    height:3054.940px;
    padding:0px 12px 0px 12px;
-   border:1px solid #000;
+   // border:1px solid #000;
    @media screen and (min-width: 768px) {
        flex: 0 0 auto;
        width: 66.6666666667%;
@@ -56,7 +57,7 @@ export const SectionRow1 = styled.div`
 export const SectionRow1Col = styled.div`
   max-width:760px; 
    height:1262.160px;
-   border:1px solid red;
+   // border:1px solid red;
    padding: 48px 48px 48px 48px;
    margin-bottom:48px;
    background:#fff;

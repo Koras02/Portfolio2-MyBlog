@@ -39,7 +39,7 @@ height:44px;
 export const SubPageWrapper = styled.div`
    width:100%;
    height:${({ scrollNav }) => (scrollNav ? '44px' : '64px')};
-   border:1px solid red;
+   // border:1px solid red;
    position:fixed;
    background:${({ scrollNav }) => (scrollNav ? '#000' : '')};
    transition:0.5s;

@@ -1,0 +1,67 @@
+import styled from 'styled-components';
+
+
+export const BodyRightWrapper = styled.div`
+   max-width:420px;
+   height:3054.940px;
+   padding:0px 12px 0px 12px;
+   display:inline-block;
+   border:1px solid #000;
+`
+
+export const BodyRightSliderSerchForm = styled.div`
+    width:360px;
+    height:188px;
+    border:1px solid #000;
+    background:#fff;
+    box-sizing:border-box;
+    margin-bottom:48px;
+    padding:48px 48px 48px 48px;
+   
+`;
+
+export const BodyRightSliderTitle = styled.div`
+    font-size:1.6rem;
+    font-weight: 600px;
+    border-left:5px solid #0078ff;
+    padding-left:15px;
+    text-transfrom:uppercase;
+    margin-bottom:24px;      
+`;
+
+export const BodyRightSliderContent = styled.div`
+   max-width:310px;
+   height:40px;
+   box-sizing:border-box;
+   color:rgb(78,78,78);
+   display:block;
+   position:relative;
+   left:-20px;
+   font:bold 16px/24px arial;
+   outline:none;
+`
+
+export const BodyRightSliderContentForm = styled.div`
+   max-width:310px;
+   height:38px;
+//    border:1px solid #000;
+`;
+
+export const BodyRightSliderContentFormGroup = styled.div`
+    align-items:stretch;
+    box-sizing:border-box;
+    display:flex;
+    font:bold 16px/24px arial;
+    position:relative;
+    width:320px;
+    height:38px;
+`;
+
+export const BodyRightSliderContentFormGroupInput = styled.input`
+     width:230px;
+     height:24px;
+     border:1px solid #000;
+     padding:6px 12px 6px 12px;
+     outline:none;
+     
+`
