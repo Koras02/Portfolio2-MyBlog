@@ -1,6 +1,6 @@
  import React from 'react';
 // import { FaPlus } from 'react-icons/fa';
-import { Image, WorkBox, WorkFormRowWrapper, WorkImage } from '../style/WorkForm2Style';
+import { Image, WorkBox, WorkBoxLink, WorkFormRowWrapper, WorkImage } from '../style/WorkForm2Style';
 import './scss/WorkForm.scss'
 // eslint-disable-next-line no-unused-vars
 import Img from './Images/Heart.jpg'
@@ -17,7 +17,7 @@ export function WorkForm2() {
             <WorkFormRowWrapper>
                <div class="col-md-4">
                <WorkBox className="work-box">
-           <a href="/Portfolio2-MyBlog/Portfolio2-SubPage" data-gallery="portfolioGallery" class="portfolio-lightbox">
+               <WorkBoxLink to="/Portfolio2-MyBlog/Portfolio2-SubPage" data-gallery="portfolioGallery">
                         <WorkImage className="work-img">
                           <Image alt className="img-fluid" id="image" src={Img}>
                               
@@ -35,20 +35,20 @@ export function WorkForm2() {
                             </div>
                             <div class="col-sm-4">
                                <div class="w-like">
-                                    <a href="/Portfolio2-MyBlog/Portfolio2-SubPage" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                               <WorkBoxLink to="/Portfolio2-MyBlog/Portfolio2-SubPage" data-gallery="portfolioGallery">
                                        <FaPlus class="bi bi-plus-circle"/>
-                                   </a>
+                                 </WorkBoxLink>
                                </div>
                             </div>
                          </div>
                      </div>
-                     </a>
+                     </WorkBoxLink>
                   </WorkBox>
                </div>
                {/* 2번째 */}
                <div class="col-md-4">
                <WorkBox className="work-box">
-           <a href="/Portfolio2-MyBlog/Portfolio2-SubPage" data-gallery="portfolioGallery" class="portfolio-lightbox">
+               <WorkBoxLink to="/Portfolio2-MyBlog/Portfolio2-SubPage" data-gallery="portfolioGallery">
                         <WorkImage className="work-img">
                           <Image alt className="img-fluid" id="image" src={Img2}>
                               
@@ -66,20 +66,20 @@ export function WorkForm2() {
                             </div>
                             <div class="col-sm-4">
                                <div class="w-like">
-                                 <a href="/Portfolio2-MyBlog/Portfolio2-SubPage" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                               <WorkBoxLink to="/Portfolio2-MyBlog/Portfolio2-SubPage" data-gallery="portfolioGallery">
                                        <FaPlus class="bi bi-plus-circle"/>
-                                   </a>
+                                   </WorkBoxLink>
                                </div>
                             </div>
                          </div>
                      </div>
-                     </a>
+                     </WorkBoxLink>
                   </WorkBox>
                </div>
                {/* 3번째 */}
                <div class="col-md-4">
                <WorkBox className="work-box">
-           <a href="/Portfolio2-MyBlog/Portfolio2-SubPage" data-gallery="portfolioGallery" class="portfolio-lightbox">
+               <WorkBoxLink to="/Portfolio2-MyBlog/Portfolio2-SubPage" data-gallery="portfolioGallery">
                         <WorkImage className="work-img">
                           <Image alt className="img-fluid" id="image" src={Img3}>
                               
@@ -97,20 +97,20 @@ export function WorkForm2() {
                             </div>
                             <div class="col-sm-4">
                                <div class="w-like">
-                                 <a href="/Portfolio2-MyBlog/Portfolio2-SubPage" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                               <WorkBoxLink to="/Portfolio2-MyBlog/Portfolio2-SubPage" data-gallery="portfolioGallery">
                                        <FaPlus class="bi bi-plus-circle"/>
-                                   </a>
+                                   </WorkBoxLink>
                                </div>
                             </div>
                          </div>
                      </div>
-                     </a>
+                  </WorkBoxLink>
                   </WorkBox>
                </div>
                {/* 4번째 */}
                <div class="col-md-4">
                <WorkBox className="work-box">
-           <a href="/Portfolio2-MyBlog/Portfolio2-SubPage" data-gallery="portfolioGallery" class="portfolio-lightbox">
+               <WorkBoxLink to="/Portfolio2-MyBlog/Portfolio2-SubPage" data-gallery="portfolioGallery">
                         <WorkImage className="work-img">
                           <Image alt className="img-fluid" id="image" src={Img4}>
                               
@@ -128,20 +128,20 @@ export function WorkForm2() {
                             </div>
                             <div class="col-sm-4">
                                <div class="w-like">
-                                 <a href="/Portfolio2-MyBlog/Portfolio2-SubPage" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                               <WorkBoxLink to="/Portfolio2-MyBlog/Portfolio2-SubPage" data-gallery="portfolioGallery">
                                        <FaPlus class="bi bi-plus-circle"/>
-                                   </a>
+                                   </WorkBoxLink>
                                </div>
                             </div>
                          </div>
                      </div>
-                     </a>
+                     </WorkBoxLink>
                   </WorkBox>
                </div>
                {/* 5번째 */}
                <div class="col-md-4">
                <WorkBox className="work-box">
-           <a href="/Portfolio2-MyBlog/Portfolio2-SubPage" data-gallery="portfolioGallery" class="portfolio-lightbox">
+               <WorkBoxLink to="/Portfolio2-MyBlog/Portfolio2-SubPage" data-gallery="portfolioGallery">
                         <WorkImage className="work-img">
                           <Image alt className="img-fluid" id="image" src={Img5}>
                               
@@ -159,20 +159,20 @@ export function WorkForm2() {
                             </div>
                             <div class="col-sm-4">
                                <div class="w-like">
-                                 <a href="/Portfolio2-MyBlog/Portfolio2-SubPage" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                               <WorkBoxLink to="/Portfolio2-MyBlog/Portfolio2-SubPage" data-gallery="portfolioGallery">
                                        <FaPlus class="bi bi-plus-circle"/>
-                                   </a>
+                                   </WorkBoxLink>
                                </div>
                             </div>
                          </div>
                      </div>
-                     </a>
+                     </WorkBoxLink>
                   </WorkBox>
                </div>
                {/* 6번째 */}
                <div class="col-md-4">
                <WorkBox className="work-box">
-           <a href="/Portfolio2-MyBlog/Portfolio2-SubPage" data-gallery="portfolioGallery" class="portfolio-lightbox">
+               <WorkBoxLink to="/Portfolio2-MyBlog/Portfolio2-SubPage" data-gallery="portfolioGallery">
                         <WorkImage className="work-img">
                           <Image alt className="img-fluid" id="image" src={Img6}>
                               
@@ -190,14 +190,14 @@ export function WorkForm2() {
                             </div>
                             <div class="col-sm-4">
                                <div class="w-like">
-                                <a href="/Portfolio2-MyBlog/Portfolio2-SubPage" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                               <WorkBoxLink to="/Portfolio2-MyBlog/Portfolio2-SubPage" data-gallery="portfolioGallery">
                                        <FaPlus class="bi bi-plus-circle"/>
-                                   </a>
+                                   </WorkBoxLink>
                                </div>
                             </div>
                          </div>
                      </div>
-                     </a>
+                     </WorkBoxLink>
                   </WorkBox>
                </div>
             </WorkFormRowWrapper>
