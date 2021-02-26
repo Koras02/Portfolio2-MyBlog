@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-import {Link as LinkR} from 'react-router-dom'
+import { Link as LinkR } from 'react-router-dom'
 import Image from './Images/overlay-bg.jpg';
 
- 
+
 
 export const SubPageHeader = styled.div`
    transition: all 0.5s;
@@ -55,7 +55,7 @@ export const SubPageNavbar = styled.div`
 
 `
 
- 
+
 export const SubPageNavbarUl = styled.ul`
     list-style:none;
     margin:0;
@@ -164,4 +164,3 @@ export const SubPageIntroLink = styled(LinkR)`
 
 
 
- 

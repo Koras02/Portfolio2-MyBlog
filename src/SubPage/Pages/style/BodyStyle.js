@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {Link as LinkR} from 'react-router-dom'
+import { Link as LinkR } from 'react-router-dom'
 
 
 export const BodyWrapper = styled.div`
@@ -66,7 +66,7 @@ export const SectionRow1Post1 = styled.div`
    max-width:760px;
    height:1262.160px;
    display:block;
-   border:1px solid #000;
+   // border:1px solid #000;
 `;
 
 export const SectionRow1PostImage = styled.img`
@@ -80,7 +80,7 @@ export const SectionRow1Col2 = styled.div`
     max-width:760px;
     height:76px;
     margin: 16px 0px 16px 0px;
-    border:1px solid #000;
+   //  border:1px solid #000;
 `;
 
 export const SectionRow1Col2Title = styled.div`
@@ -124,7 +124,7 @@ color:#1e1e1e;
 
 
 export const SectionRow1ColListSapnIcon = styled.image`
-border:1px solid #000;
+// border:1px solid #000;
 `
 
 export const SecitonRow1ColListSpanIconLink = styled(LinkR)`
@@ -136,7 +136,7 @@ position:relative;
 margin-left:20px;
 left:-50px;
 top:10px;
-border:1px solid #000;
+// border:1px solid #000;
 `;
 
 
@@ -144,9 +144,9 @@ export const SectionRow3Col = styled.div`
  max-width:760px;
  height:632px;
  margin:16px 0px 16px 0px;
- border:1px solid #000;
+//  border:1px solid #000;
 `
- 
+
 
 export const SectionRow3ColP = styled.div`
    max-width:760px;
