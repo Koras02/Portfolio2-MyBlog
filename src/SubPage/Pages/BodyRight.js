@@ -8,14 +8,14 @@ export function BodyRight() {
       <BodyRightWrapper>
         <BodyRightSliderSerchForm>
           <BodyRightSliderTitle>
-            Search
+            SEARCH
           </BodyRightSliderTitle>
           <BodyRightSliderContent>
             <BodyRightSliderContentForm type="search" >
               <BodyRightSliderContentFormGroup>
                 <BodyRightSliderContentFormGroupInput type="text" placeholder="Search for.." label="Search for..." />
                 <span class="input_btn">
-                  <BiSearch class="Search1" size={10} />
+                  <BiSearch class="Search1" size="20px" />
                 </span>
               </BodyRightSliderContentFormGroup>
             </BodyRightSliderContentForm>
