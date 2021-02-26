@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 // import {FaTimes} from 'react-icons/fa';
-import {Link as LinkS} from 'react-scroll'
-import {Link as LinkR} from 'react-router-dom';
-import {FaTimes} from 'react-icons/fa'
+import { Link as LinkS } from 'react-scroll'
+import { Link as LinkR } from 'react-router-dom';
+import { FaTimes } from 'react-icons/fa'
 
 export const MainbarContainer = styled.aside`
 background:#fff;
@@ -16,11 +16,11 @@ background:#fff;
    left:0
   transition: 0.3s ease-in-out;;
   opacity: ${({ isOpen }) => (isOpen ? '0%' : '0%')};
-  top: ${({ isOpen}) => (isOpen ? '-100%' : '0%')};
+  top: ${({ isOpen }) => (isOpen ? '-100%' : '0%')};
   z-index:1;
 `;
 
- 
+
 export const CloseIcon = styled(FaTimes)`
   color:fff;
 `
@@ -39,10 +39,10 @@ color:red;
 export const MainVisualHeaderWrapper = styled.div`
 width:100%;
 height:42px;
-background:${({scrollNav}) => (scrollNav ? '#000': '#000')};
-opacity:${({scrollNav}) => (scrollNav ? '90%': '100%')};
-position:${({scrollNav}) => (scrollNav ? 'fixed': 'fixed')};
-top:${({scrollNav}) => (scrollNav ? '0%': '0%')};
+background:${({ scrollNav }) => (scrollNav ? '#000' : 'red')};
+opacity:${({ scrollNav }) => (scrollNav ? '90%' : '100%')};
+position:${({ scrollNav }) => (scrollNav ? 'fixed' : 'fixed')};
+top:${({ scrollNav }) => (scrollNav ? '0%' : '0%')};
 transition:0.5s;
 z-index:1;
 padding:12px 0px 12px 0px;
@@ -176,8 +176,8 @@ export const MainVisualHeaderP2 = styled(LinkS)`
   }
 
 `
- 
- 
+
+
 
 export const MobileIcon = styled.div`
   
@@ -190,7 +190,7 @@ margin-right: -22px;
   display:block;
 }
   `;
-  
+
 
 export const MainBtn = styled.div`
    float:right;
@@ -226,7 +226,7 @@ cursor:pointer;
   transition: 0.2 ease-in-out;
 }`
 
-  export const MainBtnLink = styled(LinkR)`
+export const MainBtnLink = styled(LinkR)`
   border-radius: 50px;
   float:right;
   background: #fff;
@@ -242,7 +242,7 @@ cursor:pointer;
  
   `;
 
-  export const MenuWrapper = styled.div`
+export const MenuWrapper = styled.div`
   border:1px solid #fff;
   background:#fff;
   z-index:1;
@@ -258,7 +258,7 @@ cursor:pointer;
    }
     `
 
-  export const MenuWrapperLink = styled(LinkR)`
+export const MenuWrapperLink = styled(LinkR)`
      color:#000;
      float:left;
      text-decoration:none;
@@ -270,4 +270,3 @@ cursor:pointer;
     
   `;
 
- 
