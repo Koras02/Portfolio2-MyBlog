@@ -1,12 +1,12 @@
 import styled from 'styled-components';
-import {Link as LinkR} from 'react-router-dom';
+import { Link as LinkR } from 'react-router-dom';
 
 export const BoxCommentsWrapper = styled.div`
     max-width:760px;
     height:866px;
     padding: 48px 48px 60px 48px;
     margin-bottom:48px;
-    border:1px solid #000;
+   //  border:1px solid #000;
     background-color: rgb(255, 255, 255);
     color:rgb(78,78,78);
     display:block; 
@@ -30,21 +30,21 @@ export const BoxComments = styled.div`
     max-width:760px;
    height:800px;
    margin:auto;
-   border:1px solid #000;
+   // border:1px solid #000;
 `;
 
 export const BoxCommentsList = styled.div`
    max-width:760px;
    height:172px;
    padding-bottom:40px;
-   border:1px solid #000;
+   // border:1px solid #000;
 `
 
 export const BoxCommentsList1 = styled.div`
    max-width:720px;
    height:148px;
    padding-bottom:40px;
-   border:1px solid #000;
+   // border:1px solid #000;
    margin-left:40px;  
 `;
 
@@ -67,7 +67,7 @@ export const BoxCommentsAvatarImages = styled.img`
 export const BoxCommentsDetails = styled.div`
    width:655px;
    height:172px;
-   border:1px solid #000;
+   // border:1px solid #000;
    padding-left:25px;
    vetical-align:top;
    display:table-cell;
@@ -77,7 +77,7 @@ export const BoxCommentsDetails = styled.div`
 export const BoxCommentsDetalisAutor = styled.div`
 //    width:655px;
    height:28px;
-   border:1px solid red;
+   // border:1px solid red;
    display:block;
    margin-bottom:10px;
    font:bold 24px/28.8px arial;
