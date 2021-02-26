@@ -31,7 +31,7 @@ function BodyLeft3() {
             <BodyLeft3FormMF>
                 <BodyLeft3FormMFRow>
                     <BodyLeft3FormInputCol>
-                        <BodyLeft3FormInputGroup>
+                        <BodyLeft3FormInputGroup required>
                             <BodyLeft3FormInputGroutText className="form-control" type="text" placeholder="Name *" required />
                         </BodyLeft3FormInputGroup>
                     </BodyLeft3FormInputCol>
@@ -47,8 +47,7 @@ function BodyLeft3() {
                     </BodyLeft3FormWebsiteInputCol>
                     <BodyLeft3FormWebsiteCommentCol>
                         <BodyLeft3FormWebsiteCommentColGroup>
-                            <textarea className="form-control2" placeholder="Comment *" name="message" cols="45" rows="8" required>
-                            </textarea>
+                            <textarea className="form-control2" placeholder="Comment *" name="message" cols="45" rows="8" required />
                         </BodyLeft3FormWebsiteCommentColGroup>
                     </BodyLeft3FormWebsiteCommentCol>
                     <BodyLeft3FormSendButtonCol>
