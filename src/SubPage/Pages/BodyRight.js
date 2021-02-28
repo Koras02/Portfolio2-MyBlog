@@ -1,26 +1,16 @@
 import React from 'react';
-import { BiSearch } from 'react-icons/bi';
-import { BodyRightSliderContent, BodyRightSliderContentForm, BodyRightSliderContentFormGroup, BodyRightSliderContentFormGroupInput, BodyRightSliderSerchForm, BodyRightSliderTitle, BodyRightWrapper } from './style/BodyRightStyle'
+import { BodyRightWrapper } from './style/BodyRightStyle'
 import './style/BodyRight.scss'
+import BodyRight1 from './BodyRight/BodyRight1';
+import BodyRight2 from './BodyRight/BodyRight2';
+import BodyRight3 from './BodyRight/BodyRight3';
 export function BodyRight() {
   return (
     <>
       <BodyRightWrapper>
-        <BodyRightSliderSerchForm>
-          <BodyRightSliderTitle>
-            SEARCH
-          </BodyRightSliderTitle>
-          <BodyRightSliderContent>
-            <BodyRightSliderContentForm type="search" >
-              <BodyRightSliderContentFormGroup>
-                <BodyRightSliderContentFormGroupInput type="text" placeholder="Search for.." label="Search for..." />
-                <span class="input_btn">
-                  <BiSearch class="Search1" size="20px" />
-                </span>
-              </BodyRightSliderContentFormGroup>
-            </BodyRightSliderContentForm>
-          </BodyRightSliderContent>
-        </BodyRightSliderSerchForm>
+        <BodyRight1 />
+        <BodyRight2 />
+        <BodyRight3 />
       </BodyRightWrapper>
     </>
   );
