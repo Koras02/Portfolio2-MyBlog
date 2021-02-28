@@ -7,12 +7,12 @@ export const ServicesWrapper = styled.div`
   background:#f5f5f5;
   padding-top:28px;   
   
-  @media screen and (max-width:990px) {
-    max-width:100%;
-    height:1223.56px;
- 
+  @media screen and (max-width:1000px) {
+    max-width:1000px;
+    height:1271.56px;
+    border:1px solid red;
     background:#f5f5f5;
-    padding-top:48px;   
+    padding-top:20px;   
  }
 `;
 
@@ -25,7 +25,13 @@ export const ServicesContainer = styled.div`
   padding-top:48px;
 
 
- 
+  @media screen and (max-width: 990px) {
+    max-width:696px;
+    height:1223.560px;
+    borde:1px solid #000;
+    background:red;
+
+  }
 `;
 
 export const ServicesRow = styled.div`
@@ -38,10 +44,12 @@ export const ServicesRow = styled.div`
   @media screen and (max-width:990px) {
     max-width:720px;
     height:1049.56x;
-  
+    border:1px solid #000;
+    
     background:#f5f5f5;
     padding-top:48px;   
  }
+
 `;
 
 export const ServicesH1 = styled.div`

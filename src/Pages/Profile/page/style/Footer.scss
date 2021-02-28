@@ -1,6 +1,12 @@
 .textarea {
     width:554px;
     height:100px;
+
+    @media screen and (max-width:1200px) {
+        max-width:398px;
+        height:131px;
+        padding:2px 12px 0px 12px;
+    }
 }
 
 .FaceBook {
