@@ -5,17 +5,18 @@ export const AboutRightWrapper = styled.div`
    height:473.5px;
    
    padding:px 12px 0px 12px;
-   float:right;
+   float:left;
    margin:0px 0px 0px 0px auto;
 
    @media screen and (max-width:1400px) {
-          width:500px;
-          padding:0px 22px 0px 12px;
-          float:left;
-          margin:0px -10px 0px -0px auto;
+     max-width:400px;
+     height:524px;
+     float:left;
+     padding:0px 12px 0px 12px;
+     border:1px solid yellow;
    }
    @media screen and (max-width:1200px) {
-    width:360px;
+    width:300px;
     padding:10px 25px 0px 18px;
     font: bold 16px/18px arial;
     border:1px solid red;
@@ -32,6 +33,7 @@ export const AboutRightWrapper = styled.div`
   margin:0px -10px 0px -10px auto;
   position:relative;
   bottom:0%;
+  max-width:200px;
  
 }
 
@@ -94,8 +96,13 @@ export const AboutP = styled.div`
   width:588px;
   height:418px;
   float:left;
- 
   // border:1px solid #000;
+
+  @media screen and (max-width:1000px) {
+    max-width:300px;
+ 
+    border:1px solid #000;
+  }
 `;
 
 export const AboutP1 = styled.div`
@@ -110,12 +117,27 @@ export const AboutP1 = styled.div`
     font: 12px/24px arial;
     margin-left:-2px;
   }
+
+  @media screen and (max-width:1000px) {
+     width:288px;
+     height:100px;
+     font:bold 12px/10px arial;
+    
+  }
 `;
 
 export const AboutPLead = styled.div`
    width:558px;
-   height:120px;
+   height:140px;
    display:block;
    margin-bottom:12px;
   //  border:1px solid #000;
+  font:bold 14px/24px arial;
+
+  @media screen and (max-width:1000px) {
+    width:288px;
+    height:20px;
+    margin-bottom:16px;
+    border:1px solid blue;
+  }
 `

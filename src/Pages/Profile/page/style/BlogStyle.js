@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {Link as LinkR} from 'react-router-dom'
+import { Link as LinkR } from 'react-router-dom'
 
 export const BlogWrapper = styled.div`
    max-width:100%;
@@ -7,6 +7,12 @@ export const BlogWrapper = styled.div`
    border:1px solid #fff; 
    background:#fff;
    padding:64px;
+
+   @media screen and (max-width:1400px) {
+      max-width:1400px;
+      height:694.344px;
+      border:1px solid #000;
+   }
 `;
 
 export const BlogContainer = styled.div`
@@ -16,6 +22,14 @@ export const BlogContainer = styled.div`
    //  border:1px solid #000;
     padding:0px 12px 0px 12px;
    //  border:1px solid #000;
+
+   @media screen and (max-width:1400px;) {
+      max-width:1116px;
+      height:694.344px;
+      padding:0px 12px 0px 12px;
+      border:1px solid blue;
+
+   }
 `;
 
 export const BlogRow = styled.div`
@@ -71,6 +85,12 @@ export const BlogRow2 = styled.div`
   height:536px;
   margin:auto;
 //   border:1px solid #000;
+
+@media screen and (max-width:1400px) {
+   max-width:1140px;
+   height:520.344px;
+   border:1px solid yellow;
+}
 `;
 
 export const BlogRow2Col = styled.div`
@@ -85,7 +105,22 @@ export const BlogRow2Col = styled.div`
    display:inline-flex;
    
  
-  
+@media screen and (max-width:1400px) {
+   max-width:380px;
+   height:520.344px;
+   padding:0px 12px 0px 12px;
+
+}
+
+@media screen and (max-width:1200px) {
+   max-width:295.984px;
+   height:528.375px;
+   border:1px solid #000;
+   padding:0px 12px 0px 12px;
+   position:relative;
+   left:5%;
+}
+
 @media screen and (min-width: 768px) {
     flex: 0 0 auto;
     width: 33.3333333333%;
@@ -104,6 +139,11 @@ export const BlogRow2ColMd = styled.div`
     display:block;
    box-sizing:border-box;
    position:relative;
+
+   @media screen and (max-width:1200px) {
+          max-width:295px;
+          padding:0px 12px 0px 12px;
+   }
 
 `;
 
@@ -183,7 +223,7 @@ export const BlogRow2ColCardDescriptionP = styled(LinkR)`
 `
 
 
- 
+
 export const BlogRow2ColFooter = styled.div`
     max-width:382px;
     height:32px;

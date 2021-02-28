@@ -4,7 +4,7 @@ import Image2 from '../Form/Images/Profile3.jpg'
 import Image3 from '../Form/Images/Beard.jpg'
 
 export const ProfileFormWrapper = styled.div`
-  width:100%;
+  max-width:1880px;
   height:607px;
   border:1px solid #fff;
   background:red;
@@ -13,6 +13,13 @@ export const ProfileFormWrapper = styled.div`
   background-position:center center;
   background-attachment:fixed;
   margin-bottom:0px;
+
+  @media screen and (max-width:1400px) {
+    max-width:1400px;
+    height:608px;
+    border:1px solid red;
+    paddng:28px 0px 128px 0px;
+  }
 `;
 
 export const ProflieOverflow = styled.div`
@@ -26,13 +33,21 @@ opacity:80%;
 `;
 
 export const ProfileContainer = styled.div`
-  width:1320px;
+  max-width:1320px;
   height:351px;
   margin:auto;
   padding:0px 12px 0px 12px;
  
   position:relative;
   top:150px;
+  @media screen and (max-width:1400px) {
+    max-width:1116px;
+    height:351px;
+    border:1px solid red;
+    padding:0px 12px 0px 12px;
+    position:relative;
+    left:-20px;
+  }
 `;
 
 export const ProfileSwipper = styled.div`
@@ -44,6 +59,14 @@ export const ProfileSwipper = styled.div`
    box-sizing: content-box;
    border:1px solid #000;
    outline:none;
+
+   @media screen and (max-width:1400px) {
+     max-width:1140px;
+     height:351px;
+    //  border:1px solid red;
+   }
+
+ 
 `
 
 export const ProfileForm1 = styled.div`
@@ -54,6 +77,13 @@ export const ProfileForm1 = styled.div`
   position:relative;
   outline:none;
   overflow:none;
+
+  @media screen and (max-width: 1400px) {
+    max-width:1140px;
+    height:351px;
+    border:1px solid red;
+    
+  }
     
 `
 
@@ -70,14 +100,14 @@ export const ProfileForm3 = styled.div`
    height:307px;
  
 `
- export const ProfileFormTab = styled.div`
+export const ProfileFormTab = styled.div`
     width:1296px;
     height:199px;
     margin-top:16px;
  
  `;
 
- export const ProfileImg1 = styled.div`
+export const ProfileImg1 = styled.div`
     width:150px;
     height:150px;
     margin:auto;
@@ -89,7 +119,7 @@ export const ProfileForm3 = styled.div`
  
  `;
 
- export const ProfileImg2 = styled.div`
+export const ProfileImg2 = styled.div`
  width:150px;
  height:150px;
  margin:auto;
