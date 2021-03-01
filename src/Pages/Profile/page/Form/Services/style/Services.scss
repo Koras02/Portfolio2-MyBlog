@@ -3,6 +3,8 @@
     font:bold 20px/24px arial;
     margin-top:40px;
     text-align: center;
+    
+ 
  
 }
 
@@ -14,12 +16,10 @@
    padding-top:0px;
    
    color:#000;
+   
+}
+
  
-}
-
-p {
-
-}
 
 .p100 {
     margin:20px; 
@@ -27,6 +27,11 @@ p {
     position:relative;
     top:10px;
     font:16px/20px arial;
+
+       @media screen and (max-width:1024px) {
+        //    color:red;
+           font:11px/16px arial;
+       }
  }
 
 .Alert {

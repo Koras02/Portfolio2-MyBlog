@@ -2,7 +2,7 @@ import styled from 'styled-components';
 // import {Link as LinkR} from 'react-router-dom';
 // import Image from '.././Form/Images/DeskTop.jpg'
 // import Image2 from '.././Form/Images/Food.jpg'
- 
+
 export const WorkFormWrpaper = styled.div`
  width:100%;
  height:1096px;
@@ -12,15 +12,28 @@ export const WorkFormWrpaper = styled.div`
  font:bold 16px/24px arial;
  color:#000;
  background:#fff;
+
+ @media screen and (max-width: 1400px) {
+    max-width:1400px;
+    height:931px;
+    padding-top:64px;
+   //  border:1px solid #000;
+ } 
 `;;
 
 export const WorkFormContainer = styled.div` 
   max-width:1296px;
   height:1026px;
   margin:auto;
-  border:1px solid #000;
+//   border:1px solid #000;
   display:block;
   padding:0px 12px 0px 12px;
+
+  @media screen and (max-width:1400px) {
+     max-width:1116px;
+     height:931px;
+     padding:0px 12px 0px 12px;
+  }
   
 `;
 
@@ -31,7 +44,13 @@ export const WorkFormRow1 = styled.div`
    display:flex;
    flex-wrap:wrap;
    margin:auto;
-   border:1px solid #000;
+   // border:1px solid #000;
+
+   @media screen and (max-width:1400px) {
+      max-width:1140px;
+      height:174px;
+
+   }
 `
 export const WorkFormRow1Col = styled.div`
    box-sizing:border-box;
@@ -40,12 +59,25 @@ export const WorkFormRow1Col = styled.div`
    max-width:100%;
    width:1296px;
    height:174px;
+   @media screen and (max-width:1400px) {
+      max-width:1116px;
+      padding:0px 12px 0px 12px;
+      height:174px;
+      
+   }
 `;
 
 export const WorkFormRow1TextBox = styled.div`
    box-sizing:border-box;
    display:block;
    margin-bottom: 64px;
+
+   @media screen and (max-width:1400px) {
+      max-width:1116px;
+      height:110px;
+      margin-bottom:64px;
+      border:1px solid #000;
+   }
 `;
 
 export const WorkFormRow1Title = styled.div`
@@ -55,6 +87,12 @@ export const WorkFormRow1Title = styled.div`
    margin-top:6px;
    font:bold 48px/57.6px arial;
    text-align:center;
+
+   @media screen and (max-width:1400px) {
+     font-size:3rem;
+     font-weight:bold;
+     
+   }
 `
 
 export const WorkFormRowSubTitle = styled.div`
@@ -72,7 +110,7 @@ export const WorkFormLine = styled.div`
    width:40px;
    height:5px;
    margin:auto;
-   border:1px solid #000;
+   // border:1px solid #000;
    color:rgb(78,78,78);
    background-color:rgb(0, 120, 255);
 `

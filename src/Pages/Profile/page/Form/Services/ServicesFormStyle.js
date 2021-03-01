@@ -9,14 +9,22 @@ export const ServicesForm = styled.div`
    @media screen and (max-width:1400px) {
        width:1140px;
        height:805.56px;
-       border:1px solid blue;
+      //  border:1px solid blue;
    }
 
    @media screen and (max-width:1200px) {
       width:960px;
       height:853.56px;
-      border:1px solid yellow;
+      // border:1px solid yellow;
    }
+
+   @media screen and (max-width:1000px) {
+      width:720px;
+      height:1049.560px;
+      // border:1px solid #000;
+   }
+   
+
 `;
 
 export const ServicesCol = styled.div`
@@ -31,14 +39,20 @@ padding:0px 12px 0px 2px;
    width:356px;
    height:402.781px;
    padding:0px 9px 0px 2px;
-   border:1px solid red;
+   // border:1px solid red;
 }
 @media screen and (max-width:1200px) {
    width:300px;
    height:426.78px;
    padding:0px 0px 0px 2px;
-   border:1px solid blue;
+   // border:1px solid blue;
 }
+
+@media screen and (max-width:1000px) {
+   width:200px;
+   height:524.781px;
+   padding:0px 12px 0px 12px;
+})
  
 `
 export const ServicesBox = styled.div`
@@ -59,9 +73,18 @@ export const ServicesBox = styled.div`
    @media screen and (max-width:1200px) {
       max-width:295.98px;
       height:378.78px;
-      border:1px solid pink;
+   
    }
    
+   @media screen and (max-width:1000px) {
+      max-width:174px;
+      height:370.781px;
+      // border:1px solid red;
+      padding:40px 20px 40px 20px;
+      margin-bottom:48px;
+      position:relative;
+      left:-20px;
+   }
 `;
 
 
@@ -77,11 +100,17 @@ export const ImageForm = styled.div`
         height:100px;
         margin-bottom:16px;
      }
+
+     @media screen and (max-width:1000px) {
+        max-width:174.406px;
+        height:100px;
+        margin-bottom:16px;
+   
+     }
   
     `
-    
-    export const Img = styled.div`
- 
+
+export const Img = styled.div`
 
      
 `;
@@ -96,6 +125,12 @@ display:block;
 margin-top:20px;
 margin-bottom:20px;
 font:bold 14px/16px arial;;
+// bordeR:1px solid #000;
+@media screen and (max-width:1000px) {
+   width:174.406px;
+   height:238.781px;
+   font:bold 12px/14px arial;
+}
  
 `
 
@@ -110,15 +145,15 @@ export const Icon = styled.div`
   position:relative;
   left:-2px;
   bottom:1px;
-//   background: ${props => (props.onClick ? 'red': 'blue')}
+//   background: ${props => (props.onClick ? 'red' : 'blue')}
   &:hover{ 
-   //   background: ${props => (props.onClick ? 'red': 'blue')}
+   //   background: ${props => (props.onClick ? 'red' : 'blue')}
     background:blue;
     border:10px solid  #cde1f8;
     transition:1s;
     box-shadow:
   }
+  
 
 `;
 
- 
