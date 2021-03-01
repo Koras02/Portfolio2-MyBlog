@@ -9,10 +9,13 @@ export const BlogWrapper = styled.div`
    padding:64px;
 
    @media screen and (max-width:1400px) {
+      border:1px solid #000;
       max-width:1400px;
       height:694.344px;
-      border:1px solid #000;
+
    }
+ 
+ 
 `;
 
 export const BlogContainer = styled.div`
@@ -23,13 +26,16 @@ export const BlogContainer = styled.div`
     padding:0px 12px 0px 12px;
    //  border:1px solid #000;
 
-   @media screen and (max-width:1400px;) {
+   @media screen and (max-width:1400px) {
       max-width:1116px;
       height:694.344px;
       padding:0px 12px 0px 12px;
-      border:1px solid blue;
-
+      marign:0px 124px 0px 124px;
+      border:1px solid #000;
    }
+
+    
+ 
 `;
 
 export const BlogRow = styled.div`
@@ -41,6 +47,13 @@ export const BlogRow = styled.div`
      flex-wrap:wrap;
      margin:auto;
    //   border:1px solid red;
+
+   @media screen and (max-width:1400px) {
+      max-width:1140px; 
+      height:174px;
+      border:1px solid red;
+   }
+   
 `
 
 export const BlogCol = styled.div`
@@ -49,6 +62,15 @@ export const BlogCol = styled.div`
    padding:0px 12px 0px 12px;
    border:1px soliid #000;
    max-width:100%;
+
+   @media screen and (max-width:1400px) {
+      max-width:1116px;
+      height:174px;
+      padding:0px 12px 0px 12px;
+      border:1px solid red;
+   }
+
+ 
 `
 
 export const BlogColTitle = styled.div`
@@ -57,6 +79,9 @@ export const BlogColTitle = styled.div`
      font:bold 16px/24px arial;
      margin-bottom:64px;
      text-align:center;
+
+
+   
 `;
 
 export const BlogColTitleA = styled.div`
@@ -87,10 +112,37 @@ export const BlogRow2 = styled.div`
 //   border:1px solid #000;
 
 @media screen and (max-width:1400px) {
-   max-width:1140px;
+   width:1140px;
    height:520.344px;
-   border:1px solid yellow;
+   display:flex;
+   flex-wrap:wrap;
+   // margin:0px 12px 0px 12px;
+   margin:12px;
+   
 }
+
+@media screen and (max-width:1200px) {
+   width:960px;
+   height:528.375px;
+   border:1px solid yellow;
+   
+   margin:12px;
+}
+
+@media screen and (max-width:1100px) {
+   width:860px;
+   height:528.375px;
+   border:1px solid blue;
+   
+   margin:12px;
+}
+
+ @media screen and (max-width:980px) {
+    width:720px;
+    height:523.109px;
+    border:1px solid red;
+ }
+ 
 `;
 
 export const BlogRow2Col = styled.div`
@@ -103,28 +155,36 @@ export const BlogRow2Col = styled.div`
    display:block;
    margin-left:0px;
    display:inline-flex;
+
+   @media screen and (max-width:1400px) {
+      max-width:356px;
+      height:520.344px;
+      padding:0px 12px 0px 12px;
+      border:1px solid red;
+          
+   } 
+
+   @media screen and (max-width:1200px) {
+      width:295.984px;
+      height:528.375px;
+      padding:0px 12px 0px 12px;
+      border:1px solid red;
+      margin-left:20px;
+   }
+
+   @media screen and (max-width:1100px) {
+       width:290px;
+       height:528.375px;
+       margin-left:-10px;   
+   }
    
- 
-@media screen and (max-width:1400px) {
-   max-width:380px;
-   height:520.344px;
-   padding:0px 12px 0px 12px;
-
-}
-
-@media screen and (max-width:1200px) {
-   max-width:295.984px;
-   height:528.375px;
-   border:1px solid #000;
-   padding:0px 12px 0px 12px;
-   position:relative;
-   left:5%;
-}
-
-@media screen and (min-width: 768px) {
-    flex: 0 0 auto;
-    width: 33.3333333333%;
-}
+   @media screen and (max-width:980px) {
+      width:216px;
+      height:523.10px;
+      padding:0px 12px 0px 12px;
+      margin:0px 12px 0px 12px;
+   }
+  
 `;
 
 export const BlogRow2ColMd = styled.div`
@@ -139,12 +199,21 @@ export const BlogRow2ColMd = styled.div`
     display:block;
    box-sizing:border-box;
    position:relative;
+ 
 
-   @media screen and (max-width:1200px) {
-          max-width:295px;
-          padding:0px 12px 0px 12px;
+   @media screen and (max-width:1400px) {
+      width:354px;
+      height:470.344px;
+      margin-bottom:48px;
    }
 
+   @media screen and (max-width:1200px) {
+      width:293.984px;
+      height:478.375px;
+      margin-bttom:48px;
+      
+   }
+ 
 `;
 
 export const BlogRow2ColImg = styled.img`
@@ -154,6 +223,12 @@ export const BlogRow2ColImg = styled.img`
     border-radius:3px;
     display:inblock;
     box-sizing:border-box;
+
+    @media screen and (max-width:1400px) {
+       width:354px;
+       height:235.750px;
+
+    }
 
 `;
 
@@ -168,6 +243,13 @@ export const BlogRow2ColBody = styled.div`
     padding:1rem 1rem;
     margin-bottom:20px;
 
+    @media screen and (max-width:1400px) {
+       max-width:322px;
+       height:153.594px;
+       padding:16px 16px 16px 16px;
+
+    }
+
 `;
 
 export const BlogRow2ColCardBox = styled.div`
@@ -180,6 +262,15 @@ export const BlogRow2ColCardBox = styled.div`
     right:15px;
     line-height:25px;
     overflow:hidden;
+
+    @media screen and (max-width:1400px) {
+       max-width:324px;
+       height:37px;
+       border:1px solid red;
+       position:absolute
+       right:15px;
+       top:48%;
+    }
 `
 
 export const BlogRow2ColCategoryBox = styled.div`
@@ -189,6 +280,14 @@ export const BlogRow2ColCategoryBox = styled.div`
    overflow:hidden;
    background-color:#0078ff;
    border-radius:4px;
+
+
+   @media screen and (max-width:1400px) {
+      max-width:41px;
+      height:25px;
+      padding:0px 15px 5px 15px;
+      border:1px solid red
+   }
 `
 
 export const BlogRow2ColCardTitle = styled.div`

@@ -15,11 +15,10 @@ export const ProfileFormWrapper = styled.div`
   margin-bottom:0px;
 
   @media screen and (max-width:1400px) {
-    max-width:1400px;
-    height:608px;
-    border:1px solid red;
-    paddng:28px 0px 128px 0px;
+    max-width:1880px;
+    height:607px;
   }
+ 
 `;
 
 export const ProflieOverflow = styled.div`
@@ -30,6 +29,11 @@ background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6
 background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 opacity:80%;
+@media screen and (max-width:1400px) {
+  max-width:1880px;
+  height:607px;
+ 
+}
 `;
 
 export const ProfileContainer = styled.div`
@@ -47,6 +51,14 @@ export const ProfileContainer = styled.div`
     padding:0px 12px 0px 12px;
     position:relative;
     left:-20px;
+    margin:0px 99px 0px 99px;
+  }
+
+  @media screen and (max-width:1300px) {
+     max-width:936px;
+     height:351px;
+     border:1px solid red;
+     
   }
 `;
 
@@ -60,11 +72,7 @@ export const ProfileSwipper = styled.div`
   //  border:1px solid #000;
    outline:none;
 
-   @media screen and (max-width:1400px) {
-     max-width:1140px;
-     height:351px;
-    //  border:1px solid red;
-   }
+ 
 
  
 `
@@ -78,12 +86,7 @@ export const ProfileForm1 = styled.div`
   outline:none;
   overflow:none;
 
-  @media screen and (max-width: 1400px) {
-    max-width:1140px;
-    height:351px;
-    // border:1px solid red;
-    
-  }
+ 
     
 `
 
@@ -104,7 +107,18 @@ export const ProfileFormTab = styled.div`
     width:1296px;
     height:199px;
     margin-top:16px;
+
+    @media screen and (max-width: 1400px) {
+      margin-left:-100px;
+    }
+
+    @media screen and (max-width: 1200px) {
+      margin-left:-140px;
+    }
  
+    @media screen and (max-width:1000px) {
+      margin-left:-160px;
+    }
  `;
 
 export const ProfileImg1 = styled.div`
