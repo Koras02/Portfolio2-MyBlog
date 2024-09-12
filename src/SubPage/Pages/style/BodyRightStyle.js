@@ -2,11 +2,8 @@ import styled from 'styled-components';
 
 
 export const BodyRightWrapper = styled.div`
-   max-width:420px;
-   height:3054.940px;
-   padding:0px 12px 0px 12px;
-   display:inline-block;
-   border:1px solid #000;
+   max-width:412px;
+ 
 `
 
 export const BodyRightSliderSerchForm = styled.div`

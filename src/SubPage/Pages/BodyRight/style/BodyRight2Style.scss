@@ -1,0 +1,10 @@
+.Link::before {
+    position:absolute;
+    content:"";
+    width:10px;
+    height:2px;
+    left:0;
+    background-color: #0078ff;
+    top:20px;
+    box-sizing:border-box;
+}
