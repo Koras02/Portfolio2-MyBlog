@@ -18,17 +18,18 @@ const homeObjThree = ({
         <LanguageWrapper id="Language">
             <LanguageHeaderH1>{headLine}</LanguageHeaderH1>
             <LanguageHeaderP>{description}</LanguageHeaderP>
-            <LanguageHeaderForm href="https://github.com/Koras02">
+            <LanguageHeaderForm href="https://medium.com/level-up-web/amazingly-useful-html-css-and-javascript-tools-and-libraries-d73b10fbae29" 
+            target="_blank">
                 <Img src={Img2}/>
             </LanguageHeaderForm>
-            <LanguageHeaderForm href="https://discord.com/channels/@me">
+            <LanguageHeaderForm href="https://ko.reactjs.org/"
+            target="blank">
                 <Img src={Img3}/>
             </LanguageHeaderForm>
-            <LanguageHeaderForm href="/">
+            <LanguageHeaderForm href="https://kr.vuejs.org/v2/guide/index.html">
                 <Img src={Img4}/>
             </LanguageHeaderForm>
-            <LanguageHeaderForm>React</LanguageHeaderForm>
-            <LanguageHeaderForm>Vue.js</LanguageHeaderForm>
+       
         </LanguageWrapper>
      );
  }
