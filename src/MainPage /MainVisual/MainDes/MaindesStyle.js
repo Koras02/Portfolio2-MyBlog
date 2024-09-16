@@ -6,6 +6,7 @@ export const MainDescriptionWrapper = styled.div`
   height:800px;
   background:#000;
   overflow:hidden;
+ 
 `;
 
 export const MainDescriptionH1 = styled.div`
@@ -14,7 +15,16 @@ export const MainDescriptionH1 = styled.div`
   color:#fff;
   position:relative;
   top:30%;
-  right:200px;
+  right:210px;
+
+  @media screen and (max-width:640px) {
+    margin:-20px 0px 0px 180px;
+  }
+  @media screen and (max-width:400px) {
+    margin:00px 0px 0px 230px;
+    color:blue;
+    font: bold 32px/38px arial;
+  }
 `;
 
 export const MainDescriptionH2 = styled.div`
@@ -25,6 +35,13 @@ export const MainDescriptionH2 = styled.div`
   top:25%;
   left:-10px;  
   overflow:hidden;
+  @media screen and (max-width:640px) {
+    margin:00px 0px 0px 180px;
+  }
+  @media screen and (max-width:400px) {
+    margin:0px 0px 0px 150px;
+    color:blue;
+  }
 `
 
 export const MainDescriptionP = styled.div`
@@ -35,6 +52,13 @@ export const MainDescriptionP = styled.div`
   top:30%;
   right:200px;
   overflow:hidden;
+
+  @media screen and (max-width:640px) {
+    margin:0px -90px 0px 180px;
+  }
+  @media screen and (max-width:400px) {
+    margin:-30px -90px 0px 220px;
+  }
 `
 
 export const MainVisualWrapper = styled.div`
@@ -43,8 +67,11 @@ export const MainVisualWrapper = styled.div`
   top:35%;
   left:-250px;
   text-align:center;
-  overflow:hidden;
- 
+
+  @media screen and (max-width:400px) {
+    margin-left:150px;
+  }
+  
 `
 
 export const MainVisualSNS = styled(LinkR)`
@@ -54,7 +81,7 @@ export const MainVisualSNS = styled(LinkR)`
   background:#fff;
   margin:10px;
   position:relative;
-  left:20px;
+  left:50px;
   border-radius:20%;
   text-decoration:none;
   color:blue;
@@ -64,4 +91,26 @@ export const MainVisualSNS = styled(LinkR)`
       background:#fc0;
       transition:2s;
   }
+
+  @media screen and (max-width:640px) {
+    margin:0px -150px 0px 20px;
+  }
+`;
+
+export const MainBtnWrap = styled.div`
+   display:flex;
+   justify-content:flex-start;
+   color:red;
+   margin-left:-300px;
+   position:relative;
+   left:50%;
+   top:300px;
+
+   @media screen and (max-width:640px) {
+    margin-left:-100px;
+  }
+`;
+
+export const buttonLable = styled.img`
+  color:red;
 `
