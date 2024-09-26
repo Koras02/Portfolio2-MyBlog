@@ -1,18 +1,19 @@
 import React, {useEffect,useState} from 'react';
 import './App.css';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
-// import SignPage from './MainPage /Signup/SignPage';
 import MainVisual from './MainPage /MainVisual/MainVisual';
-// import description from './SubPage/description';
 import Users from './MainPage /api/Users';
-// import LOGIN from './MainPage /api/screen/LOGIN';
 import Loading from './LoadingScreen/Loading';
-// import Profile from './PostPage/Profile';
+ 
+import Profile from './MainPage /api/screen/Profile';
+ 
+ 
+ 
 
 function App() {
   const [loading,setLoading] = useState(true);
   useEffect(() => {
-    setTimeout(() => setLoading(false), 2000)
+    setTimeout(() => setLoading(false), 5000)
     if(0) {
       return null;
     }
@@ -24,6 +25,7 @@ function App() {
        <Switch>
          <Route path="/" component={MainVisual} exact/>
          <Route path="/Users" component={Users} />
+         <Route path="/Profile" component={Profile} />
        </Switch>
     </Router>
     ) : (
