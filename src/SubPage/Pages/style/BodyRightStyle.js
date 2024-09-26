@@ -2,14 +2,19 @@ import styled from 'styled-components';
 
 
 export const BodyRightWrapper = styled.div`
-   max-width:412px;
- 
+   max-width:420px;
+   height:3054.940px;
+   padding:0px 12px 0px 12px;
+   display:inline-block;
+   border:1px solid #000;
+   position:relative;
+   left:0%;
 `
 
 export const BodyRightSliderSerchForm = styled.div`
     width:360px;
     height:188px;
-    border:1px solid #000;
+    // border:1px solid #000;
     background:#fff;
     box-sizing:border-box;
     margin-bottom:48px;

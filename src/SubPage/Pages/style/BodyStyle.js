@@ -23,21 +23,21 @@ export const SectionWrapper = styled.div`
 
 `;
 export const SectionContainer = styled.div`
-    max-width:1296px;
+    max-width:1500px;
     height:3054.94px;
     padding:0px 12px 0px 12px;
     box-sizing:border-box;
     display:block;
- 
-   //  border:1px solid #000;
+    border:1px solid #000;
     margin:auto;
 `;
 
 export const SectionRow = styled.div`
-   max-width:1900px;
+   width:100%;
    // width:100%;
    height:3054.940px;
    box-sizing:border-box;
+   // margin:auto;
    display:flex;
    flex-wrap:wrap;
    border:1px solid red;
@@ -46,8 +46,10 @@ export const SectionRow = styled.div`
 export const SectionRow1 = styled.div`
    max-width:856px;
    height:3054.940px;
-   padding:0px 12px 0px 12px;
-   // border:1px solid #000;
+   padding:0px 0px 0px 0px;
+   // border:1px solid #000
+   margin-left:-20px;
+   margin:auto;
    @media screen and (min-width: 768px) {
        flex: 0 0 auto;
        width: 66.6666666667%;
