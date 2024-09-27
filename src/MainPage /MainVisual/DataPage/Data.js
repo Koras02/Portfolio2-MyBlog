@@ -2,8 +2,8 @@ import Image from './image/download.jpeg';
 import REACT from './image/react.png';
 import GITHUB from './image/github.png';
 import NaverBlog from './image/Naver.png';
-import HTC from './img/HTC.png';
-import Discord from './image/Discord.png'
+import HTC from './img/HTC1.png';
+import Discord from './image/discord2.jpg'
 import Vue from './img/Vue.png';
 
 export const homeObjeOne = { 
@@ -42,4 +42,19 @@ export const homeObjFour = {
    description:'My Developer Period Is..',
    present1:'35%',
    persent2:'65%',
+}
+
+export const homeObjFive = {
+   id:'signup',
+   lightBg: true,
+   lightText: false,
+   lightTextDesc: false,
+   topLine:'Hellow Im ',
+   headLine: 'Jung Ho',
+   description: 
+   'FrontEnd Developer',
+   buttonLabel: 'Start Now',
+   dark:true,
+   primary:false,
+   darkText:false,
 }
