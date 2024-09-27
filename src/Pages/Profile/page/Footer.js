@@ -27,6 +27,8 @@ import {
 import './style/Footer.scss';
 import { SiGooglemaps } from 'react-icons/si';
 import { ImFacebook2, ImInstagram, ImMail2, ImPhone, ImSpotify, ImTwitter  } from 'react-icons/im';
+ 
+ 
 
 function Footer() {
      return (
@@ -44,7 +46,7 @@ function Footer() {
                                 </FooterTitle>
                                 <FooterForm>
                                    <FooterFormRow>
-                                     <FooterFormCol type="text" placeholder="Your name" className="Footer" required />
+                                     <FooterFormCol type="text" placeholder="Your name" className="Footer"  required />
                                      <FooterFormCol type="text" placeholder="Your email" className="Footer" required />
                                      <FooterFormCol type="text" placeholder="Your PhoneNumber" className="Footer" required/>
                                      <FooterFormCol1>

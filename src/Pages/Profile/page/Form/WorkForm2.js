@@ -17,7 +17,7 @@ export function WorkForm2() {
             <WorkFormRowWrapper>
                <div class="col-md-4">
                <WorkBox className="work-box">
-                     <a href="../images/NoteBook.jpg" data-gallary="portfolioGallery" class="portfolio-lightbox">
+           <a href="/Portfolio2-SubPage" data-gallery="portfolioGallery" class="portfolio-lightbox">
                         <WorkImage className="work-img">
                           <Image alt className="img-fluid" id="image" src={Img}>
                               
@@ -35,7 +35,7 @@ export function WorkForm2() {
                             </div>
                             <div class="col-sm-4">
                                <div class="w-like">
-                                   <a href="portfolio-details.html" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                    <a href="/Portfolio2-SubPage" data-gallery="portfolioGallery" class="portfolio-lightbox">
                                        <FaPlus class="bi bi-plus-circle"/>
                                    </a>
                                </div>
@@ -48,7 +48,7 @@ export function WorkForm2() {
                {/* 2번째 */}
                <div class="col-md-4">
                <WorkBox className="work-box">
-                     <a href="../images/NoteBook.jpg" data-gallary="portfolioGallery" class="portfolio-lightbox">
+           <a href="/Portfolio2-SubPage" data-gallery="portfolioGallery" class="portfolio-lightbox">
                         <WorkImage className="work-img">
                           <Image alt className="img-fluid" id="image" src={Img2}>
                               
@@ -66,7 +66,7 @@ export function WorkForm2() {
                             </div>
                             <div class="col-sm-4">
                                <div class="w-like">
-                                   <a href="portfolio-details.html" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                 <a href="/Portfolio2-SubPage" data-gallery="portfolioGallery" class="portfolio-lightbox">
                                        <FaPlus class="bi bi-plus-circle"/>
                                    </a>
                                </div>
@@ -79,7 +79,7 @@ export function WorkForm2() {
                {/* 3번째 */}
                <div class="col-md-4">
                <WorkBox className="work-box">
-                     <a href="../images/NoteBook.jpg" data-gallary="portfolioGallery" class="portfolio-lightbox">
+           <a href="/Portfolio2-SubPage" data-gallery="portfolioGallery" class="portfolio-lightbox">
                         <WorkImage className="work-img">
                           <Image alt className="img-fluid" id="image" src={Img3}>
                               
@@ -97,7 +97,7 @@ export function WorkForm2() {
                             </div>
                             <div class="col-sm-4">
                                <div class="w-like">
-                                   <a href="portfolio-details.html" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                 <a href="/Portfolio2-SubPage" data-gallery="portfolioGallery" class="portfolio-lightbox">
                                        <FaPlus class="bi bi-plus-circle"/>
                                    </a>
                                </div>
@@ -110,7 +110,7 @@ export function WorkForm2() {
                {/* 4번째 */}
                <div class="col-md-4">
                <WorkBox className="work-box">
-                     <a href="../images/NoteBook.jpg" data-gallary="portfolioGallery" class="portfolio-lightbox">
+           <a href="/Portfolio2-SubPage" data-gallery="portfolioGallery" class="portfolio-lightbox">
                         <WorkImage className="work-img">
                           <Image alt className="img-fluid" id="image" src={Img4}>
                               
@@ -128,7 +128,7 @@ export function WorkForm2() {
                             </div>
                             <div class="col-sm-4">
                                <div class="w-like">
-                                   <a href="portfolio-details.html" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                 <a href="/Portfolio2-SubPage" data-gallery="portfolioGallery" class="portfolio-lightbox">
                                        <FaPlus class="bi bi-plus-circle"/>
                                    </a>
                                </div>
@@ -141,7 +141,7 @@ export function WorkForm2() {
                {/* 5번째 */}
                <div class="col-md-4">
                <WorkBox className="work-box">
-                     <a href="../images/NoteBook.jpg" data-gallary="portfolioGallery" class="portfolio-lightbox">
+           <a href="/Portfolio2-SubPage" data-gallery="portfolioGallery" class="portfolio-lightbox">
                         <WorkImage className="work-img">
                           <Image alt className="img-fluid" id="image" src={Img5}>
                               
@@ -159,7 +159,7 @@ export function WorkForm2() {
                             </div>
                             <div class="col-sm-4">
                                <div class="w-like">
-                                   <a href="portfolio-details.html" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                 <a href="/Portfolio2-SubPage" data-gallery="portfolioGallery" class="portfolio-lightbox">
                                        <FaPlus class="bi bi-plus-circle"/>
                                    </a>
                                </div>
@@ -172,7 +172,7 @@ export function WorkForm2() {
                {/* 6번째 */}
                <div class="col-md-4">
                <WorkBox className="work-box">
-                     <a href="../images/NoteBook.jpg" data-gallary="portfolioGallery" class="portfolio-lightbox">
+           <a href="/Portfolio2-SubPage" data-gallery="portfolioGallery" class="portfolio-lightbox">
                         <WorkImage className="work-img">
                           <Image alt className="img-fluid" id="image" src={Img6}>
                               
@@ -190,7 +190,7 @@ export function WorkForm2() {
                             </div>
                             <div class="col-sm-4">
                                <div class="w-like">
-                                   <a href="portfolio-details.html" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                <a href="/Portfolio2-SubPage" data-gallery="portfolioGallery" class="portfolio-lightbox">
                                        <FaPlus class="bi bi-plus-circle"/>
                                    </a>
                                </div>

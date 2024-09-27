@@ -37,7 +37,7 @@ import './style/WorkForm.scss'
 export function Blog() {
      return (
         <>
-         <BlogWrapper>
+         <BlogWrapper id="BLOG">
              <BlogContainer>
               <BlogRow>
                <BlogCol>

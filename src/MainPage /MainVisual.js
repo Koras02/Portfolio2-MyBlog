@@ -104,7 +104,7 @@ export const MainVisual = ({ isOpen, toggle }) => {
                  WORK
                  </MainVisualHeaderP>
                 <MainVisualHeaderP
-                to="blog"
+                to="BLOG"
                 spy={true}
                 smooth={true}
                 offset={-60}

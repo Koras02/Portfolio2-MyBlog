@@ -107,7 +107,7 @@ export const FooterForm = styled.div`
   margin-bottom:48px;
 `;
 
-export const FooterFormRow = styled.div`
+export const FooterFormRow = styled.form`
    width:612px;
    height:388px;
  
